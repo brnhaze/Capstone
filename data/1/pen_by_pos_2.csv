@@ -1,0 +1,3583 @@
+name,team,player_position,penalty_name,penalty_yards
+A.Gurode,Dallas,C,Defensive Pass Interference,220
+A.Gurode,Dallas,C,Illegal Receiver Pass,0
+A.Gurode,Dallas,C,Kick Catch Interference,0
+A.Gurode,Dallas,C,Invalid Fair Catch Signal,0
+A.Gurode,Dallas,C,Disqualification,15
+A.Gurode,Dallas,C,Face Mask (15 Yards),35
+A.Gurode,Dallas,C,Defensive Pass Interference,186
+A.Mack,Cleveland,C,Illegally Kicking Ball,0
+A.Mack,Cleveland,C,Player Out of Bounds on Kick,0
+B.Meester,Jacksonville,C,Offensive Too Many Men on Field,0
+B.Meester,Jacksonville,C,Personal Foul,33
+B.Meester,Jacksonville,C,Illegal Touch Pass,5
+C.Chester,Baltimore,C,Face Mask (5 Yards),0
+C.Chester,Baltimore,C,Low Block,0
+C.Chester,Baltimore,C,Illegal Touch Kick,10
+C.Chester,Baltimore,C,Illegal Forward Handoff,0
+C.Morris,Oakland,C,Illegal Forward Pass,5
+C.Morris,Oakland,C,Defensive Delay of Game,5
+C.Morris,Oakland,C,Illegal Formation,10
+C.Morris,Oakland,C,Neutral Zone Infraction,53
+C.Morris,Oakland,C,Defensive Offside,35
+C.Myers,Houston,C,Illegal Touch Kick,0
+C.Rabach,Washington,C,Short Free Kick,0
+C.Rabach,Washington,C,Illegal Forward Handoff,0
+C.Rabach,Washington,C,False Start,280
+C.Rabach,Washington,C,Player Out of Bounds on Punt,15
+C.Rabach,Washington,C,Defensive Pass Interference,180
+C.Spencer,Seattle,C,Horse Collar Tackle,24
+C.Spencer,Seattle,C,Defensive Pass Interference,166
+C.Spencer,Seattle,C,Leverage,0
+C.Spencer,Seattle,C,Intentional Grounding,57
+C.Spencer,Seattle,C,Offensive Offside,0
+C.White,Houston,C,Face Mask (5 Yards),0
+C.White,Houston,C,Face Mask (15 Yards),81
+C.White,Houston,C,Offensive Pass Interference,40
+C.White,Houston,C,Illegal Block Above the Waist,40
+C.Wiegmann,Denver,C,Illegal Double-Team Block,0
+C.Wiegmann,Denver,C,Running Into the Kicker,5
+C.Wiegmann,Denver,C,Roughing the Kicker,0
+C.Wiegmann,Denver,C,Player Out of Bounds on Punt,10
+C.Wiegmann,Kansas City,C,Defensive 12 On-field,15
+D.Baas,San Francisco,C,Interference with Opportunity to Catch,0
+D.Baas,San Francisco,C,Offensive Holding,336
+D.Baas,San Francisco,C,Taunting,0
+D.Koppen,New England,C,Kick Catch Interference,0
+D.Koppen,New England,C,Illegal Cut,0
+D.Koppen,New England,C,Chop Block,0
+D.Koppen,New England,C,Fair Catch Interference,15
+D.Koppen,New England,C,Illegal Crackback,0
+D.Koppen,New England,C,Delay of Kickoff,0
+D.Raiola,Detroit,C,Encroachment,15
+D.Raiola,Detroit,C,Illegal Forward Handoff,0
+D.Raiola,Detroit,C,Face Mask,0
+D.Raiola,Detroit,C,Defensive Holding,25
+D.Raiola,Detroit,C,Illegal Bat,0
+D.Raiola,Detroit,C,Low Block,0
+D.Raiola,Detroit,C,Defensive Too Many Men on Field,0
+E.Amano,Tennessee,C,Tripping,0
+E.Amano,Tennessee,C,Disqualification,0
+E.Amano,Tennessee,C,Illegal Forward Pass,5
+E.Amano,Tennessee,C,Interference with Opportunity to Catch,0
+E.Amano,Tennessee,C,Intentional Grounding,22
+E.Amano,Tennessee,C,Illegal Substitution,5
+E.Amano,Tennessee,C,Delay of Game,31
+E.Dietrich-Smith,Green Bay,C,Offensive Offside,0
+E.Dietrich-Smith,Green Bay,C,Defensive Too Many Men on Field,0
+E.Dietrich-Smith,Green Bay,C,Kickoff Out of Bounds,0
+E.Heitmann,San Francisco,C,Defensive 12 On-field,15
+E.Heitmann,San Francisco,C,Illegal Touch Kick,0
+E.Wood,Buffalo,C,Leaping,0
+E.Wood,Buffalo,C,Illegal Double-Team Block,0
+E.Wood,Buffalo,C,Defensive Pass Interference,130
+E.Wood,Buffalo,C,Illegal Touch Pass,5
+E.Wood,Buffalo,C,Face Mask,0
+H.Fraley,Cleveland,C,Illegal Procedure,0
+J.Berger,Miami,C,Ineligible Downfield Pass,0
+J.Brown,St. Louis,C,Illegal Blindside Block,10
+J.Brown,St. Louis,C,Unsportsmanlike Conduct,30
+J.Brown,St. Louis,C,Player Out of Bounds on Punt,5
+J.Brown,St. Louis,C,Illegal Contact,33
+J.Faine,Tampa Bay,C,Ineligible Downfield Pass,10
+J.Faine,Tampa Bay,C,Clipping,0
+J.Goodwin,New Orleans,C,Offensive 12 On-field,0
+J.Goodwin,New Orleans,C,Intentional Grounding,20
+J.Grove,Miami,C,Fair Catch Interference,0
+J.Grove,Miami,C,Illegal Shift,0
+J.Grove,Miami,C,Illegal Substitution,10
+J.Hartwig,Pittsburgh,C,Chop Block,0
+J.Hartwig,Pittsburgh,C,Illegal Shift,15
+J.Hartwig,Pittsburgh,C,Player Out of Bounds on Punt,5
+J.Jackson,Philadelphia,C,Defensive Holding,36
+J.Richard,Indianapolis,C,Defensive Offside,73
+J.Richard,Indianapolis,C,Leaping,5
+J.Saturday,Indianapolis,C,Offensive Holding,246
+J.Saturday,Indianapolis,C,Illegal Forward Handoff,0
+J.Saturday,Indianapolis,C,Kickoff Out of Bounds,0
+J.Saturday,Indianapolis,C,Illegal Wedge,6
+J.Saturday,Indianapolis,C,Illegal Wedge,0
+J.Spitz,Green Bay,C,Fair Catch Interference,0
+J.Sullivan,Minnesota,C,Lowering the Head to Initiate Contact,0
+J.Sullivan,Minnesota,C,Roughing the Passer,58
+J.Walton,Denver,C,Player Out of Bounds on Punt,0
+J.Zuttah,Tampa Bay,C,Invalid Fair Catch Signal,0
+J.Zuttah,Tampa Bay,C,Player Out of Bounds on Punt,5
+J.Zuttah,Tampa Bay,C,Tripping,8
+J.Zuttah,Tampa Bay,C,False Start,185
+J.Zuttah,Tampa Bay,C,Disqualification,0
+J.Zuttah,Tampa Bay,C,Disqualification,0
+K.Cook,Cincinnati,C,Player Out of Bounds on Kick,0
+K.Cook,Cincinnati,C,Personal Foul,38
+K.Cook,Cincinnati,C,Lowering the Head to Make Forcible Contact,0
+K.Cook,Cincinnati,C,Tripping,19
+K.DeVan,Indianapolis,C,Illegal Forward Handoff,0
+K.DeVan,Indianapolis,C,Illegal Blindside Block,0
+K.Lichtensteiger,Washington,C,Illegal Bat,0
+K.Mawae,Tennessee,C,Fair Catch Interference,15
+K.Mawae,Tennessee,C,Lowering the Head to Make Forcible Contact,0
+K.Mawae,Tennessee,C,Face Mask (5 Yards),0
+K.Mawae,Tennessee,C,Delay of Kickoff,0
+L.Harris,Tennessee,C,Ineligible Downfield Pass,5
+L.Sendlein,Arizona,C,Player Out of Bounds on Kick,0
+L.Sendlein,Arizona,C,Offside on Free Kick,0
+L.Sendlein,Arizona,C,Invalid Fair Catch Signal,0
+L.Sendlein,Arizona,C,Illegal Touch Pass,0
+M.Birk,Baltimore,C,Lowering the Head to Initiate Contact,0
+M.Birk,Baltimore,C,Illegal Procedure,0
+M.Birk,Baltimore,C,Taunting,0
+M.Unger,Seattle,C,Illegally Kicking Ball,0
+M.Unger,Seattle,C,Illegal Double-Team Block,0
+M.Unger,Seattle,C,Ineligible Downfield Kick,10
+M.Unger,Seattle,C,Face Mask,0
+M.Unger,Seattle,C,Defensive Too Many Men on Field,0
+N.Mangold,N.Y. Jets,C,Illegal Wedge,0
+N.Mangold,N.Y. Jets,C,Roughing the Passer,109
+O.Kreutz,Chicago,C,Illegal Blindside Block,10
+O.Kreutz,Chicago,C,Defensive Offside,20
+O.Kreutz,Chicago,C,Illegal Substitution,0
+O.Kreutz,Chicago,C,Illegal Double-Team Block,0
+O.Kreutz,Chicago,C,Low Block,0
+O.Kreutz,Chicago,C,Illegal Forward Pass,0
+O.Kreutz,Chicago,C,Illegal Contact,10
+R.Cook,Minnesota,C,Face Mask (5 Yards),0
+R.Cook,Minnesota,C,Delay of Game,35
+R.Garza,Chicago,C,Illegal Onside Kick,5
+R.Garza,Chicago,C,Lowering the Head to Initiate Contact,0
+R.Garza,Chicago,C,Intentional Grounding,23
+R.Garza,Chicago,C,Delay of Kickoff,0
+R.Garza,Chicago,C,Offensive 12 On-field,0
+R.Hochstein,Denver,C,Illegal Onside Kick,0
+R.Hochstein,Denver,C,Invalid Fair Catch Signal,0
+R.Incognito,Buffalo,C,Illegal Crackback,15
+R.Incognito,Buffalo,C,Short Free Kick,0
+R.Incognito,Miami,C,Defensive Offside,40
+R.Incognito,St. Louis,C,Defensive 12 On-field,5
+R.Incognito,St. Louis,C,Illegal Forward Pass,0
+R.Incognito,St. Louis,C,Defensive Delay of Game,5
+R.Incognito,St. Louis,C,Roughing the Passer,80
+R.Kalil,Carolina,C,Illegal Bat,0
+R.Kalil,Carolina,C,Player Out of Bounds on Punt,5
+R.Kalil,Carolina,C,Defensive Pass Interference,266
+R.Kalil,Carolina,C,Defensive Delay of Game,10
+R.Kalil,Carolina,C,Clipping,0
+R.Niswanger,Kansas City,C,Lowering the Head to Make Forcible Contact,0
+R.Niswanger,Kansas City,C,Ineligible Downfield Kick,5
+R.Niswanger,Kansas City,C,Leverage,10
+R.Niswanger,Kansas City,C,Roughing the Kicker,0
+R.Niswanger,Kansas City,C,Tripping,25
+S.O'Hara,N.Y. Giants,C,Offensive Offside,0
+S.O'Hara,N.Y. Giants,C,Neutral Zone Infraction,29
+S.O'Hara,N.Y. Giants,C,Offensive 12 On-field,0
+S.Satele,Oakland,C,Short Free Kick,0
+S.Satele,Oakland,C,Kickoff Out of Bounds,0
+S.Satele,Oakland,C,Illegal Forward Pass,0
+S.Satele,Oakland,C,Delay of Kickoff,0
+S.Wells,Green Bay,C,Illegal Forward Handoff,0
+S.Wells,Green Bay,C,Neutral Zone Infraction,10
+S.Wells,Green Bay,C,Face Mask (15 Yards),46
+S.Wells,Green Bay,C,Illegal Double-Team Block,0
+T.McClure,Atlanta,C,Offensive Offside,0
+T.McClure,Atlanta,C,Invalid Fair Catch Signal,0
+T.McClure,Atlanta,C,Lowering the Head to Make Forcible Contact,0
+W.Montgomery,Washington,C,Neutral Zone Infraction,15
+W.Montgomery,Washington,C,Invalid Fair Catch Signal,0
+W.Montgomery,Washington,C,Unsportsmanlike Conduct,67
+A.Allen,Minnesota,CB,Kickoff Out of Bounds,0
+A.Allen,Minnesota,CB,Defensive Holding,10
+A.Cason,San Diego,CB,Illegal Use of Hands,10
+A.Goodman,Denver,CB,Taunting,0
+A.Goodman,Denver,CB,Horse Collar Tackle,0
+A.Goodman,Denver,CB,Defensive 12 On-field,15
+A.Goodman,Denver,CB,Face Mask (5 Yards),0
+A.Goodman,Denver,CB,Invalid Fair Catch Signal,0
+A.Harris,Green Bay,CB,Interference with Opportunity to Catch,0
+A.Harris,Green Bay,CB,False Start,204
+A.Harris,Green Bay,CB,Face Mask,0
+A.Harris,Green Bay,CB,Leverage,0
+A.Henry,Detroit,CB,Illegal Forward Pass,0
+A.Samuel,Philadelphia,CB,Offensive Offside,0
+A.Samuel,Philadelphia,CB,Unsportsmanlike Conduct,80
+A.Samuel,Philadelphia,CB,Offensive Offside,5
+A.Samuel,Philadelphia,CB,Illegal Onside Kick,0
+A.Samuel,Philadelphia,CB,Illegal Receiver Pass,0
+A.Smith,Denver,CB,Fair Catch Interference,0
+A.Talib,Tampa Bay,CB,Neutral Zone Infraction,10
+A.Talib,Tampa Bay,CB,Clipping,30
+A.Talib,Tampa Bay,CB,Offensive 12 On-field,0
+A.Talib,Tampa Bay,CB,Illegal Blindside Block,0
+A.Talib,Tampa Bay,CB,Illegal Touch Kick,0
+A.Youboty,Buffalo,CB,Illegal Shift,5
+A.Youboty,Buffalo,CB,Tripping,10
+B.Carr,Kansas City,CB,Illegal Forward Handoff,0
+B.Carr,Kansas City,CB,Face Mask,0
+B.Carr,Kansas City,CB,Illegally Kicking Ball,0
+B.Carr,Kansas City,CB,Intentional Grounding,27
+B.Carr,Kansas City,CB,Offside on Free Kick,0
+B.Flowers,Kansas City,CB,Offensive Offside,0
+B.Flowers,Kansas City,CB,Taunting,0
+B.Flowers,Kansas City,CB,Defensive Delay of Game,0
+B.Grimes,Atlanta,CB,Personal Foul,71
+B.Grimes,Atlanta,CB,Illegal Formation,10
+B.Grimes,Atlanta,CB,Defensive 12 On-field,10
+B.Grimes,Atlanta,CB,Illegal Cut,0
+B.McFadden,Arizona,CB,Illegal Forward Pass,0
+B.Sapp,Miami,CB,Defensive 12 On-field,0
+B.Sapp,Minnesota,CB,Ineligible Downfield Kick,0
+B.Sapp,Minnesota,CB,Offensive Pass Interference,50
+B.Sapp,Minnesota,CB,Offensive Too Many Men on Field,0
+C.Bailey,Denver,CB,Kick Catch Interference,0
+C.Bailey,Denver,CB,Face Mask (15 Yards),77
+C.Finnegan,Tennessee,CB,Offensive Pass Interference,30
+C.Finnegan,Tennessee,CB,Illegal Forward Handoff,0
+C.Finnegan,Tennessee,CB,Illegal Touch Pass,0
+C.Finnegan,Tennessee,CB,Illegal Procedure,0
+C.Finnegan,Tennessee,CB,Ineligible Downfield Pass,0
+C.Finnegan,Tennessee,CB,Offensive 12 On-field,5
+C.Finnegan,Tennessee,CB,Offside on Free Kick,5
+C.Finnegan,Tennessee,CB,Lowering the Head to Initiate Contact,0
+C.Gamble,Carolina,CB,Illegal Shift,5
+C.Gamble,Carolina,CB,Illegal Receiver Pass,0
+C.Gamble,Carolina,CB,Illegal Kick/Kicking Loose Ball,0
+C.Gamble,Carolina,CB,Low Block,0
+C.Graham,Chicago,CB,Illegal Shift,0
+C.Graham,Chicago,CB,Player Out of Bounds on Punt,0
+C.Graham,Chicago,CB,Offensive Offside,5
+C.Graham,Chicago,CB,Player Out of Bounds on Kick,0
+C.Griffin,Minnesota,CB,Offensive Pass Interference,59
+C.Griffin,Minnesota,CB,Illegal Procedure,0
+C.Griffin,Minnesota,CB,Illegal Forward Handoff,0
+C.Griffin,Minnesota,CB,Illegal Block Above the Waist,30
+C.Griffin,Minnesota,CB,Illegal Receiver Pass,0
+C.Griffin,Minnesota,CB,Chop Block,26
+C.Houston,Atlanta,CB,Face Mask (15 Yards),132
+C.Houston,Atlanta,CB,Leverage,0
+C.Houston,Atlanta,CB,Personal Foul,39
+C.Houston,Atlanta,CB,Illegal Receiver Pass,0
+C.Houston,Atlanta,CB,Roughing the Passer,45
+C.Houston,Atlanta,CB,Disqualification,15
+C.Houston,Detroit,CB,Tripping,0
+C.Houston,Detroit,CB,Intentional Grounding,19
+C.Johnson,Oakland,CB,Ineligible Downfield Kick,0
+C.Johnson,Oakland,CB,Illegal Formation,25
+C.Johnson,Oakland,CB,Illegal Shift,10
+C.Johnson,Oakland,CB,Disqualification,0
+C.Johnson,Oakland,CB,Roughing the Passer,102
+C.Johnson,Oakland,CB,Illegally Kicking Ball,0
+C.Johnson,Oakland,CB,Delay of Game,30
+C.Rogers,Washington,CB,Disqualification,0
+C.Rogers,Washington,CB,Face Mask (15 Yards),37
+C.Rogers,Washington,CB,Ineligible Downfield Kick,15
+C.Webster,N.Y. Giants,CB,Chop Block,0
+C.Webster,N.Y. Giants,CB,Illegal Shift,10
+C.Webster,N.Y. Giants,CB,Illegal Block Above the Waist,60
+C.Webster,N.Y. Giants,CB,Face Mask (15 Yards),30
+C.Webster,N.Y. Giants,CB,Unsportsmanlike Conduct,30
+D.Butler,New England,CB,Defensive 12 On-field,10
+D.Butler,New England,CB,Ineligible Downfield Pass,0
+D.Butler,New England,CB,Illegal Procedure,0
+D.Butler,New England,CB,Chop Block,0
+D.Butler,New England,CB,Illegal Blindside Block,0
+D.Cox,Jacksonville,CB,Face Mask (5 Yards),0
+D.Cox,Jacksonville,CB,Offensive Too Many Men on Field,0
+D.Cox,Jacksonville,CB,Illegal Use of Hands,10
+D.Cox,Jacksonville,CB,Illegal Forward Pass,0
+D.Patterson,Philadelphia,CB,Illegal Motion,10
+D.Patterson,Philadelphia,CB,Illegal Bat,10
+D.Patterson,Philadelphia,CB,Illegal Contact,5
+D.Patterson,Philadelphia,CB,Encroachment,10
+D.Patterson,Philadelphia,CB,Neutral Zone Infraction,5
+D.Rodgers,Arizona,CB,Illegal Bat,0
+D.Rodgers,Arizona,CB,Unsportsmanlike Conduct,104
+D.Rodgers,Arizona,CB,Illegal Kick/Kicking Loose Ball,0
+De.Williams,Carolina,CB,Horse Collar Tackle,30
+De.Williams,Carolina,CB,Disqualification,0
+Du.Robinson,Houston,CB,Intentional Grounding,0
+Du.Robinson,Houston,CB,Illegal Double-Team Block,0
+Du.Robinson,Houston,CB,Illegal Bat,0
+Du.Robinson,Houston,CB,Leverage,0
+Du.Robinson,Houston,CB,Illegal Formation,25
+Du.Robinson,Houston,CB,Illegal Bat,0
+Du.Robinson,Houston,CB,Illegal Touch Pass,0
+Du.Robinson,Houston,CB,Illegal Wedge,0
+E.Hobbs,Philadelphia,CB,Defensive Offside,51
+F.Smoot,Washington,CB,Illegal Formation,5
+F.Smoot,Washington,CB,Player Out of Bounds on Kick,0
+G.Toler,Arizona,CB,Illegal Cut,0
+G.Toler,Arizona,CB,Player Out of Bounds on Punt,0
+I.Taylor,Pittsburgh,CB,Illegal Receiver Pass,0
+I.Taylor,Pittsburgh,CB,Personal Foul,30
+I.Taylor,Pittsburgh,CB,Fair Catch Interference,0
+I.Taylor,Pittsburgh,CB,Lowering the Head to Initiate Contact,0
+J.Bush,Green Bay,CB,Intentional Grounding,33
+J.Bush,Green Bay,CB,Illegal Procedure,0
+J.Bush,Green Bay,CB,Short Free Kick,5
+J.Greer,New Orleans,CB,Illegal Contact,15
+J.Greer,New Orleans,CB,Face Mask,0
+J.Hanson,Philadelphia,CB,Disqualification,0
+J.Hanson,Philadelphia,CB,Running Into the Kicker,5
+J.Joseph,Cincinnati,CB,Low Block,15
+J.McCourty,Tennessee,CB,Ineligible Downfield Pass,5
+J.Reeves,Houston,CB,Offside on Free Kick,0
+J.Reeves,Houston,CB,Offensive 12 On-field,5
+J.Reeves,Houston,CB,Unnecessary Roughness,218
+J.Reeves,Houston,CB,Illegal Shift,5
+K.Jackson,Houston,CB,Ineligible Downfield Kick,15
+K.Lewis,Pittsburgh,CB,Offensive 12 On-field,0
+K.Lucas,Seattle,CB,Defensive Delay of Game,5
+L.Hall,Cincinnati,CB,Offensive Offside,0
+L.Hall,Cincinnati,CB,Illegal Onside Kick,0
+L.Hall,Cincinnati,CB,Offensive 12 On-field,0
+L.Hall,Cincinnati,CB,Illegal Kick,0
+L.Hall,Cincinnati,CB,Roughing the Kicker,0
+L.Sheppard,N.Y. Jets,CB,Illegal Procedure,5
+L.Sheppard,N.Y. Jets,CB,Leaping,0
+L.Sheppard,N.Y. Jets,CB,Illegal Shift,5
+M.Jenkins,Dallas,CB,Ineligible Downfield Pass,10
+M.Jenkins,Dallas,CB,Illegal Forward Pass,5
+M.Jenkins,Dallas,CB,Illegally Kicking Ball,0
+M.Jenkins,Dallas,CB,Invalid Fair Catch Signal,0
+M.Jenkins,Dallas,CB,Illegal Block Above the Waist,80
+M.McKenzie,New Orleans,CB,Illegal Receiver Pass,0
+M.Trufant,Seattle,CB,Illegal Crackback,0
+M.Trufant,Seattle,CB,Offensive Offside,0
+M.Trufant,Seattle,CB,Low Block,0
+M.Trufant,Seattle,CB,Illegal Blindside Block,0
+M.Trufant,Seattle,CB,Ineligible Downfield Kick,0
+M.Trufant,Seattle,CB,Illegal Bat,10
+N.Asomugha,Oakland,CB,Illegal Kick/Kicking Loose Ball,0
+N.Asomugha,Oakland,CB,Kick Catch Interference,0
+N.Asomugha,Oakland,CB,Face Mask,0
+N.Asomugha,Oakland,CB,Illegal Procedure,0
+N.Harper,Tennessee,CB,Illegal Formation,10
+O.Scandrick,Dallas,CB,Leverage,0
+O.Scandrick,Dallas,CB,Illegal Forward Handoff,0
+O.Scandrick,Dallas,CB,Ineligible Downfield Kick,0
+O.Scandrick,Dallas,CB,Disqualification,4
+P.Lee,Green Bay,CB,Leaping,0
+Q.Jammer,San Diego,CB,Illegal Crackback,0
+Q.Jammer,San Diego,CB,Lowering the Head to Make Forcible Contact,0
+Q.Jammer,San Diego,CB,Illegal Block Above the Waist,87
+Q.Jammer,San Diego,CB,False Start,165
+Q.Jammer,San Diego,CB,Illegal Motion,0
+Q.Jammer,San Diego,CB,Illegal Touch Pass,5
+Q.Jammer,San Diego,CB,Ineligible Downfield Pass,5
+R.Bartell,St. Louis,CB,Offensive Too Many Men on Field,0
+R.Bartell,St. Louis,CB,Ineligible Downfield Pass,10
+R.Bartell,St. Louis,CB,Offensive Pass Interference,60
+R.Bartell,St. Louis,CB,Defensive 12 On-field,0
+R.Bartell,St. Louis,CB,Personal Foul,24
+R.Bartell,St. Louis,CB,Leverage,0
+R.Hood,Tennessee,CB,Delay of Game,40
+R.Marshall,Carolina,CB,Illegal Procedure,0
+R.Marshall,Carolina,CB,Short Free Kick,0
+R.Marshall,Carolina,CB,Leverage,0
+R.Marshall,Carolina,CB,Ineligible Downfield Pass,0
+R.Marshall,Carolina,CB,Illegal Kick,0
+R.Marshall,Carolina,CB,Defensive 12 On-field,10
+R.Marshall,Carolina,CB,Illegal Crackback,0
+R.Mathis,Jacksonville,CB,Lowering the Head to Initiate Contact,0
+R.Mathis,Jacksonville,CB,Offside on Free Kick,10
+R.Robinson,Philadelphia,CB,Face Mask (5 Yards),0
+S.Brown,Cleveland,CB,Kickoff Out of Bounds,0
+S.Brown,Philadelphia,CB,Ineligible Downfield Pass,10
+S.Brown,Philadelphia,CB,Illegal Kick,0
+S.Brown,Philadelphia,CB,Ineligible Downfield Kick,5
+S.Brown,Philadelphia,CB,Illegal Wedge,0
+S.Routt,Oakland,CB,Delay of Kickoff,0
+S.Routt,Oakland,CB,Running Into the Kicker,15
+S.Routt,Oakland,CB,Kick Catch Interference,0
+S.Routt,Oakland,CB,Delay of Game,45
+S.Routt,Oakland,CB,Illegal Cut,0
+S.Routt,Oakland,CB,Invalid Fair Catch Signal,0
+S.Routt,Oakland,CB,Face Mask,0
+S.Routt,Oakland,CB,Illegal Kick,0
+S.Routt,Oakland,CB,Illegal Crackback,0
+S.Routt,Oakland,CB,Lowering the Head to Make Forcible Contact,0
+S.Routt,Oakland,CB,Illegal Forward Handoff,0
+S.Smith,Miami,CB,Illegal Contact,5
+S.Spencer,San Francisco,CB,Delay of Game,45
+S.Spencer,San Francisco,CB,Invalid Fair Catch Signal,0
+S.Spencer,San Francisco,CB,Leverage,0
+S.Spencer,San Francisco,CB,Offside on Free Kick,15
+S.Spencer,San Francisco,CB,Defensive Delay of Game,5
+S.Springs,New England,CB,Ineligible Downfield Kick,10
+T.Brackenridge,Jacksonville,CB,Ineligible Downfield Kick,0
+T.Brackenridge,Jacksonville,CB,Defensive Holding,15
+T.Law,Denver,CB,Disqualification,0
+T.McGee,Buffalo,CB,Short Free Kick,0
+T.Williams,Green Bay,CB,Face Mask (15 Yards),45
+T.Williams,Green Bay,CB,Taunting,15
+T.Williams,Green Bay,CB,Chop Block,16
+T.Williams,Green Bay,CB,Illegally Kicking Ball,0
+T.Williams,Green Bay,CB,Defensive Offside,76
+V.Davis,Miami,CB,Face Mask (5 Yards),0
+V.Davis,Miami,CB,Illegal Procedure,0
+V.Davis,Miami,CB,Delay of Game,16
+V.Davis,Miami,CB,Illegally Kicking Ball,0
+V.Davis,Miami,CB,Leaping,0
+W.Gay,Pittsburgh,CB,Illegal Cut,0
+W.Gay,Pittsburgh,CB,Illegal Touch Pass,0
+A.Ball,Dallas,DB,Delay of Kickoff,0
+A.Ball,Dallas,DB,Offensive 12 On-field,0
+A.Ball,Dallas,DB,Face Mask (5 Yards),0
+A.Carroll,N.Y. Jets,DB,Running Into the Kicker,0
+A.Cromartie,N.Y. Jets,DB,Illegal Blindside Block,0
+A.Cromartie,N.Y. Jets,DB,False Start,218
+A.Cromartie,San Diego,DB,Defensive 12 On-field,10
+A.Cromartie,San Diego,DB,Defensive Pass Interference,119
+A.Francisco,Indianapolis,DB,Leaping,0
+A.Madison,Cleveland,DB,Illegal Shift,15
+A.Molden,Houston,DB,Illegal Motion,5
+A.Rolle,Arizona,DB,Illegal Use of Hands,15
+A.Rolle,Arizona,DB,Roughing the Kicker,0
+A.Rolle,N.Y. Giants,DB,Interference with Opportunity to Catch,0
+A.Rouse,N.Y. Giants,DB,Illegal Cut,0
+A.Rouse,N.Y. Giants,DB,Illegal Wedge,0
+A.Smith,Detroit,DB,Illegal Kick,0
+A.Smith,Jacksonville,DB,Clipping,0
+A.Smith,Jacksonville,DB,Offside on Free Kick,0
+A.Smith,St. Louis,DB,Defensive Holding,40
+B.Fletcher,St. Louis,DB,Defensive 12 On-field,10
+B.Fletcher,St. Louis,DB,Tripping,10
+B.Fletcher,St. Louis,DB,Ineligible Downfield Kick,0
+B.Fletcher,St. Louis,DB,Leaping,11
+B.Johnson,N.Y. Giants,DB,Illegal Peelback,0
+B.Johnson,N.Y. Giants,DB,Illegal Shift,4
+B.Johnson,N.Y. Giants,DB,Illegal Cut,0
+B.Johnson,N.Y. Giants,DB,Illegal Shift,10
+B.Lockett,New England,DB,Illegal Cut,0
+B.Lockett,New England,DB,Illegal Double-Team Block,0
+B.McCain,Houston,DB,Offensive Pass Interference,70
+B.McCain,Houston,DB,Face Mask (15 Yards),60
+B.McCain,Houston,DB,Illegal Substitution,0
+B.McCain,Houston,DB,Illegal Touch Kick,10
+B.McDonald,Cleveland,DB,Illegal Forward Handoff,0
+B.McDonald,Cleveland,DB,Disqualification,0
+B.McDonald,Cleveland,DB,Illegal Peelback,0
+B.McDonald,Cleveland,DB,Illegal Touch Kick,0
+B.McDonald,Cleveland,DB,Player Out of Bounds on Punt,0
+B.McGowan,New England,DB,Interference with Opportunity to Catch,0
+B.Meriweather,New England,DB,Offensive Too Many Men on Field,0
+B.Underwood,Green Bay,DB,Illegal Procedure,0
+B.Underwood,Green Bay,DB,Fair Catch Interference,15
+B.Underwood,Green Bay,DB,Kick Catch Interference,0
+B.Williams,Atlanta,DB,Running Into the Kicker,5
+C.Brown,N.Y. Giants,DB,Offensive Offside,0
+C.Brown,N.Y. Giants,DB,Defensive Offside,30
+C.Brown,N.Y. Giants,DB,Fair Catch Interference,0
+C.Brown,N.Y. Giants,DB,Invalid Fair Catch Signal,0
+C.Brown,N.Y. Giants,DB,Offensive 12 On-field,0
+C.Carr,Baltimore,DB,Illegal Use of Hands,0
+C.Carr,Baltimore,DB,Fair Catch Interference,0
+C.Carr,Baltimore,DB,Low Block,0
+C.Carr,Baltimore,DB,Illegal Use of Hands,20
+C.Carr,Baltimore,DB,Illegal Onside Kick,0
+C.Clemons,Miami,DB,Ineligible Downfield Kick,0
+C.Crocker,Cincinnati,DB,Illegal Kick/Kicking Loose Ball,0
+C.Dahl,St. Louis,DB,Ineligible Downfield Pass,0
+C.Dahl,St. Louis,DB,Unnecessary Roughness,83
+C.Dahl,St. Louis,DB,Illegal Kick/Kicking Loose Ball,0
+C.Dahl,St. Louis,DB,Leaping,0
+C.Hope,Tennessee,DB,Fair Catch Interference,0
+C.Hope,Tennessee,DB,Kick Catch Interference,0
+C.Horton,Washington,DB,Offensive Pass Interference,50
+C.Horton,Washington,DB,Taunting,15
+C.Jackson,Atlanta,DB,Illegal Forward Handoff,0
+C.McAlister,New Orleans,DB,Illegal Touch Kick,5
+C.Munnerlyn,Carolina,DB,Kickoff Out of Bounds,0
+C.Munnerlyn,Carolina,DB,Illegal Motion,5
+C.Munnerlyn,Carolina,DB,Roughing the Kicker,0
+C.Munnerlyn,Carolina,DB,Illegal Contact,30
+C.Munnerlyn,Carolina,DB,Illegal Bat,0
+C.Munnerlyn,Carolina,DB,Illegal Bat,0
+C.Ndukwe,Cincinnati,DB,Illegal Procedure,0
+C.Ndukwe,Cincinnati,DB,Offensive Too Many Men on Field,0
+C.Owens,Atlanta,DB,Unnecessary Roughness,110
+C.Taylor,San Francisco,DB,Defensive Holding,47
+C.Tillman,Chicago,DB,Illegal Block Above the Waist,73
+C.Tillman,Chicago,DB,Offensive Holding,378
+C.Tillman,Chicago,DB,Interference with Opportunity to Catch,0
+C.Tillman,Chicago,DB,Illegal Forward Pass,0
+C.Tillman,Chicago,DB,Delay of Kickoff,0
+C.Williams,Tennessee,DB,Taunting,0
+Claude Spillman,San Diego,DB,Offensive Pass Interference,60
+D.Barber,Houston,DB,Fair Catch Interference,30
+D.Bly,San Francisco,DB,Fair Catch Interference,0
+D.Bly,San Francisco,DB,Illegal Procedure,0
+D.Bly,San Francisco,DB,Offensive Pass Interference,30
+D.Bly,San Francisco,DB,Intentional Grounding,24
+D.Faggins,Detroit,DB,Offensive Holding,287
+D.Florence,Buffalo,DB,Lowering the Head to Initiate Contact,0
+D.Florence,Buffalo,DB,Defensive Holding,30
+D.Florence,Buffalo,DB,Fair Catch Interference,0
+D.Florence,Buffalo,DB,Ineligible Downfield Pass,15
+D.Florence,Buffalo,DB,Illegal Double-Team Block,0
+D.Foxworth,Baltimore,DB,Kickoff Out of Bounds,0
+D.Foxworth,Baltimore,DB,Illegal Kick/Kicking Loose Ball,0
+D.Foxworth,Baltimore,DB,Running Into the Kicker,0
+D.Foxworth,Baltimore,DB,Illegal Cut,0
+D.Foxworth,Baltimore,DB,Offside on Free Kick,10
+D.Goldson,San Francisco,DB,Illegally Kicking Ball,0
+D.Goldson,San Francisco,DB,False Start,276
+D.Goldson,San Francisco,DB,Defensive Pass Interference,225
+D.Goldson,San Francisco,DB,Offensive Too Many Men on Field,0
+D.Goldson,San Francisco,DB,Illegal Forward Handoff,0
+D.Goldson,San Francisco,DB,Illegal Forward Handoff,0
+D.Hall,Indianapolis,DB,Illegal Substitution,0
+D.Jones,Jacksonville,DB,Illegal Wedge,0
+D.Lowery,N.Y. Jets,DB,Ineligible Downfield Pass,0
+D.Lowery,N.Y. Jets,DB,Intentional Grounding,36
+D.Lowery,N.Y. Jets,DB,Illegal Blindside Block,0
+D.Martin,Green Bay,DB,Illegal Peelback,0
+D.Martin,Green Bay,DB,Offensive Pass Interference,10
+D.Martin,Green Bay,DB,Kickoff Out of Bounds,0
+D.Martin,Green Bay,DB,Leaping,0
+D.Revis,N.Y. Jets,DB,Ineligible Downfield Kick,5
+D.Revis,N.Y. Jets,DB,Offside on Free Kick,0
+D.Revis,N.Y. Jets,DB,Player Out of Bounds on Kick,0
+D.Revis,N.Y. Jets,DB,Defensive Too Many Men on Field,0
+D.Roberson,Tampa Bay,DB,Leverage,0
+D.Smith,Detroit,DB,Illegal Forward Pass,0
+D.Smith,Detroit,DB,Roughing the Passer,103
+D.Stewart,St. Louis,DB,False Start,197
+D.Strickland,N.Y. Jets,DB,Illegal Touch Kick,0
+D.Townsend,Pittsburgh,DB,Illegal Substitution,10
+D.Townsend,Pittsburgh,DB,Offensive Holding,390
+D.Wesley,Carolina,DB,Lowering the Head to Make Forcible Contact,0
+D.Wesley,Carolina,DB,Low Block,0
+E.Berry,Kansas City,DB,Illegal Cut,0
+E.Brock,Atlanta,DB,Offensive Pass Interference,10
+E.Frampton,Minnesota,DB,Clipping,15
+E.Frampton,Minnesota,DB,Defensive Offside,72
+E.Frampton,Minnesota,DB,Illegal Onside Kick,0
+E.Lankster,Buffalo,DB,Player Out of Bounds on Kick,0
+E.Mack,Tampa Bay,DB,Delay of Kickoff,0
+E.Wright,Cleveland,DB,Offensive Offside,0
+E.Wright,Cleveland,DB,Illegal Receiver Pass,0
+E.Wright,Cleveland,DB,Leverage,0
+E.Wright,Cleveland,DB,Lowering the Head to Initiate Contact,0
+E.Wright,Cleveland,DB,Illegal Touch Kick,0
+E.Wright,Cleveland,DB,Illegal Blindside Block,0
+F.Bennett,Houston,DB,Illegal Peelback,0
+F.Walker,Baltimore,DB,Leverage,0
+F.Walker,Baltimore,DB,Intentional Grounding,42
+F.Walker,Baltimore,DB,Encroachment,25
+F.Walker,Baltimore,DB,Illegal Kick/Kicking Loose Ball,0
+F.Walker,Baltimore,DB,Lowering the Head to Initiate Contact,0
+F.Walker,Baltimore,DB,Illegal Substitution,10
+F.Walker,Baltimore,DB,Neutral Zone Infraction,20
+F.Washington,Baltimore,DB,Personal Foul,19
+F.Washington,Baltimore,DB,Personal Foul,71
+Gi.Wilson,Miami,DB,Kick Catch Interference,0
+Gi.Wilson,Miami,DB,Defensive Too Many Men on Field,0
+H.Eugene,Oakland,DB,Personal Foul,72
+H.Eugene,Oakland,DB,Neutral Zone Infraction,42
+H.Eugene,Oakland,DB,Interference with Opportunity to Catch,0
+H.Eugene,Oakland,DB,Illegal Formation,15
+J.Allen,Miami,DB,Interference with Opportunity to Catch,15
+J.Bell,Green Bay,DB,Interference with Opportunity to Catch,0
+J.Burnett,Pittsburgh,DB,Interference with Opportunity to Catch,0
+J.Burnett,Pittsburgh,DB,Offensive Pass Interference,40
+J.Busing,Houston,DB,Face Mask (5 Yards),0
+J.Busing,Houston,DB,Illegal Shift,5
+J.Butler,St. Louis,DB,Defensive Pass Interference,145
+J.Corto,Buffalo,DB,Defensive Offside,83
+J.Corto,Buffalo,DB,Intentional Grounding,0
+J.Fudge,Atlanta,DB,Delay of Game,70
+J.Haden,Cleveland,DB,Face Mask,0
+J.King,St. Louis,DB,False Start,183
+J.King,St. Louis,DB,Encroachment,25
+J.King,St. Louis,DB,Tripping,0
+J.King,St. Louis,DB,Offensive Holding,324
+J.Lacey,Indianapolis,DB,Tripping,20
+J.Lacey,Indianapolis,DB,Illegal Blindside Block,0
+J.Lacey,Indianapolis,DB,Illegal Cut,0
+J.Pugh,Carolina,DB,Illegal Shift,10
+J.Sanders,New England,DB,Invalid Fair Catch Signal,0
+J.Sanders,New England,DB,Offensive Pass Interference,20
+J.Sanders,New England,DB,Leverage,0
+J.Tryon,Indianapolis,DB,Delay of Game,25
+J.Tryon,Washington,DB,Player Out of Bounds on Punt,0
+J.Tryon,Washington,DB,Defensive Pass Interference,207
+J.Tryon,Washington,DB,Running Into the Kicker,0
+J.Tryon,Washington,DB,Lowering the Head to Make Forcible Contact,0
+J.Wade,Detroit,DB,Unsportsmanlike Conduct,42
+J.Wade,Detroit,DB,Illegal Wedge,0
+J.Wade,St. Louis,DB,Kick Catch Interference,0
+J.Wade,St. Louis,DB,Horse Collar Tackle,0
+J.Wilhite,New England,DB,Offensive Holding,344
+J.Wilson,Baltimore,DB,Lowering the Head to Make Forcible Contact,0
+J.Wilson,Baltimore,DB,Player Out of Bounds on Kick,0
+J.Wilson,Seattle,DB,Disqualification,15
+K.Arrington,New England,DB,Roughing the Kicker,0
+K.Arrington,New England,DB,Defensive Pass Interference,110
+K.Barnes,Washington,DB,Personal Foul,43
+K.Coleman,Philadelphia,DB,Running Into the Kicker,0
+K.Cox,Jacksonville,DB,Illegal Peelback,0
+K.Cox,Jacksonville,DB,Illegal Bat,0
+K.Dockery,N.Y. Giants,DB,Offensive Pass Interference,41
+K.Dockery,N.Y. Giants,DB,Illegal Formation,10
+K.Dockery,N.Y. Giants,DB,Illegal Forward Pass,0
+K.Dockery,N.Y. Giants,DB,Ineligible Downfield Pass,0
+K.Dockery,St. Louis,DB,Illegal Kick/Kicking Loose Ball,0
+K.Ellison,San Diego,DB,Defensive Too Many Men on Field,0
+K.Ellison,San Diego,DB,Tripping,0
+K.Hamlin,Baltimore,DB,Illegal Touch Kick,0
+K.Hamlin,Dallas,DB,Face Mask (5 Yards),0
+K.Hamlin,Dallas,DB,Offensive Holding,480
+K.Hayden,Indianapolis,DB,Chop Block,0
+K.Hayden,Indianapolis,DB,Lowering the Head to Make Forcible Contact,0
+K.Hayden,Indianapolis,DB,Illegal Onside Kick,0
+K.Hayden,Indianapolis,DB,Defensive Delay of Game,0
+K.Hebert,Cincinnati,DB,Player Out of Bounds on Kick,0
+K.Hebert,Cincinnati,DB,Interference with Opportunity to Catch,15
+K.Hobbs,Detroit,DB,Offensive Too Many Men on Field,0
+K.Jennings,Seattle,DB,Illegal Touch Kick,0
+K.Lewis,Kansas City,DB,Defensive Offside,35
+K.Moore,Washington,DB,Kick Catch Interference,0
+K.Moore,Washington,DB,Illegal Double-Team Block,0
+K.Paymah,Minnesota,DB,Kick Catch Interference,0
+K.Paymah,Minnesota,DB,Interference with Opportunity to Catch,0
+K.Paymah,Minnesota,DB,Chop Block,0
+K.Payne,Chicago,DB,Unnecessary Roughness,118
+K.Phillips,N.Y. Giants,DB,Illegal Kick/Kicking Loose Ball,0
+K.Smith,San Francisco,DB,Illegally Kicking Ball,0
+K.Wilson,N.Y. Jets,DB,Illegal Blindside Block,0
+K.Wilson,N.Y. Jets,DB,Illegal Receiver Pass,0
+L.Bodden,New England,DB,Illegal Kick,0
+L.Bodden,New England,DB,Fair Catch Interference,0
+L.Sheppard,Minnesota,DB,Offensive Too Many Men on Field,0
+L.Torrence,New Orleans,DB,Taunting,0
+M.Adams,Arizona,DB,Defensive Offside,65
+M.Adams,Arizona,DB,Illegal Formation,20
+M.Adams,Arizona,DB,Illegal Forward Pass,0
+M.Adams,Arizona,DB,Illegal Peelback,0
+M.Adams,Arizona,DB,Illegal Procedure,0
+M.Adams,Arizona,DB,Defensive Offside,25
+M.Hamlin,Dallas,DB,False Start,203
+M.Jenkins,New Orleans,DB,Low Block,0
+M.Jenkins,New Orleans,DB,Illegal Block Above the Waist,73
+M.Jenkins,New Orleans,DB,Lowering the Head to Make Forcible Contact,0
+M.Jenkins,New Orleans,DB,Player Out of Bounds on Punt,5
+M.Leggett,Kansas City,DB,Kick Catch Interference,0
+M.Trent,Cincinnati,DB,Running Into the Kicker,0
+M.Trent,Cincinnati,DB,Illegal Crackback,0
+M.Trent,Cincinnati,DB,Roughing the Kicker,0
+M.White,Dallas,DB,Roughing the Passer,57
+M.White,Detroit,DB,Running Into the Kicker,5
+M.White,Detroit,DB,Clipping,0
+N.Sorensen,Cleveland,DB,Short Free Kick,0
+O.Atogwe,St. Louis,DB,Illegal Procedure,0
+O.Atogwe,St. Louis,DB,Illegal Peelback,0
+P.Buchanon,Detroit,DB,False Start,211
+P.Buchanon,Detroit,DB,Illegal Bat,0
+P.Cox,Denver,DB,Illegal Kick,0
+P.Prioleau,New Orleans,DB,Offside on Free Kick,10
+P.Prioleau,New Orleans,DB,Interference with Opportunity to Catch,0
+Q.Butler,St. Louis,DB,Roughing the Passer,45
+Q.Butler,St. Louis,DB,Illegal Forward Pass,0
+Q.Butler,St. Louis,DB,Illegal Touch Pass,5
+Q.Demps,Philadelphia,DB,Neutral Zone Infraction,30
+Q.Demps,Philadelphia,DB,Taunting,0
+Q.Demps,Philadelphia,DB,Player Out of Bounds on Punt,0
+Q.Teal,Carolina,DB,Illegal Kick,0
+R.Brown,Arizona,DB,False Start,206
+R.Colclough,Kansas City,DB,Illegal Onside Kick,0
+R.Corner,Buffalo,DB,Invalid Fair Catch Signal,0
+R.Corner,Buffalo,DB,Illegal Block Above the Waist,40
+R.Corner,Buffalo,DB,Defensive Delay of Game,0
+R.Corner,Buffalo,DB,Chop Block,30
+R.Corner,Buffalo,DB,Leverage,0
+R.Langford,Kansas City,DB,Illegal Kick,0
+R.Lewis,Seattle,DB,Illegal Kick,0
+R.Ventrone,Cleveland,DB,Roughing the Passer,33
+S.Considine,Jacksonville,DB,Intentional Grounding,10
+S.Considine,Jacksonville,DB,Illegal Kick,0
+S.Gregory,San Diego,DB,Face Mask,0
+S.Gregory,San Diego,DB,Tripping,0
+T.Branch,Oakland,DB,Delay of Kickoff,0
+T.Branch,Oakland,DB,Offensive Pass Interference,30
+T.Branch,Oakland,DB,Ineligible Downfield Pass,0
+T.Brown,San Francisco,DB,Defensive Holding,60
+T.Brown,San Francisco,DB,Leaping,0
+T.Brown,San Francisco,DB,Kick Catch Interference,0
+T.Brown,San Francisco,DB,Face Mask,0
+T.Carter,Denver,DB,Unnecessary Roughness,138
+T.Carter,Pittsburgh,DB,Defensive Holding,30
+T.Carter,Pittsburgh,DB,Illegal Kick,0
+T.Culver,Miami,DB,Illegal Kick/Kicking Loose Ball,0
+T.Culver,Miami,DB,Illegal Motion,5
+T.Hill,Atlanta,DB,Running Into the Kicker,0
+T.Jennings,Indianapolis,DB,Defensive Too Many Men on Field,0
+T.Mays,San Francisco,DB,Illegal Double-Team Block,0
+T.Newman,Dallas,DB,Player Out of Bounds on Kick,0
+T.Newman,Dallas,DB,Illegal Formation,15
+T.Newman,Dallas,DB,Illegal Substitution,0
+T.Newman,Dallas,DB,Illegal Kick,10
+T.Nolan,Houston,DB,Delay of Kickoff,0
+T.Porter,New Orleans,DB,Illegal Crackback,0
+T.Porter,New Orleans,DB,Tripping,20
+T.Porter,New Orleans,DB,Roughing the Passer,45
+T.Thomas,N.Y. Giants,DB,Roughing the Kicker,15
+T.Thomas,N.Y. Giants,DB,Intentional Grounding,46
+T.Thomas,N.Y. Giants,DB,Taunting,0
+T.Wheatley,New England,DB,Intentional Grounding,14
+V.Fuller,Tennessee,DB,Leaping,0
+V.Fuller,Tennessee,DB,Unsportsmanlike Conduct,100
+V.Harris,Philadelphia,DB,Illegal Procedure,0
+V.Harris,Philadelphia,DB,Kick Catch Interference,0
+V.Harris,Philadelphia,DB,Tripping,10
+V.Harris,Philadelphia,DB,Offensive Holding,267
+W.Allen,Miami,DB,Illegal Kick,0
+W.Allen,Miami,DB,Offensive Too Many Men on Field,0
+W.Allen,Miami,DB,Illegal Touch Pass,5
+W.James,Detroit,DB,Illegal Contact,31
+W.James,Detroit,DB,Illegal Blindside Block,0
+W.McFadden,Oakland,DB,Illegal Receiver Pass,0
+Z.Bowman,Chicago,DB,Roughing the Kicker,0
+Z.Bowman,Chicago,DB,Illegal Crackback,0
+Z.Bowman,Chicago,DB,Clipping,0
+Z.Bowman,Chicago,DB,Illegal Forward Handoff,0
+A.Brown,Chicago,DE,Taunting,0
+A.Brown,Chicago,DE,Unnecessary Roughness,149
+A.Brown,Chicago,DE,Illegal Touch Kick,5
+A.Brown,Chicago,DE,Defensive Pass Interference,87
+A.Brown,Chicago,DE,Illegal Use of Hands,31
+A.Brown,Chicago,DE,Offensive 12 On-field,0
+A.Carter,Washington,DE,Player Out of Bounds on Punt,0
+A.Carter,Washington,DE,Offensive Offside,0
+A.Kampman,Green Bay,DE,Illegal Touch Pass,0
+A.Odom,Cincinnati,DE,Face Mask (5 Yards),0
+A.Ogunleye,Chicago,DE,Offensive 12 On-field,5
+A.Ogunleye,Chicago,DE,Ineligible Downfield Pass,0
+A.Ogunleye,Chicago,DE,Delay of Game,25
+A.Schobel,Buffalo,DE,Tripping,10
+A.Schobel,Buffalo,DE,Low Block,15
+A.Smith,Houston,DE,Leaping,0
+A.Smith,Houston,DE,Illegal Peelback,0
+A.Smith,Houston,DE,Illegal Formation,19
+A.Smith,Houston,DE,Leverage,0
+A.Smith,Houston,DE,Personal Foul,45
+A.Smith,Houston,DE,Offensive Holding,364
+A.Smith,Houston,DE,Illegal Bat,0
+A.Smith,Houston,DE,Illegal Contact,17
+A.Smith,Houston,DE,Offensive 12 On-field,0
+A.Smith,Houston,DE,Face Mask (5 Yards),0
+B.Robison,Minnesota,DE,Defensive 12 On-field,10
+B.Robison,Minnesota,DE,Illegal Touch Kick,5
+B.Robison,Minnesota,DE,Leaping,0
+C.Avril,Detroit,DE,Leaping,0
+C.Avril,Detroit,DE,Defensive Too Many Men on Field,0
+C.Avril,Detroit,DE,Defensive Pass Interference,320
+C.Avril,Detroit,DE,Offensive Pass Interference,50
+C.Avril,Detroit,DE,Running Into the Kicker,5
+C.Bryan,Detroit,DE,Lowering the Head to Make Forcible Contact,0
+C.Campbell,Arizona,DE,Face Mask (15 Yards),15
+C.Campbell,Arizona,DE,Unnecessary Roughness,58
+C.Campbell,Arizona,DE,Offside on Free Kick,5
+C.Campbell,Arizona,DE,Kickoff Out of Bounds,0
+C.Canty,N.Y. Giants,DE,Clipping,0
+C.Clemons,Philadelphia,DE,Illegal Onside Kick,0
+C.Clemons,Philadelphia,DE,Illegal Touch Kick,0
+C.Grant,New Orleans,DE,Leverage,0
+C.Grant,New Orleans,DE,Defensive 12 On-field,0
+C.Grant,New Orleans,DE,Leaping,0
+C.Grant,New Orleans,DE,Leaping,0
+C.Johnson,Carolina,DE,Low Block,0
+C.Johnson,Carolina,DE,Lowering the Head to Make Forcible Contact,0
+C.Johnson,Carolina,DE,Illegal Kick/Kicking Loose Ball,0
+C.Johnson,Dallas,DE,Illegal Onside Kick,0
+C.Johnson,Dallas,DE,Kickoff Out of Bounds,0
+C.Long,St. Louis,DE,Face Mask,0
+C.Long,St. Louis,DE,Illegal Procedure,0
+C.Long,St. Louis,DE,Fair Catch Interference,0
+C.Redding,Baltimore,DE,Offensive Pass Interference,80
+C.Redding,Seattle,DE,Defensive 12 On-field,0
+C.Redding,Seattle,DE,Chop Block,0
+C.Redding,Seattle,DE,Illegal Substitution,15
+C.Wake,Miami,DE,Illegal Forward Handoff,0
+D.Ball,Tennessee,DE,Defensive Delay of Game,0
+D.Ball,Tennessee,DE,Illegal Touch Pass,0
+D.Ball,Tennessee,DE,Chop Block,30
+D.Bryant,Oakland,DE,Player Out of Bounds on Kick,0
+D.Burgess,New England,DE,Illegal Touch Pass,5
+D.Howard,Philadelphia,DE,Illegally Kicking Ball,0
+D.Howard,Philadelphia,DE,Delay of Kickoff,0
+D.Howard,Philadelphia,DE,Offside on Free Kick,0
+D.Howard,Philadelphia,DE,Illegal Wedge,0
+D.Howard,Philadelphia,DE,Interference with Opportunity to Catch,0
+D.Reid,Denver,DE,Offensive Holding,344
+D.Reid,Denver,DE,Disqualification,0
+D.Reid,Denver,DE,Offensive Pass Interference,30
+D.Reid,Denver,DE,Leaping,0
+D.Reid,Denver,DE,Offside on Free Kick,0
+D.Tapp,Seattle,DE,Illegal Wedge,0
+D.Tapp,Seattle,DE,Lowering the Head to Make Forcible Contact,0
+D.Tapp,Seattle,DE,Illegal Contact,30
+D.Tollefson,N.Y. Giants,DE,Delay of Kickoff,0
+D.Tollefson,N.Y. Giants,DE,Defensive 12 On-field,5
+D.Tollefson,N.Y. Giants,DE,Chop Block,0
+D.White,Detroit,DE,Unsportsmanlike Conduct,30
+E.Brown,Carolina,DE,Illegal Use of Hands,30
+E.Brown,Carolina,DE,Neutral Zone Infraction,33
+E.Jones,Baltimore,DE,Roughing the Passer,33
+E.Jones,Baltimore,DE,Illegal Shift,5
+F.Rucker,Cincinnati,DE,Offensive Holding,292
+G.Adams,Tampa Bay,DE,Illegal Forward Handoff,0
+G.Adams,Tampa Bay,DE,Defensive Pass Interference,145
+G.Ellis,Oakland,DE,Lowering the Head to Initiate Contact,0
+G.Ellis,Oakland,DE,Unsportsmanlike Conduct,45
+G.Ellis,Oakland,DE,Intentional Grounding,28
+G.Hardy,Carolina,DE,Defensive Offside,53
+H.Green,N.Y. Jets,DE,Personal Foul,15
+H.Green,N.Y. Jets,DE,Defensive 12 On-field,0
+I.Idonije,Chicago,DE,Lowering the Head to Make Forcible Contact,0
+I.Idonije,Chicago,DE,Player Out of Bounds on Kick,0
+J.Anderson,Atlanta,DE,Illegal Bat,0
+J.Babin,Philadelphia,DE,Offensive Pass Interference,40
+J.Babin,Philadelphia,DE,Leverage,0
+J.Babin,Philadelphia,DE,Illegal Substitution,0
+J.Babin,Tennessee,DE,Offside on Free Kick,15
+J.Babin,Tennessee,DE,Disqualification,10
+J.Cesaire,San Diego,DE,Illegal Contact,10
+J.Fanene,Cincinnati,DE,Unnecessary Roughness,31
+J.Fanene,Cincinnati,DE,Player Out of Bounds on Kick,0
+J.Fanene,Cincinnati,DE,Defensive Delay of Game,0
+J.Ford,Tennessee,DE,Encroachment,50
+J.Ford,Tennessee,DE,False Start,192
+J.Ford,Tennessee,DE,Lowering the Head to Initiate Contact,0
+J.Ford,Tennessee,DE,Disqualification,0
+J.Ford,Tennessee,DE,Illegal Procedure,0
+J.Hall,St. Louis,DE,Illegal Receiver Pass,0
+J.Haye,Tennessee,DE,Horse Collar Tackle,19
+J.Haye,Tennessee,DE,Illegal Kick,0
+J.Haye,Tennessee,DE,Leverage,2
+J.Hunter,Detroit,DE,Defensive Pass Interference,319
+J.Hunter,Detroit,DE,Illegal Wedge,0
+J.Hunter,Detroit,DE,Defensive 12 On-field,5
+J.Jarmon,Washington,DE,Player Out of Bounds on Kick,0
+J.Jolly,Green Bay,DE,Face Mask,0
+J.Jolly,Green Bay,DE,Taunting,0
+J.Jolly,Green Bay,DE,Tripping,10
+J.Jones,Tennessee,DE,Defensive 12 On-field,5
+J.Jones,Tennessee,DE,Personal Foul,25
+J.Jones,Tennessee,DE,False Start,197
+J.Jones,Tennessee,DE,Illegal Shift,10
+J.Kearse,Tennessee,DE,Offensive Pass Interference,50
+J.Mincey,Jacksonville,DE,Intentional Grounding,30
+J.Mitchell,Minnesota,DE,Player Out of Bounds on Kick,0
+J.Mitchell,Minnesota,DE,Defensive Holding,30
+J.Moss,Denver,DE,Face Mask,0
+J.Moss,Denver,DE,Illegal Touch Kick,0
+J.Moss,Denver,DE,Low Block,15
+J.Parker,Philadelphia,DE,False Start,193
+J.Parker,Philadelphia,DE,Offensive Pass Interference,50
+J.Parker,Philadelphia,DE,Fair Catch Interference,0
+J.Peppers,Carolina,DE,Fair Catch Interference,0
+J.Peppers,Carolina,DE,Player Out of Bounds on Kick,0
+J.Peppers,Carolina,DE,Kick Catch Interference,0
+J.Pierre-Paul,N.Y. Giants,DE,Illegal Contact,20
+J.Pierre-Paul,N.Y. Giants,DE,Invalid Fair Catch Signal,5
+J.Smith,San Francisco,DE,Offensive Pass Interference,47
+J.Smith,San Francisco,DE,Defensive Holding,25
+J.Tuck,N.Y. Giants,DE,Invalid Fair Catch Signal,0
+J.Tuck,N.Y. Giants,DE,Illegal Kick/Kicking Loose Ball,0
+K.Coleman,Cleveland,DE,Delay of Game,55
+K.Golston,Washington,DE,Illegal Substitution,10
+K.Golston,Washington,DE,Offensive Holding,304
+K.Iwebema,Arizona,DE,Leverage,0
+K.Iwebema,Arizona,DE,Illegal Forward Pass,0
+K.Iwebema,Arizona,DE,Offensive Offside,5
+K.Iwebema,Arizona,DE,Face Mask,0
+K.Iwebema,Arizona,DE,Fair Catch Interference,0
+K.Langford,Miami,DE,Defensive Offside,59
+K.Langford,Miami,DE,Unsportsmanlike Conduct,45
+K.Langford,Miami,DE,Illegal Motion,5
+K.Peterson,Denver,DE,Offensive Offside,10
+K.Peterson,Denver,DE,Defensive Too Many Men on Field,0
+K.Vanden Bosch,Tennessee,DE,Offside on Free Kick,0
+K.Vanden Bosch,Tennessee,DE,Offensive Pass Interference,20
+K.Vanden Bosch,Tennessee,DE,Kickoff Out of Bounds,0
+K.Vanden Bosch,Tennessee,DE,Face Mask,0
+L.Cohen,Detroit,DE,Illegal Motion,5
+L.Cohen,Detroit,DE,Clipping,15
+L.Cohen,Detroit,DE,Clipping,0
+L.Cohen,Detroit,DE,Roughing the Kicker,0
+L.Cohen,Detroit,DE,Illegal Contact,20
+L.Douzable,Jacksonville,DE,Illegal Use of Hands,31
+L.English,San Diego,DE,Illegal Peelback,0
+L.English,San Diego,DE,Illegal Touch Pass,5
+L.English,San Diego,DE,Kickoff Out of Bounds,0
+L.Hart,Jacksonville,DE,Illegal Forward Handoff,0
+L.Jackson,Detroit,DE,Kick Catch Interference,0
+L.Little,St. Louis,DE,Face Mask (5 Yards),0
+L.Sidbury,Atlanta,DE,Kick Catch Interference,0
+L.Sidbury,Atlanta,DE,Defensive Holding,50
+M.Anderson,Chicago,DE,Intentional Grounding,35
+M.Anderson,Chicago,DE,Delay of Kickoff,0
+M.Devito,N.Y. Jets,DE,Roughing the Passer,100
+M.Devito,N.Y. Jets,DE,Ineligible Downfield Pass,0
+M.Devito,N.Y. Jets,DE,Illegal Substitution,10
+M.Johnson,Cincinnati,DE,Player Out of Bounds on Kick,0
+M.Kiwanuka,N.Y. Giants,DE,Illegal Kick/Kicking Loose Ball,0
+M.Kiwanuka,N.Y. Giants,DE,Personal Foul,70
+M.Kiwanuka,N.Y. Giants,DE,Ineligible Downfield Kick,5
+M.Kiwanuka,N.Y. Giants,DE,Interference with Opportunity to Catch,0
+M.Roth,Cleveland,DE,Defensive Delay of Game,0
+M.Stroud,Buffalo,DE,Invalid Fair Catch Signal,0
+M.Stroud,Buffalo,DE,Illegal Kick/Kicking Loose Ball,0
+M.Williams,Houston,DE,Delay of Game,50
+M.Williams,Houston,DE,Disqualification,0
+N.Eason,Pittsburgh,DE,Chop Block,15
+N.Eason,Pittsburgh,DE,Unsportsmanlike Conduct,67
+O.Umenyiora,N.Y. Giants,DE,Low Block,0
+O.Umenyiora,N.Y. Giants,DE,False Start,184
+O.Umenyiora,N.Y. Giants,DE,Illegal Formation,25
+O.Umenyiora,N.Y. Giants,DE,Illegal Wedge,0
+O.Umenyiora,N.Y. Giants,DE,Defensive Holding,25
+P.Kerney,Seattle,DE,Intentional Grounding,56
+P.Kerney,Seattle,DE,Kickoff Out of Bounds,0
+P.Kerney,Seattle,DE,Offensive Holding,235
+P.Kerney,Seattle,DE,Illegally Kicking Ball,0
+P.Merling,Miami,DE,Roughing the Kicker,0
+R.Ayers,Denver,DE,Offensive Too Many Men on Field,0
+R.Ayers,Denver,DE,Illegal Substitution,5
+R.Brock,Indianapolis,DE,Ineligible Downfield Pass,5
+R.Brock,Indianapolis,DE,Illegally Kicking Ball,0
+R.Denney,Buffalo,DE,Horse Collar Tackle,15
+R.Edwards,Minnesota,DE,Low Block,0
+R.Edwards,Minnesota,DE,Invalid Fair Catch Signal,0
+R.Edwards,Minnesota,DE,Illegally Kicking Ball,0
+R.Edwards,Minnesota,DE,Illegal Peelback,0
+R.Edwards,Minnesota,DE,Offensive Holding,330
+R.Edwards,Minnesota,DE,False Start,199
+R.Edwards,Minnesota,DE,Running Into the Kicker,0
+R.Edwards,Minnesota,DE,Offensive 12 On-field,0
+R.Geathers,Cincinnati,DE,Illegal Wedge,0
+R.Geathers,Cincinnati,DE,Illegal Receiver Pass,0
+R.Geathers,Cincinnati,DE,Running Into the Kicker,0
+R.Geathers,Cincinnati,DE,Face Mask,0
+R.McBean,Denver,DE,Illegal Shift,10
+R.McDonald,San Francisco,DE,Face Mask (15 Yards),120
+R.McDonald,San Francisco,DE,Chop Block,5
+R.Smith,Cleveland,DE,Offensive Holding,321
+R.Smith,Cleveland,DE,Illegal Use of Hands,0
+R.Torbor,Miami,DE,Clipping,15
+S.Bowen,Dallas,DE,Illegal Substitution,10
+S.Bowen,Dallas,DE,Ineligible Downfield Kick,5
+S.Merriman,San Diego,DE,Defensive Holding,35
+S.Merriman,San Diego,DE,Illegal Contact,10
+S.Merriman,San Diego,DE,Running Into the Kicker,0
+S.Merriman,San Diego,DE,Face Mask (15 Yards),60
+S.White,Tampa Bay,DE,Leverage,0
+S.White,Tampa Bay,DE,Delay of Game,10
+T.Hargrove,New Orleans,DE,Kickoff Out of Bounds,0
+T.Hargrove,New Orleans,DE,Illegal Touch Pass,0
+T.Hargrove,New Orleans,DE,Illegal Substitution,10
+T.Jackson,Kansas City,DE,Offensive Holding,290
+T.Jackson,Kansas City,DE,Defensive Pass Interference,222
+T.Johnson,San Diego,DE,Illegally Kicking Ball,0
+T.Johnson,San Diego,DE,Fair Catch Interference,0
+T.Kelly,Oakland,DE,Defensive 12 On-field,0
+T.Kelly,Oakland,DE,Unnecessary Roughness,105
+T.Kelly,Oakland,DE,Illegal Shift,0
+T.Kelly,Oakland,DE,Encroachment,20
+T.Kelly,Oakland,DE,Ineligible Downfield Pass,5
+T.McBride,Detroit,DE,Illegal Use of Hands,0
+T.McBride,Detroit,DE,Taunting,15
+T.Pryce,Baltimore,DE,Defensive Holding,15
+T.Pryce,Baltimore,DE,Offensive Holding,290
+T.Pryce,Baltimore,DE,Face Mask (5 Yards),0
+T.Scott,Oakland,DE,False Start,199
+T.Scott,Oakland,DE,Defensive Pass Interference,385
+V.Abiamiri,Philadelphia,DE,Delay of Kickoff,0
+V.Abiamiri,Philadelphia,DE,Illegal Onside Kick,0
+V.Adeyanju,St. Louis,DE,Defensive Holding,46
+V.Holliday,Denver,DE,Ineligible Downfield Kick,5
+W.Gilberry,Kansas City,DE,Offensive Pass Interference,60
+W.Gilberry,Kansas City,DE,Illegal Bat,0
+W.Hayes,Tennessee,DE,Illegal Block Above the Waist,35
+W.Hayes,Tennessee,DE,Lowering the Head to Make Forcible Contact,0
+W.Hayes,Tennessee,DE,Illegal Double-Team Block,0
+W.Hayes,Tennessee,DE,Illegal Kick,0
+W.Hayes,Tennessee,DE,Intentional Grounding,10
+W.Hayes,Tennessee,DE,Lowering the Head to Make Forcible Contact,0
+W.Smith,New Orleans,DE,Illegal Contact,40
+W.Smith,New Orleans,DE,Lowering the Head to Make Forcible Contact,0
+W.Smith,New Orleans,DE,Illegal Motion,5
+A.Adams,Chicago,DT,Personal Foul,51
+A.Adams,Chicago,DT,Illegal Receiver Pass,0
+A.Adams,Chicago,DT,Offside on Free Kick,0
+A.Adams,Chicago,DT,Illegal Blindside Block,0
+A.Dixon,Philadelphia,DT,Illegal Block Above the Waist,69
+A.Ellison,Jacksonville,DT,Illegal Procedure,0
+A.Fluellen,Detroit,DT,Defensive Holding,41
+A.Haynesworth,Washington,DT,False Start,218
+A.Haynesworth,Washington,DT,Offensive Too Many Men on Field,0
+A.Haynesworth,Washington,DT,Offensive 12 On-field,5
+A.Haynesworth,Washington,DT,Delay of Kickoff,0
+A.Haynesworth,Washington,DT,Ineligible Downfield Kick,5
+A.Johnson,Indianapolis,DT,Taunting,0
+A.Johnson,Indianapolis,DT,Leaping,0
+A.Johnson,Indianapolis,DT,Illegal Cut,0
+A.Okoye,Houston,DT,Defensive Delay of Game,0
+A.Okoye,Houston,DT,Defensive Pass Interference,103
+A.Okoye,Houston,DT,Illegal Formation,10
+B.Mebane,Seattle,DT,Illegal Substitution,0
+B.Mebane,Seattle,DT,Illegal Onside Kick,0
+C.Ah You,St. Louis,DT,Clipping,0
+C.Cole,Seattle,DT,Short Free Kick,0
+C.Hovan,Tampa Bay,DT,Unnecessary Roughness,195
+C.Hovan,Tampa Bay,DT,Illegal Motion,0
+C.Jenkins,Green Bay,DT,Offensive Pass Interference,10
+C.Ryan,St. Louis,DT,Offside on Free Kick,0
+C.Ryan,St. Louis,DT,Illegal Peelback,0
+C.Ryan,St. Louis,DT,Offensive Offside,0
+C.Williams,Cleveland,DT,Illegal Blindside Block,0
+C.Williams,Cleveland,DT,Face Mask (5 Yards),0
+C.Williams,Detroit,DT,False Start,213
+C.Williams,Detroit,DT,Clipping,0
+D.Dockett,Arizona,DT,Defensive Too Many Men on Field,0
+D.Dockett,Arizona,DT,Face Mask (5 Yards),0
+D.Dockett,Arizona,DT,Short Free Kick,0
+D.Dockett,Arizona,DT,Defensive Too Many Men on Field,0
+D.Edwards,Baltimore,DT,Intentional Grounding,23
+D.Landri,Carolina,DT,Illegal Bat,0
+D.Lewis,Carolina,DT,Player Out of Bounds on Punt,0
+D.Lewis,Carolina,DT,Defensive Too Many Men on Field,0
+D.Lewis,Carolina,DT,Defensive 12 On-field,10
+D.Lewis,Carolina,DT,Illegal Receiver Pass,0
+D.Muir,Indianapolis,DT,Fair Catch Interference,0
+D.Scott,St. Louis,DT,Illegal Formation,5
+De.Robinson,Houston,DT,Offensive Too Many Men on Field,0
+De.Robinson,Houston,DT,Offensive Pass Interference,20
+E.Foster,Indianapolis,DT,Face Mask (5 Yards),0
+E.Foster,Indianapolis,DT,Illegal Kick/Kicking Loose Ball,0
+E.Foster,Indianapolis,DT,Defensive Holding,35
+E.Foster,Indianapolis,DT,Delay of Game,28
+F.Evans,Minnesota,DT,Offensive Offside,0
+F.Evans,Minnesota,DT,Running Into the Kicker,0
+F.Evans,Minnesota,DT,Defensive Pass Interference,75
+F.Robbins,N.Y. Giants,DT,Offensive Pass Interference,20
+F.Robbins,N.Y. Giants,DT,Unsportsmanlike Conduct,64
+F.Robbins,N.Y. Giants,DT,Player Out of Bounds on Kick,0
+F.Robbins,N.Y. Giants,DT,Roughing the Passer,14
+F.Robbins,St. Louis,DT,Illegal Touch Kick,0
+F.Robbins,St. Louis,DT,Kick Catch Interference,0
+G.Warren,Oakland,DT,Illegal Motion,0
+G.Warren,Oakland,DT,Illegally Kicking Ball,0
+G.Warren,Oakland,DT,Illegal Crackback,0
+G.Warren,Oakland,DT,Defensive Delay of Game,0
+H.Melton,Chicago,DT,Leaping,0
+H.Ngata,Baltimore,DT,Player Out of Bounds on Kick,0
+H.Ngata,Baltimore,DT,Ineligible Downfield Kick,0
+H.Ngata,Baltimore,DT,Illegal Crackback,0
+H.Ngata,Baltimore,DT,Personal Foul,45
+I.Olshansky,Dallas,DT,Fair Catch Interference,12
+I.Olshansky,Dallas,DT,Lowering the Head to Make Forcible Contact,0
+I.Olshansky,Dallas,DT,Personal Foul,53
+J.Babineaux,Atlanta,DT,Neutral Zone Infraction,25
+J.Babineaux,Atlanta,DT,Illegal Cut,0
+J.Bannan,Denver,DT,Face Mask (15 Yards),150
+J.Kennedy,Minnesota,DT,Illegal Touch Pass,0
+J.Kennedy,Minnesota,DT,Roughing the Kicker,0
+J.Ratliff,Dallas,DT,Kickoff Out of Bounds,0
+J.Ratliff,Dallas,DT,Illegal Formation,10
+J.Ratliff,Dallas,DT,Illegal Forward Pass,0
+J.Ratliff,Dallas,DT,Defensive Offside,48
+J.Ratliff,Dallas,DT,Illegal Use of Hands,5
+J.Ratliff,Dallas,DT,Defensive Pass Interference,265
+J.Ratliff,Dallas,DT,Illegally Kicking Ball,0
+J.Wynn,Green Bay,DT,Illegal Motion,10
+J.Zgonina,Houston,DT,Clipping,0
+K.Vickerson,Tennessee,DT,Ineligible Downfield Kick,20
+K.Vickerson,Tennessee,DT,Interference with Opportunity to Catch,0
+K.Vickerson,Tennessee,DT,Intentional Grounding,23
+K.Williams,Buffalo,DT,Face Mask (15 Yards),42
+K.Williams,Minnesota,DT,Horse Collar Tackle,15
+K.Williams,Minnesota,DT,Defensive Holding,30
+K.Williams,Minnesota,DT,Illegal Wedge,0
+K.Williams,Minnesota,DT,Defensive 12 On-field,15
+K.Williams,Minnesota,DT,Illegal Crackback,15
+K.Williams,Minnesota,DT,Fair Catch Interference,0
+K.Williams,Minnesota,DT,Chop Block,22
+K.Williams,Minnesota,DT,Offensive 12 On-field,0
+L.Leonard,Carolina,DT,Illegal Peelback,0
+L.Ramsey,St. Louis,DT,Defensive Offside,66
+L.Ramsey,St. Louis,DT,Disqualification,0
+M.Douglas,N.Y. Jets,DT,Unnecessary Roughness,66
+M.Montgomery,Green Bay,DT,Player Out of Bounds on Punt,5
+M.Montgomery,Green Bay,DT,Neutral Zone Infraction,9
+M.Patterson,Philadelphia,DT,Face Mask (5 Yards),0
+M.Thomas,Denver,DT,Illegal Wedge,0
+M.Wright,New England,DT,Illegal Double-Team Block,0
+M.Wright,New England,DT,Clipping,0
+N.Hayden,Carolina,DT,Illegally Kicking Ball,0
+N.Suh,Detroit,DT,Illegal Forward Pass,5
+O.Harris,Cincinnati,DT,Defensive Offside,20
+O.Nwagbuo,San Diego,DT,Illegal Crackback,0
+O.Nwagbuo,San Diego,DT,Kickoff Out of Bounds,0
+P.Jerry,Atlanta,DT,Illegally Kicking Ball,0
+P.Sims,Cincinnati,DT,Defensive 12 On-field,5
+P.Sims,Cincinnati,DT,Interference with Opportunity to Catch,0
+P.Sims,Cincinnati,DT,Leaping,0
+P.Sims,Cincinnati,DT,Illegal Blindside Block,0
+P.Sims,Cincinnati,DT,Illegal Kick/Kicking Loose Ball,0
+P.Soliai,Miami,DT,Illegally Kicking Ball,0
+P.Soliai,Miami,DT,Illegal Kick,0
+P.Soliai,Miami,DT,Illegal Motion,0
+P.Williams,Minnesota,DT,Illegal Double-Team Block,0
+P.Williams,Minnesota,DT,Defensive Too Many Men on Field,0
+P.Williams,Minnesota,DT,Illegal Touch Pass,5
+R.Bernard,N.Y. Giants,DT,Face Mask,0
+R.Bernard,N.Y. Giants,DT,Offensive Pass Interference,36
+R.Brace,New England,DT,Illegal Use of Hands,41
+R.Bryant,Seattle,DT,Illegal Receiver Pass,0
+R.Edwards,Kansas City,DT,Delay of Game,30
+R.Edwards,Kansas City,DT,Illegal Double-Team Block,0
+R.Fields,Denver,DT,Illegal Motion,5
+R.Fields,Denver,DT,Leaping,0
+R.Fields,Denver,DT,Defensive Holding,27
+R.Fields,Denver,DT,Intentional Grounding,45
+R.Miller,Tampa Bay,DT,Delay of Game,41
+R.Miller,Tampa Bay,DT,Offside on Free Kick,5
+R.Miller,Tampa Bay,DT,Leaping,0
+R.Seymour,Oakland,DT,Illegal Receiver Pass,0
+R.Seymour,Oakland,DT,Invalid Fair Catch Signal,5
+R.Seymour,Oakland,DT,Illegal Kick/Kicking Loose Ball,0
+R.Seymour,Oakland,DT,Short Free Kick,0
+R.Seymour,Oakland,DT,Taunting,0
+R.Seymour,Oakland,DT,Offensive Too Many Men on Field,0
+S.Ellis,New Orleans,DT,Kick Catch Interference,0
+S.Johnson,Buffalo,DT,False Start,203
+S.Johnson,Buffalo,DT,Offside on Free Kick,10
+S.Marks,Tennessee,DT,Unsportsmanlike Conduct,75
+S.Rogers,Cleveland,DT,Illegal Block Above the Waist,54
+S.Rogers,Cleveland,DT,Defensive Offside,65
+S.Rogers,Cleveland,DT,Low Block,0
+S.Rogers,Cleveland,DT,Illegal Formation,25
+S.Rogers,Cleveland,DT,Short Free Kick,0
+S.Rogers,Cleveland,DT,Defensive Delay of Game,0
+S.Rogers,Cleveland,DT,Illegal Onside Kick,0
+T.Brayton,Carolina,DT,Illegal Contact,25
+T.Brayton,Carolina,DT,Kickoff Out of Bounds,0
+T.Brayton,Carolina,DT,Leaping,0
+T.Brayton,Carolina,DT,Illegal Kick,0
+T.Brayton,Carolina,DT,Illegal Wedge,0
+T.Brown,Tennessee,DT,Illegal Kick,0
+T.Brown,Tennessee,DT,Illegal Wedge,0
+T.Brown,Tennessee,DT,Offensive Too Many Men on Field,0
+T.Brown,Tennessee,DT,Defensive Too Many Men on Field,0
+T.Brown,Tennessee,DT,Illegal Contact,9
+T.Brown,Tennessee,DT,Kick Catch Interference,0
+T.Brown,Tennessee,DT,Tripping,10
+T.Brown,Tennessee,DT,Clipping,0
+T.Brown,Tennessee,DT,Illegal Touch Pass,0
+T.Bulman,Houston,DT,Defensive Delay of Game,0
+T.Bulman,Houston,DT,Horse Collar Tackle,15
+T.Harris,Chicago,DT,Leverage,0
+T.Harris,Chicago,DT,Disqualification,0
+T.Harris,Chicago,DT,Face Mask (15 Yards),123
+T.Harris,Chicago,DT,Unnecessary Roughness,86
+T.Johnson,Atlanta,DT,Illegal Onside Kick,0
+T.Johnson,Cincinnati,DT,Neutral Zone Infraction,27
+T.Johnson,Cincinnati,DT,Illegal Wedge,0
+T.Johnson,Cincinnati,DT,Offensive 12 On-field,0
+T.Knighton,Jacksonville,DT,Lowering the Head to Make Forcible Contact,0
+T.Knighton,Jacksonville,DT,Invalid Fair Catch Signal,5
+T.Laws,Philadelphia,DT,Disqualification,0
+T.McDaniel,Miami,DT,Illegal Motion,5
+T.McDaniel,Miami,DT,Offensive 12 On-field,0
+T.McDaniel,Miami,DT,Illegal Double-Team Block,0
+T.Tyler,Kansas City,DT,Illegal Touch Pass,0
+T.Tyler,Kansas City,DT,Illegal Procedure,0
+T.Warren,New England,DT,Illegal Touch Pass,0
+W.Joseph,Oakland,DT,Roughing the Passer,76
+A.Hall,Tennessee,FB,Face Mask (5 Yards),0
+A.Hall,Tennessee,FB,Illegal Crackback,0
+A.Hall,Tennessee,FB,Illegal Bat,0
+B.Askew,Tampa Bay,FB,Illegal Kick,0
+C.McIntyre,Buffalo,FB,Delay of Game,60
+C.McIntyre,Buffalo,FB,Roughing the Passer,37
+C.McIntyre,Buffalo,FB,Ineligible Downfield Pass,0
+D.Anderson,Dallas,FB,Illegal Crackback,15
+D.Anderson,Dallas,FB,Offensive Too Many Men on Field,0
+D.Anderson,Dallas,FB,Offensive Too Many Men on Field,0
+D.Kreider,Arizona,FB,Illegal Touch Kick,0
+H.Evans,New Orleans,FB,Illegal Contact,50
+J.Johnson,Cincinnati,FB,Roughing the Kicker,0
+J.Kuhn,Green Bay,FB,Horse Collar Tackle,15
+J.Kuhn,Green Bay,FB,Low Block,12
+J.Nordin,Detroit,FB,Tripping,0
+J.Nordin,Detroit,FB,Illegally Kicking Ball,0
+J.Snelling,Atlanta,FB,Taunting,0
+J.Snelling,Atlanta,FB,Defensive Too Many Men on Field,0
+K.Houser,Seattle,FB,Leaping,0
+L.Hilliard,Miami,FB,Personal Foul,45
+L.Lawton,Oakland,FB,Illegal Forward Pass,5
+L.Lawton,Oakland,FB,Illegal Shift,0
+L.McClain,Baltimore,FB,Offensive Holding,407
+L.Polite,Miami,FB,Illegal Kick,0
+L.Vickers,Cleveland,FB,Illegal Kick/Kicking Loose Ball,0
+L.Vickers,Cleveland,FB,Defensive Pass Interference,153
+L.Vickers,Cleveland,FB,Illegal Wedge,0
+L.Weaver,Philadelphia,FB,Illegal Substitution,10
+L.Weaver,Philadelphia,FB,Ineligible Downfield Kick,0
+L.Weaver,Philadelphia,FB,Offensive Pass Interference,98
+M.Hedgecock,N.Y. Giants,FB,Illegal Crackback,0
+M.Hedgecock,N.Y. Giants,FB,Illegal Cut,0
+M.Hedgecock,N.Y. Giants,FB,Defensive Holding,15
+M.Hedgecock,N.Y. Giants,FB,Illegal Onside Kick,0
+M.Karney,St. Louis,FB,Illegal Touch Kick,5
+M.Robinson,San Francisco,FB,Leverage,0
+M.Robinson,San Francisco,FB,Unnecessary Roughness,136
+M.Robinson,Seattle,FB,Illegal Use of Hands,33
+M.Tolbert,San Diego,FB,Leverage,0
+N.Tahi,Minnesota,FB,Leaping,0
+O.Mughelli,Atlanta,FB,Short Free Kick,0
+O.Mughelli,Atlanta,FB,Interference with Opportunity to Catch,0
+O.Schmitt,Seattle,FB,Unnecessary Roughness,110
+O.Schmitt,Seattle,FB,Leverage,0
+Q.Johnson,Green Bay,FB,Illegal Touch Kick,5
+T.Fiammetta,Carolina,FB,Illegal Receiver Pass,0
+T.Fiammetta,Carolina,FB,Lowering the Head to Initiate Contact,0
+T.Fiammetta,Carolina,FB,Illegal Use of Hands,22
+T.Fiammetta,Carolina,FB,Illegal Double-Team Block,0
+T.Richardson,N.Y. Jets,FB,Illegal Peelback,0
+T.Richardson,N.Y. Jets,FB,Illegal Cut,0
+V.Leach,Houston,FB,Illegal Substitution,15
+V.Leach,Houston,FB,Personal Foul,60
+C.Godfrey,Carolina,FS,Illegal Kick/Kicking Loose Ball,0
+C.Godfrey,Carolina,FS,Illegal Touch Pass,0
+C.Woodson,Green Bay,FS,Illegal Formation,0
+C.Woodson,Green Bay,FS,Lowering the Head to Initiate Contact,0
+C.Woodson,Green Bay,FS,Defensive Holding,24
+C.Woodson,Green Bay,FS,Defensive Holding,23
+C.Woodson,Green Bay,FS,Lowering the Head to Initiate Contact,0
+C.Woodson,Green Bay,FS,Illegal Blindside Block,0
+C.Woodson,Green Bay,FS,Illegally Kicking Ball,0
+C.Woodson,Green Bay,FS,Illegal Block Above the Waist,59
+D.Nickey,Tennessee,FS,Illegal Wedge,0
+D.Nickey,Tennessee,FS,Illegally Kicking Ball,0
+D.Roach,St. Louis,FS,Taunting,30
+D.Sharper,New Orleans,FS,Offensive Too Many Men on Field,0
+D.Sharper,New Orleans,FS,Illegally Kicking Ball,0
+D.Sharper,New Orleans,FS,False Start,225
+D.Sharper,New Orleans,FS,Lowering the Head to Make Forcible Contact,0
+D.Sharper,New Orleans,FS,Clipping,0
+E.Reed,Baltimore,FS,Invalid Fair Catch Signal,0
+E.Reed,Baltimore,FS,Defensive Too Many Men on Field,0
+E.Reed,Baltimore,FS,Offensive 12 On-field,0
+E.Reed,Baltimore,FS,Ineligible Downfield Kick,0
+E.Smith,N.Y. Jets,FS,Defensive Pass Interference,133
+E.Smith,N.Y. Jets,FS,Illegal Double-Team Block,0
+E.Smith,N.Y. Jets,FS,Illegal Blindside Block,0
+E.Smith,N.Y. Jets,FS,Illegal Substitution,0
+E.Smith,N.Y. Jets,FS,Illegal Cut,0
+E.Thomas,Seattle,FS,Illegal Motion,5
+E.Wilson,Houston,FS,Ineligible Downfield Kick,15
+E.Wilson,Houston,FS,Unsportsmanlike Conduct,30
+E.Wilson,Houston,FS,Illegal Wedge,0
+G.Quin,Houston,FS,Illegal Contact,15
+G.Quin,Houston,FS,Offensive 12 On-field,5
+G.Quin,Houston,FS,Illegal Blindside Block,0
+G.Quin,Houston,FS,Illegal Shift,15
+G.Quin,Houston,FS,Offensive Pass Interference,69
+G.Quin,Houston,FS,Illegal Use of Hands,30
+G.Sensabaugh,Dallas,FS,Kick Catch Interference,0
+G.Sensabaugh,Dallas,FS,Illegal Crackback,15
+G.Sensabaugh,Dallas,FS,Illegal Substitution,0
+H.Poteat,Cleveland,FS,Kick Catch Interference,0
+H.Poteat,Cleveland,FS,Illegal Touch Pass,0
+H.Poteat,Cleveland,FS,Defensive Holding,29
+J.Babineaux,Seattle,FS,Illegal Shift,0
+J.Babineaux,Seattle,FS,Face Mask (5 Yards),0
+J.Babineaux,Seattle,FS,Horse Collar Tackle,18
+J.Babineaux,Seattle,FS,Illegal Peelback,0
+J.Byrd,Buffalo,FS,Chop Block,15
+J.Byrd,Buffalo,FS,Offensive Pass Interference,20
+J.Byrd,Buffalo,FS,Illegal Shift,15
+J.Byrd,Buffalo,FS,Face Mask (15 Yards),87
+J.Wendling,Buffalo,FS,Ineligible Downfield Pass,15
+J.Wendling,Buffalo,FS,Leaping,0
+K.Pearson,Detroit,FS,Illegal Touch Kick,0
+K.Rhodes,Arizona,FS,Defensive Delay of Game,0
+L.Delmas,Detroit,FS,Illegal Block Above the Waist,103
+L.Delmas,Detroit,FS,Roughing the Kicker,15
+L.Delmas,Detroit,FS,Illegal Crackback,0
+L.Delmas,Detroit,FS,Ineligible Downfield Kick,0
+L.Delmas,Detroit,FS,Short Free Kick,0
+L.Delmas,Detroit,FS,Illegal Crackback,0
+L.Landry,Washington,FS,Illegal Touch Kick,0
+L.Landry,Washington,FS,Illegal Onside Kick,0
+L.Landry,Washington,FS,Illegally Kicking Ball,0
+L.Webb,Baltimore,FS,Illegal Forward Pass,0
+L.Webb,Baltimore,FS,Illegal Peelback,0
+L.Webb,Baltimore,FS,Face Mask (15 Yards),120
+L.Webb,Baltimore,FS,Intentional Grounding,21
+M.Griffin,Tennessee,FS,Illegal Receiver Pass,0
+M.Griffin,Tennessee,FS,Intentional Grounding,30
+M.Huff,Oakland,FS,Intentional Grounding,47
+M.Williams,Minnesota,FS,Chop Block,45
+M.Williams,Minnesota,FS,Kick Catch Interference,0
+N.Collins,Green Bay,FS,Low Block,0
+N.Ferguson,Houston,FS,Tripping,0
+N.Ferguson,Houston,FS,Tripping,6
+N.Jones,Miami,FS,Defensive Too Many Men on Field,0
+R.Barber,Tampa Bay,FS,Kickoff Out of Bounds,0
+R.Barber,Tampa Bay,FS,Illegal Double-Team Block,0
+R.Barber,Tampa Bay,FS,Tripping,20
+R.Barber,Tampa Bay,FS,Illegal Peelback,0
+R.Barber,Tampa Bay,FS,Taunting,0
+R.Barber,Tampa Bay,FS,Face Mask,0
+R.Barber,Tampa Bay,FS,Illegal Kick,0
+R.Clark,Pittsburgh,FS,Illegal Kick,0
+R.Johnson,Arizona,FS,Illegal Forward Handoff,0
+R.Nelson,Jacksonville,FS,Illegal Crackback,0
+R.Nelson,Jacksonville,FS,Chop Block,15
+S.Brown,Oakland,FS,Illegal Shift,5
+S.Jones,Philadelphia,FS,Invalid Fair Catch Signal,0
+S.Jones,Philadelphia,FS,Leaping,0
+S.Jones,Philadelphia,FS,Leverage,0
+S.Jones,Philadelphia,FS,Neutral Zone Infraction,23
+S.Jones,Philadelphia,FS,Defensive 12 On-field,5
+S.Martin,Carolina,FS,Defensive Offside,77
+T.DeCoud,Atlanta,FS,Illegal Crackback,15
+A.Alleman,Kansas City,G,Ineligible Downfield Kick,0
+A.Faneca,N.Y. Jets,G,Illegal Block Above the Waist,48
+A.Faneca,N.Y. Jets,G,Illegal Onside Kick,0
+A.Faneca,N.Y. Jets,G,Short Free Kick,0
+A.Herrera,Minnesota,G,Unnecessary Roughness,88
+A.Herrera,Minnesota,G,Kickoff Out of Bounds,0
+A.Herrera,Minnesota,G,Illegal Shift,20
+A.Herrera,Minnesota,G,Illegal Peelback,0
+A.Herrera,Minnesota,G,Illegal Formation,25
+A.Hicks,Minnesota,G,Defensive 12 On-field,24
+A.Hicks,Washington,G,Offensive Too Many Men on Field,0
+A.Hicks,Washington,G,Roughing the Kicker,0
+A.Levitre,Buffalo,G,Illegal Shift,0
+A.Levitre,Buffalo,G,Horse Collar Tackle,0
+A.Levitre,Buffalo,G,Interference with Opportunity to Catch,0
+A.Levitre,Buffalo,G,Offensive 12 On-field,10
+A.Levitre,Buffalo,G,Delay of Kickoff,0
+A.Snyder,San Francisco,G,Delay of Game,43
+A.Snyder,San Francisco,G,Illegally Kicking Ball,0
+A.Snyder,San Francisco,G,Face Mask,0
+A.Snyder,San Francisco,G,Chop Block,0
+A.Snyder,San Francisco,G,Low Block,0
+B.Grubbs,Baltimore,G,Illegal Use of Hands,39
+B.Grubbs,Baltimore,G,Illegal Peelback,0
+B.Hamilton,Denver,G,Low Block,0
+B.Hamilton,Denver,G,Illegal Bat,0
+B.Hamilton,Denver,G,Player Out of Bounds on Kick,0
+B.Hamilton,Denver,G,Clipping,0
+B.Hamilton,Seattle,G,Illegal Forward Pass,0
+B.Moore,N.Y. Jets,G,Ineligible Downfield Kick,10
+B.Moore,N.Y. Jets,G,Offensive Pass Interference,30
+B.Moore,N.Y. Jets,G,Offside on Free Kick,5
+B.Moore,N.Y. Jets,G,Invalid Fair Catch Signal,0
+B.Moore,N.Y. Jets,G,Taunting,0
+B.Moore,N.Y. Jets,G,Taunting,15
+B.Moore,N.Y. Jets,G,Unsportsmanlike Conduct,25
+B.Waters,Kansas City,G,Illegal Touch Kick,0
+B.Waters,Kansas City,G,Horse Collar Tackle,30
+B.Waters,Kansas City,G,Illegal Blindside Block,9
+B.Waters,Kansas City,G,Taunting,0
+B.Waters,Kansas City,G,Illegal Formation,17
+B.Waters,Kansas City,G,Intentional Grounding,25
+B.Waters,Kansas City,G,Lowering the Head to Make Forcible Contact,0
+B.Williams,Cincinnati,G,Interference with Opportunity to Catch,0
+B.Williams,Cincinnati,G,Unsportsmanlike Conduct,20
+B.Williams,Cincinnati,G,Offensive Offside,0
+B.Williams,Cincinnati,G,Illegal Blindside Block,0
+B.Williams,Cincinnati,G,Tripping,0
+B.Williams,Cincinnati,G,Unsportsmanlike Conduct,40
+B.Williams,Cincinnati,G,Illegal Peelback,0
+B.Williams,Cincinnati,G,Illegal Shift,5
+C.Carlisle,Oakland,G,Short Free Kick,0
+C.Carlisle,Oakland,G,Illegal Procedure,0
+C.Carlisle,Oakland,G,Illegal Procedure,0
+C.Carlisle,Oakland,G,Offensive Offside,0
+C.Carlisle,Oakland,G,Illegal Onside Kick,0
+C.Carlisle,Oakland,G,Face Mask (5 Yards),0
+C.Kemoeatu,Pittsburgh,G,Unnecessary Roughness,212
+C.Kemoeatu,Pittsburgh,G,Illegal Bat,0
+C.Kemoeatu,Pittsburgh,G,Offensive Too Many Men on Field,0
+C.Kemoeatu,Pittsburgh,G,Illegal Contact,25
+C.Kemoeatu,Pittsburgh,G,Player Out of Bounds on Punt,5
+C.Kuper,Denver,G,Defensive Too Many Men on Field,0
+C.Kuper,Denver,G,Ineligible Downfield Pass,5
+C.Kuper,Denver,G,Offensive Offside,0
+C.Kuper,Denver,G,Roughing the Passer,30
+C.Kuper,Denver,G,Intentional Grounding,20
+C.Nicks,New Orleans,G,Illegal Blindside Block,0
+C.Nicks,New Orleans,G,Short Free Kick,0
+C.Nicks,New Orleans,G,Unsportsmanlike Conduct,56
+C.Pitts,Houston,G,Offensive Offside,0
+C.Rachal,San Francisco,G,Neutral Zone Infraction,27
+C.Rachal,San Francisco,G,Kickoff Out of Bounds,0
+C.Rachal,San Francisco,G,Defensive Delay of Game,0
+C.Snee,N.Y. Giants,G,Face Mask,0
+C.Snee,N.Y. Giants,G,Face Mask (15 Yards),75
+C.Snee,N.Y. Giants,G,Chop Block,0
+Ch.Johnson,Indianapolis,G,Chop Block,0
+D.Batiste,Washington,G,Illegal Shift,10
+D.Batiste,Washington,G,Defensive Delay of Game,0
+D.Colledge,Green Bay,G,Illegal Touch Pass,5
+D.Colledge,Green Bay,G,Defensive Offside,35
+D.Colledge,Green Bay,G,Illegal Procedure,0
+D.Colledge,Green Bay,G,Encroachment,0
+D.Colledge,Green Bay,G,Defensive Pass Interference,97
+D.Colledge,Green Bay,G,Offensive Pass Interference,40
+D.Colledge,Green Bay,G,Lowering the Head to Make Forcible Contact,0
+D.Diehl,N.Y. Giants,G,Offensive Offside,0
+D.Diehl,N.Y. Giants,G,Face Mask,0
+D.Diehl,N.Y. Giants,G,Disqualification,0
+D.Diehl,N.Y. Giants,G,Illegal Procedure,0
+D.Diehl,N.Y. Giants,G,Illegal Crackback,0
+D.Diehl,N.Y. Giants,G,Face Mask (5 Yards),13
+D.Diehl,N.Y. Giants,G,Clipping,0
+D.Dockery,Washington,G,Illegal Wedge,0
+D.Dockery,Washington,G,Illegal Cut,0
+D.Dockery,Washington,G,Illegal Forward Pass,0
+D.Dockery,Washington,G,Kickoff Out of Bounds,0
+D.Gandy,Detroit,G,Illegal Wedge,0
+D.Gandy,Detroit,G,Taunting,0
+D.Joseph,Tampa Bay,G,Face Mask (5 Yards),0
+D.Joseph,Tampa Bay,G,Delay of Kickoff,0
+D.Joseph,Tampa Bay,G,Illegal Touch Kick,5
+D.Joseph,Tampa Bay,G,Defensive Delay of Game,5
+D.Joseph,Tampa Bay,G,Leaping,0
+D.Lutui,Arizona,G,Illegal Procedure,0
+D.Lutui,Arizona,G,Unsportsmanlike Conduct,12
+D.Lutui,Arizona,G,Fair Catch Interference,0
+D.Lutui,Arizona,G,Roughing the Passer,30
+D.Lutui,Arizona,G,Illegal Procedure,0
+D.Thomas,Miami,G,Offensive Pass Interference,60
+D.Thomas,Miami,G,Personal Foul,37
+D.Thomas,Miami,G,Delay of Game,70
+E.Mathis,Cincinnati,G,Low Block,0
+E.Mathis,Cincinnati,G,Illegal Formation,5
+E.Mathis,Cincinnati,G,Illegal Substitution,0
+E.Steinbach,Cleveland,G,Illegal Substitution,0
+E.Steinbach,Cleveland,G,Illegal Touch Pass,0
+E.Steinbach,Cleveland,G,Player Out of Bounds on Punt,4
+E.Williams,Washington,G,Roughing the Kicker,0
+F.Womack,Cleveland,G,Illegal Cut,0
+G.Hangartner,Buffalo,G,Illegal Forward Handoff,0
+G.Hangartner,Buffalo,G,Illegal Touch Pass,0
+G.Hangartner,Buffalo,G,Illegal Formation,31
+G.Schwartz,Carolina,G,Defensive 12 On-field,6
+H.Dahl,Atlanta,G,Illegal Kick,0
+H.Dahl,Atlanta,G,Lowering the Head to Initiate Contact,0
+H.Dahl,Atlanta,G,Defensive Holding,45
+H.Dahl,Atlanta,G,Illegal Block Above the Waist,35
+H.Dahl,Atlanta,G,Illegal Touch Kick,0
+H.Dahl,Atlanta,G,False Start,153
+I.Ndukwe,Kansas City,G,Illegal Forward Pass,5
+I.Ndukwe,Kansas City,G,Invalid Fair Catch Signal,0
+J.Beekman,Chicago,G,Encroachment,28
+J.Bell,St. Louis,G,Encroachment,5
+J.Bell,St. Louis,G,Delay of Game,64
+J.Bell,St. Louis,G,Running Into the Kicker,5
+J.Bell,St. Louis,G,Defensive Pass Interference,175
+J.Blalock,Atlanta,G,Encroachment,9
+J.Blalock,Atlanta,G,Offensive Pass Interference,60
+J.Blalock,Atlanta,G,Illegal Double-Team Block,0
+J.Blalock,Atlanta,G,Illegal Blindside Block,0
+J.Bridges,Arizona,G,Disqualification,0
+J.Clary,San Diego,G,Roughing the Passer,52
+J.Clary,San Diego,G,Defensive Pass Interference,167
+J.Clary,San Diego,G,Defensive Delay of Game,0
+J.Clary,San Diego,G,Illegal Crackback,15
+J.Evans,New Orleans,G,Leverage,0
+J.Evans,New Orleans,G,Chop Block,15
+J.Evans,New Orleans,G,Running Into the Kicker,5
+J.Evans,New Orleans,G,Illegally Kicking Ball,0
+J.Evans,New Orleans,G,Offensive Too Many Men on Field,0
+J.Evans,New Orleans,G,Chop Block,15
+J.Evans,New Orleans,G,False Start,141
+J.Greco,St. Louis,G,Illegal Use of Hands,10
+J.Jerry,Miami,G,Face Mask (15 Yards),51
+J.Scott,Tennessee,G,Illegal Touch Kick,10
+J.Scott,Tennessee,G,Illegally Kicking Ball,0
+J.Scott,Tennessee,G,Low Block,7
+J.Scott,Tennessee,G,Neutral Zone Infraction,10
+J.Scott,Tennessee,G,Illegal Forward Pass,0
+J.Sitton,Green Bay,G,Encroachment,15
+J.Sitton,Green Bay,G,Unnecessary Roughness,145
+J.Sitton,Green Bay,G,Roughing the Kicker,0
+J.Sitton,Green Bay,G,Interference with Opportunity to Catch,15
+J.Sitton,Green Bay,G,Horse Collar Tackle,0
+J.Smiley,Jacksonville,G,Neutral Zone Infraction,20
+J.Smiley,Jacksonville,G,Illegal Substitution,0
+J.Smiley,Miami,G,Horse Collar Tackle,44
+J.Thomas,Indianapolis,G,Disqualification,8
+K.Dielman,San Diego,G,Disqualification,0
+K.Dielman,San Diego,G,Low Block,4
+K.Dielman,San Diego,G,Unnecessary Roughness,130
+K.Kosier,Dallas,G,Player Out of Bounds on Kick,0
+K.Kosier,Dallas,G,Illegal Double-Team Block,0
+K.Kosier,Dallas,G,Face Mask (15 Yards),88
+K.Kosier,Dallas,G,Kick Catch Interference,0
+K.Kosier,Dallas,G,Unnecessary Roughness,50
+K.Simmons,Buffalo,G,Low Block,0
+K.Studdard,Houston,G,Face Mask (5 Yards),0
+K.Vincent,Carolina,G,Illegal Contact,25
+K.Vincent,Carolina,G,Ineligible Downfield Kick,0
+K.Vincent,Carolina,G,Illegal Wedge,0
+K.Vincent,Carolina,G,Encroachment,20
+L.Davis,Dallas,G,Illegal Onside Kick,0
+L.Davis,Dallas,G,Illegal Onside Kick,0
+L.Davis,Dallas,G,Illegal Motion,0
+L.Davis,Dallas,G,Illegally Kicking Ball,0
+L.Davis,Dallas,G,Face Mask (5 Yards),0
+L.Mankins,New England,G,Unsportsmanlike Conduct,60
+L.Mankins,New England,G,Unsportsmanlike Conduct,45
+L.Mankins,New England,G,Illegal Blindside Block,0
+L.Mankins,New England,G,Defensive Too Many Men on Field,0
+L.Mankins,New England,G,Face Mask (5 Yards),0
+M.Brisiel,Houston,G,Defensive 12 On-field,0
+M.Goff,Kansas City,G,Interference with Opportunity to Catch,0
+M.Jean,Philadelphia,G,Lowering the Head to Make Forcible Contact,0
+M.Jean,Philadelphia,G,Delay of Game,40
+M.Pollak,Indianapolis,G,Illegal Contact,41
+M.Pollak,Indianapolis,G,Illegal Peelback,0
+M.Ramirez,Detroit,G,Defensive Too Many Men on Field,0
+M.Ramirez,Detroit,G,Encroachment,37
+M.Ramirez,Detroit,G,Illegal Touch Pass,0
+M.Ramirez,Detroit,G,Offensive Pass Interference,10
+M.Setterstrom,St. Louis,G,Face Mask (5 Yards),0
+M.Slauson,N.Y. Jets,G,Lowering the Head to Initiate Contact,0
+M.Williams,Jacksonville,G,Illegal Forward Handoff,0
+M.Williams,Jacksonville,G,Illegal Wedge,0
+M.Williams,Jacksonville,G,Face Mask (15 Yards),58
+M.Williams,Washington,G,Delay of Kickoff,0
+M.Wrotto,Seattle,G,Face Mask,0
+M.Wrotto,Seattle,G,Roughing the Passer,55
+M.Yanda,Baltimore,G,Personal Foul,43
+M.Yanda,Baltimore,G,Illegal Motion,5
+M.Yanda,Baltimore,G,Illegal Touch Kick,0
+M.Yanda,Baltimore,G,Roughing the Kicker,0
+N.Cole,Philadelphia,G,Illegal Peelback,0
+N.Cole,Philadelphia,G,Defensive Too Many Men on Field,0
+N.Cole,Philadelphia,G,Illegal Use of Hands,30
+N.Cole,Philadelphia,G,Illegal Blindside Block,10
+N.Garner,Miami,G,Lowering the Head to Make Forcible Contact,0
+N.Garner,Miami,G,Ineligible Downfield Pass,0
+N.Garner,Miami,G,Offside on Free Kick,10
+N.Livings,Cincinnati,G,Defensive Holding,31
+N.Livings,Cincinnati,G,Taunting,0
+N.Livings,Cincinnati,G,Illegal Bat,0
+N.Livings,Cincinnati,G,Neutral Zone Infraction,10
+Q.Ojinnaka,Atlanta,G,Roughing the Passer,75
+Q.Ojinnaka,Atlanta,G,Lowering the Head to Make Forcible Contact,0
+Q.Ojinnaka,Atlanta,G,Illegal Formation,15
+Q.Ojinnaka,Atlanta,G,Defensive 12 On-field,10
+R.Diem,Indianapolis,G,Face Mask (5 Yards),0
+R.Diem,Indianapolis,G,Illegal Contact,20
+R.Diem,Indianapolis,G,Offensive Holding,411
+R.Diem,Indianapolis,G,Illegal Forward Pass,0
+R.Diem,Indianapolis,G,Ineligible Downfield Kick,10
+R.Diem,Indianapolis,G,Short Free Kick,0
+R.Gallery,Oakland,G,Ineligible Downfield Kick,0
+R.Gallery,Oakland,G,Illegal Kick/Kicking Loose Ball,0
+R.Hadnot,Cleveland,G,Kick Catch Interference,0
+R.Hadnot,Cleveland,G,Illegal Onside Kick,0
+R.Saffold,St. Louis,G,Taunting,0
+R.Seubert,N.Y. Giants,G,Illegal Cut,0
+R.Seubert,N.Y. Giants,G,Defensive 12 On-field,0
+R.Seubert,N.Y. Giants,G,Illegal Substitution,0
+R.Seubert,N.Y. Giants,G,Roughing the Passer,81
+R.Seubert,N.Y. Giants,G,Ineligible Downfield Pass,5
+R.Sims,Seattle,G,Illegal Block Above the Waist,123
+R.Sims,Seattle,G,Illegal Block Above the Waist,93
+S.Andrews,Philadelphia,G,Chop Block,0
+S.Andrews,Philadelphia,G,Horse Collar Tackle,0
+S.Andrews,Philadelphia,G,Offensive 12 On-field,0
+S.Andrews,Philadelphia,G,Leaping,0
+S.Andrews,Seattle,G,Encroachment,15
+S.Hutchinson,Minnesota,G,Running Into the Kicker,10
+S.Hutchinson,Minnesota,G,Defensive Offside,65
+S.Hutchinson,Minnesota,G,Roughing the Kicker,0
+S.Hutchinson,Minnesota,G,Face Mask (5 Yards),0
+S.Locklear,Seattle,G,Illegal Formation,25
+S.Locklear,Seattle,G,Face Mask,0
+S.Locklear,Seattle,G,Illegal Peelback,0
+S.Locklear,Seattle,G,Taunting,0
+S.Locklear,Seattle,G,Ineligible Downfield Kick,15
+S.McKinney,Buffalo,G,Defensive Offside,49
+S.McKinney,Buffalo,G,Illegal Double-Team Block,0
+S.Mruczkowski,San Diego,G,Illegal Cut,0
+S.Mruczkowski,San Diego,G,Neutral Zone Infraction,20
+S.Mruczkowski,San Diego,G,Short Free Kick,0
+S.Neal,New England,G,Leaping,0
+S.Neal,New England,G,Ineligible Downfield Pass,10
+S.Neal,New England,G,Roughing the Kicker,0
+S.Neal,New England,G,Face Mask (5 Yards),0
+S.Peterman,Detroit,G,Illegal Kick,0
+S.Peterman,Detroit,G,Player Out of Bounds on Kick,0
+S.Peterman,Detroit,G,Player Out of Bounds on Punt,0
+S.Peterman,Detroit,G,Clipping,0
+T.Green,San Diego,G,Illegal Touch Kick,0
+T.Herremans,Philadelphia,G,Defensive Too Many Men on Field,0
+T.Herremans,Philadelphia,G,Illegal Contact,19
+T.Herremans,Philadelphia,G,Intentional Grounding,38
+T.Herremans,Philadelphia,G,Defensive Too Many Men on Field,0
+T.Herremans,Philadelphia,G,Kick Catch Interference,0
+T.Lang,Green Bay,G,Unsportsmanlike Conduct,45
+T.Lang,Green Bay,G,Intentional Grounding,20
+T.Lang,Green Bay,G,Illegal Shift,0
+T.Wharton,Carolina,G,Kick Catch Interference,0
+T.Wharton,Carolina,G,Lowering the Head to Make Forcible Contact,0
+T.Wharton,Carolina,G,Illegal Procedure,0
+U.Nwaneri,Jacksonville,G,Defensive Holding,37
+V.Carey,Miami,G,Invalid Fair Catch Signal,0
+V.Carey,Miami,G,Roughing the Kicker,0
+V.Carey,Miami,G,Illegal Shift,10
+V.Carey,Miami,G,Invalid Fair Catch Signal,0
+V.Carey,Miami,G,Tripping,0
+V.Manuwai,Jacksonville,G,Invalid Fair Catch Signal,0
+V.Manuwai,Jacksonville,G,Illegal Substitution,5
+V.Manuwai,Jacksonville,G,Clipping,0
+W.Colon,Pittsburgh,G,Illegal Wedge,0
+W.Colon,Pittsburgh,G,Delay of Game,67
+W.Colon,Pittsburgh,G,Illegal Wedge,0
+W.Colon,Pittsburgh,G,Running Into the Kicker,5
+W.Colon,Pittsburgh,G,Short Free Kick,0
+W.Colon,Pittsburgh,G,Face Mask,0
+W.Colon,Pittsburgh,G,Illegal Double-Team Block,0
+W.Colon,Pittsburgh,G,Offensive Pass Interference,51
+Z.Beadles,Denver,G,False Start,173
+A.Davis,Denver,ILB,Kick Catch Interference,0
+A.Highsmith,Arizona,ILB,Delay of Kickoff,0
+A.Highsmith,Arizona,ILB,Leverage,0
+B.Chillar,Green Bay,ILB,Illegal Contact,29
+B.Chillar,Green Bay,ILB,Illegal Receiver Pass,0
+B.Chillar,Green Bay,ILB,Kickoff Out of Bounds,0
+B.Cushing,Houston,ILB,Low Block,0
+B.Cushing,Houston,ILB,Unsportsmanlike Conduct,40
+B.Cushing,Houston,ILB,Illegal Procedure,0
+B.Cushing,Houston,ILB,Illegal Motion,5
+B.Cushing,Houston,ILB,Leaping,0
+B.James,Dallas,ILB,Clipping,0
+B.Poppinga,Green Bay,ILB,Illegal Receiver Pass,0
+B.Poppinga,Green Bay,ILB,Illegal Block Above the Waist,112
+B.Poppinga,Green Bay,ILB,Illegal Touch Pass,5
+B.Poppinga,Green Bay,ILB,Illegal Bat,0
+B.Poppinga,Green Bay,ILB,Illegally Kicking Ball,0
+B.Scott,N.Y. Jets,ILB,Illegal Shift,5
+B.Scott,N.Y. Jets,ILB,Neutral Zone Infraction,25
+B.Scott,N.Y. Jets,ILB,Illegal Bat,0
+B.Scott,N.Y. Jets,ILB,Fair Catch Interference,0
+B.Siler,San Diego,ILB,Illegal Use of Hands,30
+C.Crowder,Miami,ILB,Illegal Cut,0
+C.Crowder,Miami,ILB,Illegally Kicking Ball,0
+C.Crowder,Miami,ILB,Offside on Free Kick,15
+C.Mays,Kansas City,ILB,Invalid Fair Catch Signal,5
+D.Bowens,Cleveland,ILB,Illegal Kick/Kicking Loose Ball,0
+D.Bowens,Cleveland,ILB,Roughing the Kicker,16
+D.Connor,Carolina,ILB,Encroachment,15
+D.Connor,Carolina,ILB,Disqualification,0
+D.Connor,Carolina,ILB,Illegal Forward Handoff,0
+D.Harris,N.Y. Jets,ILB,Roughing the Passer,46
+D.Harris,N.Y. Jets,ILB,Neutral Zone Infraction,12
+D.Hawthorne,Seattle,ILB,Illegal Use of Hands,10
+D.Ryans,Houston,ILB,Lowering the Head to Make Forcible Contact,0
+D.Ryans,Houston,ILB,Kickoff Out of Bounds,0
+D.Ryans,Houston,ILB,Player Out of Bounds on Punt,0
+D.Ryans,Houston,ILB,Taunting,0
+D.Smith,Jacksonville,ILB,Fair Catch Interference,0
+D.Smith,Jacksonville,ILB,Running Into the Kicker,10
+D.Washington,Arizona,ILB,Illegal Substitution,5
+D.Williams,Denver,ILB,Illegal Block Above the Waist,54
+D.Williams,Denver,ILB,Offside on Free Kick,0
+D.Williams,Denver,ILB,Tripping,0
+D.Williams,Kansas City,ILB,Short Free Kick,0
+D.Williams,Kansas City,ILB,Offensive Offside,0
+D.Williams,Kansas City,ILB,Roughing the Kicker,0
+E.Barton,Cleveland,ILB,Unsportsmanlike Conduct,30
+J.Belcher,Kansas City,ILB,Clipping,15
+J.Belcher,Kansas City,ILB,Clipping,0
+J.Belcher,Kansas City,ILB,Illegal Wedge,0
+J.Farrior,Pittsburgh,ILB,Running Into the Kicker,5
+K.Dansby,Arizona,ILB,Offside on Free Kick,10
+K.Dansby,Arizona,ILB,Ineligible Downfield Pass,15
+K.Ellison,Buffalo,ILB,Roughing the Kicker,0
+L.Fletcher,Washington,ILB,Illegal Forward Handoff,0
+L.Fletcher,Washington,ILB,Intentional Grounding,33
+L.Timmons,Pittsburgh,ILB,False Start,159
+L.Timmons,Pittsburgh,ILB,Illegal Block Above the Waist,50
+L.Timmons,Pittsburgh,ILB,Illegal Touch Kick,0
+L.Timmons,Pittsburgh,ILB,Kickoff Out of Bounds,0
+L.Timmons,Pittsburgh,ILB,Player Out of Bounds on Punt,0
+L.Timmons,Pittsburgh,ILB,Chop Block,12
+R.Lewis,Baltimore,ILB,Illegal Onside Kick,0
+R.Lewis,Baltimore,ILB,Illegal Kick/Kicking Loose Ball,0
+R.Lewis,Baltimore,ILB,Illegally Kicking Ball,0
+R.Lewis,Baltimore,ILB,Illegal Contact,21
+T.Spikes,San Francisco,ILB,Offside on Free Kick,0
+W.Woodyard,Denver,ILB,Roughing the Kicker,0
+W.Woodyard,Denver,ILB,Encroachment,15
+W.Woodyard,Denver,ILB,Illegal Kick,0
+D.Akers,Philadelphia,K,Illegal Motion,10
+J.Scobee,Jacksonville,K,Illegal Blindside Block,10
+N.Kaeding,San Diego,K,Offensive Pass Interference,50
+N.Rackers,Houston,K,Encroachment,30
+O.Mare,Seattle,K,Neutral Zone Infraction,30
+S.Suisham,Washington,K,False Start,181
+A.Barnes,Baltimore,LB,Encroachment,11
+A.Barnes,Philadelphia,LB,Illegal Use of Hands,65
+A.Curry,Seattle,LB,Delay of Game,20
+A.Curry,Seattle,LB,Player Out of Bounds on Punt,0
+A.Curry,Seattle,LB,Defensive Pass Interference,181
+A.Curry,Seattle,LB,Offensive Too Many Men on Field,0
+A.Curry,Seattle,LB,Illegally Kicking Ball,0
+A.Curry,Seattle,LB,Illegal Kick/Kicking Loose Ball,0
+A.Curry,Seattle,LB,Illegal Shift,10
+A.Curry,Seattle,LB,Illegal Peelback,0
+A.Frazier,Pittsburgh,LB,Illegal Cut,0
+A.Hall,Cleveland,LB,Personal Foul,15
+A.Hall,Cleveland,LB,Personal Foul,58
+A.Harrison,Cleveland,LB,Unnecessary Roughness,136
+A.Harrison,Cleveland,LB,Illegal Double-Team Block,0
+A.Harrison,Pittsburgh,LB,Defensive Delay of Game,0
+A.Hawk,Green Bay,LB,Unsportsmanlike Conduct,45
+A.Hawk,Green Bay,LB,Offside on Free Kick,15
+A.Maybin,Buffalo,LB,Defensive 12 On-field,0
+A.Maybin,Buffalo,LB,Lowering the Head to Initiate Contact,0
+A.Maybin,Buffalo,LB,Running Into the Kicker,15
+A.Maybin,Buffalo,LB,Interference with Opportunity to Catch,15
+A.Palmer,Buffalo,LB,Leaping,0
+A.Palmer,Buffalo,LB,Fair Catch Interference,0
+A.Palmer,Detroit,LB,Illegal Block Above the Waist,6
+A.Spencer,Dallas,LB,Delay of Game,25
+A.Spencer,Dallas,LB,Illegal Double-Team Block,0
+A.Spencer,Dallas,LB,Neutral Zone Infraction,30
+A.Spencer,Dallas,LB,Illegal Kick/Kicking Loose Ball,0
+A.Spencer,Dallas,LB,Illegal Blindside Block,0
+A.Spencer,Dallas,LB,Defensive Offside,75
+A.Studebaker,Kansas City,LB,Running Into the Kicker,0
+B.Carpenter,Dallas,LB,Defensive Offside,39
+B.Carpenter,Dallas,LB,False Start,155
+B.Costanzo,Cleveland,LB,Leaping,0
+B.Costanzo,Cleveland,LB,Illegal Substitution,0
+B.Costanzo,Cleveland,LB,Illegal Wedge,0
+B.Costanzo,Cleveland,LB,Illegal Motion,5
+B.Costanzo,Cleveland,LB,Running Into the Kicker,5
+B.Johnson,Cincinnati,LB,Chop Block,7
+B.Johnson,Cincinnati,LB,Roughing the Kicker,15
+B.Johnson,Cincinnati,LB,Illegal Block Above the Waist,131
+B.Johnson,Cincinnati,LB,Illegal Forward Handoff,0
+B.Jones,Green Bay,LB,Kickoff Out of Bounds,0
+B.Kehl,N.Y. Giants,LB,Unnecessary Roughness,102
+B.Kehl,N.Y. Giants,LB,Invalid Fair Catch Signal,0
+B.Leber,Minnesota,LB,Kick Catch Interference,0
+B.Leber,Minnesota,LB,Unnecessary Roughness,104
+B.Orakpo,Washington,LB,Illegal Double-Team Block,0
+B.Orakpo,Washington,LB,Face Mask (5 Yards),0
+B.Scott,Buffalo,LB,Face Mask,0
+B.Smith,Jacksonville,LB,Illegal Wedge,0
+C.Anderson,Miami,LB,Short Free Kick,0
+C.Chamberlain,St. Louis,LB,Chop Block,0
+C.Chamberlain,St. Louis,LB,Illegally Kicking Ball,0
+C.Draft,Buffalo,LB,Offside on Free Kick,0
+C.Glenn,Indianapolis,LB,Ineligible Downfield Pass,0
+C.Glenn,Indianapolis,LB,Illegal Onside Kick,0
+C.Gocong,Philadelphia,LB,Illegal Motion,5
+C.Haggans,Arizona,LB,Illegal Crackback,0
+C.Haggans,Arizona,LB,Roughing the Kicker,0
+C.Haggans,Arizona,LB,Neutral Zone Infraction,15
+C.Haggans,Arizona,LB,Illegal Kick/Kicking Loose Ball,0
+C.Ingram,Jacksonville,LB,Illegally Kicking Ball,0
+C.Ingram,Jacksonville,LB,Kick Catch Interference,0
+C.Ingram,Jacksonville,LB,Illegal Use of Hands,20
+C.Lofton,Atlanta,LB,Lowering the Head to Initiate Contact,0
+C.Lofton,Atlanta,LB,Illegal Bat,0
+C.Lofton,Atlanta,LB,Illegal Forward Pass,0
+C.Lofton,Atlanta,LB,Illegal Forward Pass,5
+C.Obiozor,Green Bay,LB,Ineligible Downfield Pass,0
+C.Session,Indianapolis,LB,Unsportsmanlike Conduct,40
+C.Sintim,N.Y. Giants,LB,Tripping,10
+C.Thompson,Houston,LB,Illegal Blindside Block,14
+C.Wilson,Washington,LB,Defensive Too Many Men on Field,0
+C.Wire,Atlanta,LB,Player Out of Bounds on Kick,0
+C.Wire,Atlanta,LB,Illegal Use of Hands,10
+D.Bishop,Green Bay,LB,Illegal Contact,25
+D.Bishop,Green Bay,LB,Taunting,15
+D.Bishop,Green Bay,LB,Illegal Shift,0
+D.Bishop,Green Bay,LB,Defensive Pass Interference,167
+D.Briggs,San Francisco,LB,Illegal Peelback,0
+D.Clark,N.Y. Giants,LB,Defensive Delay of Game,0
+D.Ellerbe,Baltimore,LB,Illegal Forward Handoff,0
+D.Herron,Kansas City,LB,Delay of Kickoff,0
+D.Lewis,Seattle,LB,Delay of Kickoff,0
+D.Lewis,Seattle,LB,Personal Foul,90
+D.McClover,Chicago,LB,Defensive Offside,66
+D.Skuta,Cincinnati,LB,Delay of Kickoff,0
+D.Vobora,St. Louis,LB,Illegal Shift,10
+D.Vobora,St. Louis,LB,False Start,121
+D.Vobora,St. Louis,LB,Intentional Grounding,66
+D.Ware,Dallas,LB,Leverage,0
+D.Ware,Dallas,LB,Unnecessary Roughness,90
+D.Ware,Dallas,LB,Defensive Pass Interference,229
+D.Ware,Dallas,LB,Delay of Kickoff,0
+D.Ware,Dallas,LB,Horse Collar Tackle,23
+D.Ware,Dallas,LB,Illegal Kick,0
+D.Ware,Dallas,LB,Lowering the Head to Make Forcible Contact,0
+D.Woods,Pittsburgh,LB,Illegal Receiver Pass,0
+E.Bakhtiari,Tennessee,LB,Face Mask,0
+E.Henderson,Minnesota,LB,Illegal Use of Hands,10
+E.Sims,Detroit,LB,Defensive Holding,30
+F.Keiaho,Indianapolis,LB,Player Out of Bounds on Punt,0
+G.Guyton,New England,LB,Illegal Bat,0
+G.Guyton,New England,LB,Unsportsmanlike Conduct,59
+G.Hayes,Arizona,LB,Illegal Forward Handoff,0
+G.Hayes,Arizona,LB,Illegal Block Above the Waist,70
+G.Jones,Jacksonville,LB,Illegal Shift,10
+G.McRath,Tennessee,LB,Illegal Substitution,5
+G.McRath,Tennessee,LB,Lowering the Head to Initiate Contact,0
+G.McRath,Tennessee,LB,Personal Foul,80
+G.McRath,Tennessee,LB,Neutral Zone Infraction,5
+G.Wilkinson,N.Y. Giants,LB,Illegal Contact,35
+H.Blades,Washington,LB,Horse Collar Tackle,39
+H.Farwell,Minnesota,LB,Unsportsmanlike Conduct,45
+H.Farwell,Minnesota,LB,Illegal Contact,10
+I.Ekejiuba,Oakland,LB,Player Out of Bounds on Punt,0
+J.Allen,Minnesota,LB,Kick Catch Interference,0
+J.Allen,Minnesota,LB,Running Into the Kicker,0
+J.Allen,Minnesota,LB,Intentional Grounding,48
+J.Alston,Oakland,LB,Offside on Free Kick,10
+J.Alston,Oakland,LB,Defensive 12 On-field,5
+J.Anderson,Carolina,LB,Clipping,0
+J.Anderson,Carolina,LB,Offensive Offside,0
+J.Anderson,Carolina,LB,Illegal Blindside Block,0
+J.Brinkley,Minnesota,LB,Delay of Kickoff,0
+J.Brinkley,Minnesota,LB,Player Out of Bounds on Kick,0
+J.Brinkley,Minnesota,LB,Defensive Offside,40
+J.Casillas,New Orleans,LB,Encroachment,29
+J.Chaney,Philadelphia,LB,Illegal Use of Hands,35
+J.Johnson,Baltimore,LB,Illegal Onside Kick,0
+J.Johnson,Baltimore,LB,Illegal Kick,10
+J.Nading,Houston,LB,Roughing the Passer,45
+J.Nading,Houston,LB,Illegal Touch Kick,5
+J.Richardson,Oakland,LB,Illegal Blindside Block,0
+J.Senn,Carolina,LB,Defensive 12 On-field,5
+J.Stamer,Buffalo,LB,Clipping,0
+J.Trusnik,Cleveland,LB,Horse Collar Tackle,0
+J.Trusnik,Cleveland,LB,Defensive Holding,30
+J.Westerman,N.Y. Jets,LB,Interference with Opportunity to Catch,0
+J.Westerman,N.Y. Jets,LB,Roughing the Passer,60
+J.Williams,Carolina,LB,Illegal Blindside Block,0
+J.Williams,Chicago,LB,Taunting,0
+J.Williams,Chicago,LB,Taunting,0
+K.Asiodu,St. Louis,LB,Defensive Pass Interference,151
+K.Asiodu,St. Louis,LB,Interference with Opportunity to Catch,0
+K.Bentley,Houston,LB,Ineligible Downfield Kick,5
+K.Bentley,Houston,LB,Illegal Crackback,0
+K.Fox,Pittsburgh,LB,Clipping,0
+K.Mitchell,Buffalo,LB,Illegal Onside Kick,0
+K.Mitchell,Buffalo,LB,Unsportsmanlike Conduct,23
+K.Morrison,Oakland,LB,Fair Catch Interference,0
+K.Onatolu,Minnesota,LB,Illegal Crackback,0
+L.Alexander,Washington,LB,Delay of Game,35
+L.Alexander,Washington,LB,Tripping,10
+L.Houston,Oakland,LB,Offensive 12 On-field,0
+L.Izzo,N.Y. Jets,LB,Chop Block,1
+L.Izzo,N.Y. Jets,LB,Illegal Blindside Block,0
+L.Johnson,Carolina,LB,Illegal Procedure,0
+L.Laury,Seattle,LB,Kickoff Out of Bounds,0
+L.Williams,Dallas,LB,Illegal Contact,5
+L.Woodley,Pittsburgh,LB,Player Out of Bounds on Punt,0
+L.Woodley,Pittsburgh,LB,Kick Catch Interference,0
+L.Woodley,Pittsburgh,LB,Unnecessary Roughness,143
+M.Benard,Cleveland,LB,Low Block,0
+M.Benard,Cleveland,LB,Roughing the Passer,62
+M.Benard,Cleveland,LB,Horse Collar Tackle,15
+M.Boley,N.Y. Giants,LB,False Start,130
+M.Boley,N.Y. Giants,LB,Neutral Zone Infraction,19
+M.Boley,N.Y. Giants,LB,Face Mask,0
+M.Buggs,Buffalo,LB,False Start,174
+M.Fokou,Philadelphia,LB,Illegal Touch Pass,0
+M.Fokou,Philadelphia,LB,Tripping,20
+M.Fokou,Philadelphia,LB,Illegal Cut,0
+M.Fokou,Philadelphia,LB,Illegal Touch Pass,0
+M.Fokou,Philadelphia,LB,Illegally Kicking Ball,0
+M.Harris,San Francisco,LB,Chop Block,0
+M.Lawson,San Francisco,LB,Leaping,0
+M.McCoy,Tampa Bay,LB,Illegal Kick/Kicking Loose Ball,0
+M.Wilhelm,San Francisco,LB,Defensive Offside,81
+N.Barnett,Green Bay,LB,Offensive Too Many Men on Field,0
+N.Barnett,Green Bay,LB,Defensive Offside,55
+N.Barnett,Green Bay,LB,Offensive Offside,0
+N.Koutouvides,Tampa Bay,LB,Defensive Delay of Game,0
+N.Koutouvides,Tampa Bay,LB,Player Out of Bounds on Punt,0
+P.Bailey,Pittsburgh,LB,Defensive Pass Interference,258
+P.Bailey,Pittsburgh,LB,Lowering the Head to Make Forcible Contact,0
+P.Burgess,Baltimore,LB,Face Mask (15 Yards),105
+P.Wheeler,Indianapolis,LB,Illegal Onside Kick,0
+P.Wheeler,Indianapolis,LB,False Start,201
+P.Wheeler,Indianapolis,LB,Defensive Pass Interference,200
+P.Woods,New England,LB,Leaping,0
+P.Woods,New England,LB,Neutral Zone Infraction,15
+P.Woods,New England,LB,Illegal Use of Hands,20
+Q.Groves,Jacksonville,LB,False Start,215
+Q.Groves,Jacksonville,LB,Fair Catch Interference,0
+R.Brown,Oakland,LB,Interference with Opportunity to Catch,0
+R.Jeanty,Cincinnati,LB,Illegal Cut,0
+R.Jeanty,Cincinnati,LB,Low Block,0
+S.Bradley,Philadelphia,LB,Illegally Kicking Ball,0
+S.Cooper,San Diego,LB,Offensive 12 On-field,5
+S.Cooper,San Diego,LB,Encroachment,25
+S.McKillop,San Francisco,LB,Short Free Kick,0
+S.Weatherspoon,Atlanta,LB,Taunting,0
+S.Weatherspoon,Atlanta,LB,Invalid Fair Catch Signal,0
+S.Williams,Oakland,LB,Lowering the Head to Make Forcible Contact,0
+S.Williams,Oakland,LB,Personal Foul,62
+T.Brown,Cleveland,LB,Illegal Kick/Kicking Loose Ball,0
+T.Cole,Philadelphia,LB,Player Out of Bounds on Kick,0
+T.Cole,Philadelphia,LB,Illegal Forward Handoff,0
+T.Cole,Philadelphia,LB,Illegal Use of Hands,34
+T.Cole,Philadelphia,LB,Neutral Zone Infraction,24
+T.Cole,Philadelphia,LB,Illegal Contact,20
+T.Cole,Philadelphia,LB,Delay of Game,30
+T.Cole,Philadelphia,LB,Interference with Opportunity to Catch,0
+T.Dobbins,San Diego,LB,Disqualification,0
+T.Dobbins,San Diego,LB,Face Mask,0
+T.Dobbins,San Diego,LB,Offensive 12 On-field,3
+T.Dobbins,San Diego,LB,Offensive Too Many Men on Field,0
+T.Gooden,Baltimore,LB,Low Block,0
+T.Gooden,Baltimore,LB,Short Free Kick,0
+T.Gooden,Baltimore,LB,Illegal Peelback,0
+T.Howard,Oakland,LB,Illegal Forward Pass,0
+T.Howard,Oakland,LB,Illegal Peelback,0
+V.Butler,Dallas,LB,Illegal Use of Hands,45
+W.Herring,Seattle,LB,Offensive Holding,251
+Z.Diles,Houston,LB,Illegal Blindside Block,0
+Z.Diles,Houston,LB,Illegal Substitution,5
+Z.Follett,Detroit,LB,Offensive Holding,352
+B.Jennings,San Francisco,LS,Horse Collar Tackle,51
+J.Condo,Oakland,LS,Illegal Substitution,0
+J.Jansen,Carolina,LS,Personal Foul,30
+J.Jansen,Carolina,LS,Lowering the Head to Initiate Contact,0
+J.Kyle,New Orleans,LS,Chop Block,15
+J.Kyle,New Orleans,LS,Illegal Motion,10
+J.Snow,Indianapolis,LS,Invalid Fair Catch Signal,0
+L.LaDouceur,Dallas,LS,Ineligible Downfield Pass,0
+P.Mannelly,Chicago,LS,Defensive Delay of Game,0
+P.Mannelly,Chicago,LS,Face Mask (5 Yards),0
+R.Pontbriand,Cleveland,LS,Illegal Touch Pass,6
+T.Gafford,Kansas City,LS,Player Out of Bounds on Punt,10
+A.Pierce,N.Y. Giants,MLB,Chop Block,24
+B.Urlacher,Chicago,MLB,Interference with Opportunity to Catch,0
+D.Jones,Cincinnati,MLB,Illegal Onside Kick,0
+D.Jones,Cincinnati,MLB,Defensive Delay of Game,5
+E.Henderson,Minnesota,MLB,Tripping,0
+J.Beason,Carolina,MLB,Defensive Delay of Game,0
+J.Laurinaitis,St. Louis,MLB,Kick Catch Interference,0
+J.Laurinaitis,St. Louis,MLB,Ineligible Downfield Kick,0
+J.McClain,Baltimore,MLB,Fair Catch Interference,0
+J.McClain,Baltimore,MLB,Lowering the Head to Initiate Contact,0
+J.Trotter,Philadelphia,MLB,Face Mask (15 Yards),60
+K.Brooking,Dallas,MLB,Delay of Kickoff,0
+K.Brooking,Dallas,MLB,Roughing the Kicker,0
+K.Brooking,Dallas,MLB,Clipping,0
+L.Foote,Detroit,MLB,Illegal Block Above the Waist,86
+L.Foote,Detroit,MLB,Unnecessary Roughness,182
+L.Tatupu,Seattle,MLB,Illegal Forward Handoff,0
+L.Tatupu,Seattle,MLB,Encroachment,15
+N.Roach,Chicago,MLB,Kick Catch Interference,0
+N.Roach,Chicago,MLB,Clipping,11
+N.Roach,Chicago,MLB,Horse Collar Tackle,12
+N.Roach,Chicago,MLB,Illegal Kick/Kicking Loose Ball,0
+P.Lenon,St. Louis,MLB,Illegal Forward Handoff,0
+P.Lenon,St. Louis,MLB,Illegal Kick/Kicking Loose Ball,0
+P.Posluszny,Buffalo,MLB,Player Out of Bounds on Punt,5
+R.Maualuga,Cincinnati,MLB,Offensive Offside,0
+R.McClain,Oakland,MLB,Roughing the Passer,45
+S.Tulloch,Tennessee,MLB,False Start,125
+B.Cofield,N.Y. Giants,NT,Horse Collar Tackle,8
+B.Cofield,N.Y. Giants,NT,Illegal Contact,25
+B.Cofield,N.Y. Giants,NT,Illegal Crackback,0
+B.Cofield,N.Y. Giants,NT,Illegal Substitution,10
+B.Raji,Green Bay,NT,Unnecessary Roughness,235
+B.Robinson,Arizona,NT,Illegal Crackback,0
+B.Robinson,Arizona,NT,Illegal Crackback,0
+B.Robinson,Arizona,NT,Illegal Procedure,0
+C.Hampton,Pittsburgh,NT,Chop Block,0
+C.Hampton,Pittsburgh,NT,Illegal Double-Team Block,0
+G.Dorsey,Kansas City,NT,Offensive Holding,437
+G.Watson,Arizona,NT,False Start,239
+G.Watson,Arizona,NT,Illegal Substitution,5
+G.Watson,Arizona,NT,Roughing the Passer,60
+I.Sopoaga,San Francisco,NT,Illegal Blindside Block,0
+J.Alford,Oakland,NT,Illegal Kick/Kicking Loose Ball,0
+J.Ferguson,Miami,NT,Defensive 12 On-field,15
+J.Henderson,Jacksonville,NT,Ineligible Downfield Kick,10
+K.Gregg,Baltimore,NT,Illegal Motion,5
+K.Jenkins,N.Y. Jets,NT,Lowering the Head to Make Forcible Contact,0
+K.Jenkins,N.Y. Jets,NT,Low Block,15
+R.Ayodele,New Orleans,NT,Illegal Forward Handoff,0
+R.Ayodele,New Orleans,NT,Illegal Use of Hands,0
+R.Ayodele,New Orleans,NT,Interference with Opportunity to Catch,0
+R.Ayodele,New Orleans,NT,Disqualification,0
+R.Pickett,Green Bay,NT,Illegal Touch Kick,0
+R.Pickett,Green Bay,NT,Offensive Holding,318
+S.Cody,Houston,NT,Defensive 12 On-field,0
+S.Cody,Houston,NT,Illegal Bat,0
+SamL.Hill,Detroit,NT,False Start,210
+SamL.Hill,Detroit,NT,Defensive Offside,60
+T.Jamison,Houston,NT,Unnecessary Roughness,236
+V.Wilfork,New England,NT,Unnecessary Roughness,70
+V.Wilfork,New England,NT,Disqualification,0
+V.Wilfork,New England,NT,Fair Catch Interference,0
+J.Bitonio,Cleveland,OL,Illegal Motion,5
+A.Brooks,San Francisco,OLB,Encroachment,16
+A.Brooks,San Francisco,OLB,Offensive 12 On-field,0
+A.Brooks,San Francisco,OLB,Defensive Holding,32
+A.Brooks,San Francisco,OLB,Roughing the Passer,23
+A.Brooks,San Francisco,OLB,Leaping,0
+A.Hayward,Tampa Bay,OLB,Horse Collar Tackle,15
+A.Thomas,New England,OLB,Illegal Block Above the Waist,105
+A.Thomas,New England,OLB,Face Mask,0
+B.Berry,Arizona,OLB,Lowering the Head to Initiate Contact,0
+C.Allred,Tennessee,OLB,Offside on Free Kick,5
+C.Barwin,Houston,OLB,Illegal Use of Hands,10
+C.Barwin,Houston,OLB,Illegal Bat,0
+C.Barwin,Houston,OLB,Illegal Shift,5
+C.Barwin,Houston,OLB,Horse Collar Tackle,9
+C.Blackburn,N.Y. Giants,OLB,Offensive Offside,0
+C.Matthews,Green Bay,OLB,Clipping,0
+C.Matthews,Green Bay,OLB,Illegal Substitution,0
+C.Matthews,Green Bay,OLB,Low Block,23
+C.Matthews,Green Bay,OLB,Illegal Wedge,0
+C.Okeafor,Arizona,OLB,Defensive Too Many Men on Field,0
+C.Pace,N.Y. Jets,OLB,Disqualification,0
+C.Pace,N.Y. Jets,OLB,Low Block,0
+D.Freeney,Indianapolis,OLB,Kickoff Out of Bounds,0
+D.Freeney,Indianapolis,OLB,Face Mask (15 Yards),13
+D.Freeney,Indianapolis,OLB,Face Mask (15 Yards),150
+D.Freeney,Indianapolis,OLB,Illegal Crackback,0
+D.Morgan,Tennessee,OLB,Encroachment,26
+D.Thornton,Tennessee,OLB,Short Free Kick,0
+E.Dumervil,Denver,OLB,Lowering the Head to Make Forcible Contact,0
+E.Dumervil,Denver,OLB,Illegal Touch Pass,0
+E.Dumervil,Denver,OLB,Horse Collar Tackle,15
+E.Dumervil,Denver,OLB,Illegal Bat,0
+E.Walden,Miami,OLB,Player Out of Bounds on Punt,5
+E.Walden,Miami,OLB,Defensive Too Many Men on Field,0
+E.Walden,Miami,OLB,Invalid Fair Catch Signal,0
+F.Zombo,Green Bay,OLB,Leverage,0
+G.Hayes,Tampa Bay,OLB,Illegal Crackback,0
+G.Hayes,Tampa Bay,OLB,Defensive Offside,17
+G.Hayes,Tampa Bay,OLB,Horse Collar Tackle,15
+J.Abraham,Atlanta,OLB,Delay of Kickoff,0
+J.Abraham,Atlanta,OLB,Encroachment,10
+J.Harrison,Pittsburgh,OLB,Unsportsmanlike Conduct,17
+J.Harrison,Pittsburgh,OLB,Personal Foul,73
+J.Harrison,Pittsburgh,OLB,Delay of Kickoff,0
+J.Peppers,Chicago,OLB,Illegal Cut,0
+J.Peterson,Detroit,OLB,Illegal Receiver Pass,0
+J.Peterson,Detroit,OLB,Player Out of Bounds on Kick,0
+J.Peterson,Detroit,OLB,Illegal Block Above the Waist,25
+J.Peterson,Detroit,OLB,Horse Collar Tackle,0
+J.Porter,Miami,OLB,Kickoff Out of Bounds,0
+J.Porter,Miami,OLB,False Start,161
+J.Taylor,Miami,OLB,Illegal Bat,0
+J.Taylor,Miami,OLB,Fair Catch Interference,15
+J.Taylor,Miami,OLB,Illegal Double-Team Block,0
+J.Taylor,Miami,OLB,Encroachment,25
+J.Taylor,N.Y. Jets,OLB,Neutral Zone Infraction,50
+J.Vilma,New Orleans,OLB,Illegal Block Above the Waist,94
+J.Vilma,New Orleans,OLB,Illegal Double-Team Block,0
+K.Biermann,Atlanta,OLB,Unnecessary Roughness,140
+K.Biermann,Atlanta,OLB,Unsportsmanlike Conduct,45
+K.Biermann,Atlanta,OLB,Running Into the Kicker,0
+K.Bulluck,N.Y. Giants,OLB,Ineligible Downfield Pass,0
+K.Bulluck,Tennessee,OLB,Defensive Pass Interference,131
+K.Bulluck,Tennessee,OLB,Illegal Crackback,0
+K.Burnett,San Diego,OLB,Illegal Touch Pass,0
+K.Burnett,San Diego,OLB,Delay of Kickoff,0
+K.Maiava,Cleveland,OLB,Offensive Holding,171
+K.Maiava,Cleveland,OLB,Offensive Too Many Men on Field,0
+K.Maiava,Cleveland,OLB,Defensive Delay of Game,5
+K.Maiava,Cleveland,OLB,Personal Foul,63
+K.Misi,Miami,OLB,Unnecessary Roughness,70
+K.Rivers,Cincinnati,OLB,Face Mask,0
+K.Wimbley,Cleveland,OLB,Offside on Free Kick,5
+K.Wimbley,Cleveland,OLB,Offensive Offside,0
+M.Haggan,Denver,OLB,Illegal Touch Pass,0
+M.Haggan,Denver,OLB,Face Mask (5 Yards),0
+M.Haggan,Denver,OLB,Disqualification,0
+M.Mitchell,New Orleans,OLB,Illegal Shift,0
+M.Mitchell,New Orleans,OLB,Illegal Procedure,0
+M.Mitchell,New Orleans,OLB,Offside on Free Kick,5
+M.Peterson,Atlanta,OLB,Delay of Kickoff,0
+M.Peterson,Atlanta,OLB,Illegal Wedge,0
+M.Peterson,Atlanta,OLB,Illegal Shift,5
+M.Shaughnessy,Oakland,OLB,Running Into the Kicker,0
+M.Shaughnessy,Oakland,OLB,Ineligible Downfield Kick,5
+M.Vrabel,Kansas City,OLB,Defensive Delay of Game,0
+N.Harris,Carolina,OLB,Horse Collar Tackle,36
+Nic.Harris,Buffalo,OLB,Illegal Kick/Kicking Loose Ball,0
+Nic.Harris,Buffalo,OLB,Roughing the Passer,102
+P.Haralson,San Francisco,OLB,Horse Collar Tackle,6
+P.Haralson,San Francisco,OLB,Short Free Kick,0
+P.Haralson,San Francisco,OLB,Interference with Opportunity to Catch,0
+P.Haralson,San Francisco,OLB,Defensive Offside,90
+P.Haralson,San Francisco,OLB,Illegally Kicking Ball,0
+P.Haralson,San Francisco,OLB,Illegal Bat,0
+P.Haralson,San Francisco,OLB,Delay of Game,35
+P.Kruger,Baltimore,OLB,Roughing the Kicker,0
+Q.Black,Tampa Bay,OLB,Leverage,3
+Q.Black,Tampa Bay,OLB,Illegal Crackback,0
+Q.Black,Tampa Bay,OLB,Illegal Contact,25
+Q.Black,Tampa Bay,OLB,Intentional Grounding,10
+Q.Black,Tampa Bay,OLB,Illegally Kicking Ball,0
+R.Allen,Jacksonville,OLB,Lowering the Head to Initiate Contact,0
+R.Allen,Jacksonville,OLB,Roughing the Passer,31
+R.Allen,Jacksonville,OLB,Illegal Procedure,0
+R.Mathis,Indianapolis,OLB,Illegal Block Above the Waist,50
+R.Mathis,Indianapolis,OLB,Offensive 12 On-field,0
+S.Nicholas,Atlanta,OLB,Offensive Too Many Men on Field,0
+S.Phillips,San Diego,OLB,Horse Collar Tackle,0
+S.Phillips,San Diego,OLB,Player Out of Bounds on Kick,0
+S.Phillips,San Diego,OLB,Illegal Procedure,0
+S.Phillips,San Diego,OLB,Offensive Too Many Men on Field,0
+S.Phillips,San Diego,OLB,Lowering the Head to Initiate Contact,0
+T.Banta-Cain,New England,OLB,Offensive 12 On-field,0
+T.Banta-Cain,New England,OLB,Illegal Shift,10
+T.Banta-Cain,New England,OLB,Illegal Peelback,0
+T.Davis,Carolina,OLB,Illegal Contact,10
+T.Hali,Kansas City,OLB,Encroachment,20
+T.Suggs,Baltimore,OLB,Roughing the Passer,126
+T.Suggs,Baltimore,OLB,Delay of Game,41
+T.Suggs,Baltimore,OLB,Illegal Block Above the Waist,88
+T.Suggs,Baltimore,OLB,Illegal Forward Pass,5
+T.Suggs,Baltimore,OLB,Illegal Kick/Kicking Loose Ball,0
+T.Suggs,Baltimore,OLB,Illegal Motion,5
+T.White,Philadelphia,OLB,Unsportsmanlike Conduct,47
+T.White,Philadelphia,OLB,Chop Block,15
+T.White,Philadelphia,OLB,Delay of Game,30
+T.White,Philadelphia,OLB,Lowering the Head to Make Forcible Contact,0
+T.White,Philadelphia,OLB,Offensive Holding,288
+W.Witherspoon,Philadelphia,OLB,Ineligible Downfield Pass,0
+A.Podlesh,Jacksonville,P,Taunting,13
+B.Fields,Miami,P,Disqualification,0
+B.Graham,Arizona,P,Ineligible Downfield Pass,5
+B.Graham,Arizona,P,Taunting,15
+B.Graham,Arizona,P,Illegal Peelback,0
+B.Graham,Arizona,P,Illegal Receiver Pass,5
+B.Graham,Arizona,P,Unnecessary Roughness,113
+B.Kern,Tennessee,P,Intentional Grounding,30
+B.Kern,Tennessee,P,Player Out of Bounds on Punt,5
+B.Maynard,Chicago,P,Player Out of Bounds on Punt,0
+B.Moorman,Buffalo,P,Leverage,0
+C.Hanson,New England,P,Neutral Zone Infraction,10
+D.Colquitt,Kansas City,P,Illegal Forward Pass,0
+D.Colquitt,Kansas City,P,Lowering the Head to Initiate Contact,0
+D.Colquitt,Kansas City,P,Ineligible Downfield Kick,10
+H.Smith,Washington,P,Illegal Wedge,0
+H.Smith,Washington,P,Intentional Grounding,21
+J.Baker,Carolina,P,Player Out of Bounds on Punt,5
+J.Kapinos,Green Bay,P,Short Free Kick,0
+J.Ryan,Seattle,P,Horse Collar Tackle,0
+K.Huber,Cincinnati,P,Kickoff Out of Bounds,0
+K.Huber,Cincinnati,P,Illegal Use of Hands,5
+M.Berger,Denver,P,Roughing the Kicker,0
+M.Dodge,N.Y. Giants,P,Unnecessary Roughness,124
+M.Koenen,Atlanta,P,Player Out of Bounds on Kick,0
+M.Turk,Houston,P,Short Free Kick,0
+M.Turk,Houston,P,Illegal Kick,0
+S.Koch,Baltimore,P,Short Free Kick,0
+S.Rocca,Philadelphia,P,Illegal Kick/Kicking Loose Ball,0
+Z.Mesko,New England,P,Illegal Receiver Pass,0
+A.Rodgers,Green Bay,QB,Short Free Kick,0
+A.Rodgers,Green Bay,QB,Leverage,0
+A.Rodgers,Green Bay,QB,Kick Catch Interference,0
+A.Rodgers,Green Bay,QB,Defensive Pass Interference,248
+A.Smith,San Francisco,QB,Defensive Holding,52
+A.Smith,San Francisco,QB,Face Mask (15 Yards),89
+A.Smith,San Francisco,QB,Illegal Bat,0
+A.Smith,San Francisco,QB,Chop Block,15
+A.Smith,San Francisco,QB,Lowering the Head to Initiate Contact,0
+A.Smith,San Francisco,QB,Player Out of Bounds on Kick,0
+A.Smith,San Francisco,QB,Running Into the Kicker,0
+A.Smith,San Francisco,QB,Defensive Offside,45
+B.Brohm,Buffalo,QB,Personal Foul,45
+B.Favre,Minnesota,QB,Leaping,0
+B.Favre,Minnesota,QB,Illegal Onside Kick,0
+B.Favre,Minnesota,QB,Illegal Touch Pass,0
+B.Favre,Minnesota,QB,Leaping,0
+B.Favre,Minnesota,QB,Offensive Pass Interference,30
+B.Favre,Minnesota,QB,Illegal Substitution,5
+B.Favre,Minnesota,QB,Neutral Zone Infraction,5
+B.Favre,Minnesota,QB,Illegal Forward Handoff,0
+B.Favre,Minnesota,QB,Illegal Cut,0
+B.Gradkowski,Oakland,QB,Roughing the Kicker,15
+B.Gradkowski,Oakland,QB,Illegal Onside Kick,0
+B.Gradkowski,Oakland,QB,Illegal Forward Handoff,0
+B.Quinn,Cleveland,QB,Illegal Formation,45
+B.Quinn,Cleveland,QB,False Start,167
+B.Roethlisberger,Pittsburgh,QB,Offensive Offside,0
+B.Roethlisberger,Pittsburgh,QB,Offensive Too Many Men on Field,0
+C.Batch,Pittsburgh,QB,Face Mask (15 Yards),24
+C.Frye,Oakland,QB,Offensive Offside,0
+C.Frye,Oakland,QB,Invalid Fair Catch Signal,0
+C.Henne,Miami,QB,Leverage,0
+C.Henne,Miami,QB,Illegal Peelback,0
+C.Henne,Miami,QB,Taunting,0
+C.Palmer,Cincinnati,QB,Intentional Grounding,10
+C.Palmer,Cincinnati,QB,Illegal Procedure,0
+C.Palmer,Cincinnati,QB,Ineligible Downfield Kick,5
+C.Palmer,Cincinnati,QB,Encroachment,10
+C.Palmer,Cincinnati,QB,Face Mask (5 Yards),0
+C.Palmer,Cincinnati,QB,Illegal Touch Pass,5
+C.Palmer,Cincinnati,QB,Illegal Receiver Pass,10
+D.Anderson,Arizona,QB,Illegal Peelback,0
+D.Anderson,Cleveland,QB,Offside on Free Kick,5
+D.Brees,New Orleans,QB,Defensive Pass Interference,272
+D.Brees,New Orleans,QB,Chop Block,0
+D.Brees,New Orleans,QB,Lowering the Head to Make Forcible Contact,0
+D.Brees,New Orleans,QB,Illegal Motion,0
+D.Brees,New Orleans,QB,Roughing the Kicker,0
+D.Carr,N.Y. Giants,QB,Lowering the Head to Initiate Contact,0
+D.Culpepper,Detroit,QB,Roughing the Kicker,0
+D.Culpepper,Detroit,QB,Illegal Crackback,0
+D.Garrard,Jacksonville,QB,Illegal Forward Pass,0
+D.Garrard,Jacksonville,QB,Ineligible Downfield Pass,5
+D.McNabb,Philadelphia,QB,Roughing the Kicker,0
+D.McNabb,Philadelphia,QB,Short Free Kick,0
+D.McNabb,Washington,QB,Face Mask,0
+E.Manning,N.Y. Giants,QB,Low Block,0
+E.Manning,N.Y. Giants,QB,Defensive Delay of Game,0
+E.Manning,N.Y. Giants,QB,Roughing the Kicker,0
+E.Manning,N.Y. Giants,QB,Unnecessary Roughness,142
+E.Manning,N.Y. Giants,QB,Offensive Holding,299
+J.Campbell,Oakland,QB,Illegal Contact,10
+J.Campbell,Washington,QB,Encroachment,20
+J.Campbell,Washington,QB,Kickoff Out of Bounds,0
+J.Campbell,Washington,QB,Tripping,0
+J.Campbell,Washington,QB,Illegal Cut,0
+J.Campbell,Washington,QB,Illegal Kick,0
+J.Cutler,Chicago,QB,Illegal Wedge,8
+J.Cutler,Chicago,QB,Unnecessary Roughness,234
+J.Cutler,Chicago,QB,Illegal Bat,0
+J.Cutler,Chicago,QB,Illegal Onside Kick,0
+J.Delhomme,Carolina,QB,Illegal Block Above the Waist,120
+J.Delhomme,Carolina,QB,Player Out of Bounds on Punt,0
+J.Flacco,Baltimore,QB,Defensive Offside,80
+J.Flacco,Baltimore,QB,Face Mask (5 Yards),0
+J.Flacco,Baltimore,QB,Illegal Formation,15
+J.Flacco,Baltimore,QB,Defensive Delay of Game,0
+J.Freeman,Tampa Bay,QB,Illegal Formation,5
+J.Freeman,Tampa Bay,QB,Offensive Too Many Men on Field,0
+J.Freeman,Tampa Bay,QB,Kickoff Out of Bounds,0
+J.Freeman,Tampa Bay,QB,Taunting,15
+J.Johnson,Tampa Bay,QB,Delay of Game,35
+J.O'Sullivan,Cincinnati,QB,Fair Catch Interference,0
+K.Clemens,N.Y. Jets,QB,Face Mask,0
+K.Collins,Tennessee,QB,Illegal Formation,10
+K.Collins,Tennessee,QB,Illegal Touch Kick,0
+K.Collins,Tennessee,QB,Running Into the Kicker,0
+K.Null,St. Louis,QB,Lowering the Head to Make Forcible Contact,0
+K.Orton,Denver,QB,Illegal Block Above the Waist,47
+K.Orton,Denver,QB,Offensive 12 On-field,5
+K.Orton,Denver,QB,Illegal Touch Kick,0
+K.Orton,Denver,QB,Defensive 12 On-field,10
+K.Warner,Arizona,QB,Defensive 12 On-field,0
+K.Warner,Arizona,QB,Disqualification,0
+K.Warner,Arizona,QB,Illegal Cut,0
+M.Bulger,St. Louis,QB,Face Mask (15 Yards),140
+M.Bulger,St. Louis,QB,Illegal Kick,0
+M.Bulger,St. Louis,QB,Taunting,0
+M.Cassel,Kansas City,QB,Illegal Cut,0
+M.Cassel,Kansas City,QB,Offensive Pass Interference,20
+M.Cassel,Kansas City,QB,Illegal Peelback,0
+M.Cassel,Kansas City,QB,Offensive Offside,0
+M.Cassel,Kansas City,QB,Encroachment,16
+M.Cassel,Kansas City,QB,Offensive Pass Interference,65
+M.Cassel,Kansas City,QB,Defensive Offside,44
+M.Cassel,Kansas City,QB,Illegal Motion,5
+M.Flynn,Green Bay,QB,Delay of Game,19
+M.Hasselbeck,Seattle,QB,Illegal Use of Hands,15
+M.Hasselbeck,Seattle,QB,Illegal Crackback,0
+M.Moore,Carolina,QB,Disqualification,0
+M.Moore,Carolina,QB,Offensive 12 On-field,0
+M.Ryan,Atlanta,QB,Defensive Offside,94
+M.Sanchez,N.Y. Jets,QB,Ineligible Downfield Pass,5
+M.Sanchez,N.Y. Jets,QB,Face Mask,0
+M.Sanchez,N.Y. Jets,QB,Delay of Kickoff,0
+M.Sanchez,N.Y. Jets,QB,Player Out of Bounds on Punt,0
+M.Sanchez,N.Y. Jets,QB,Illegal Peelback,0
+M.Sanchez,N.Y. Jets,QB,Illegal Motion,0
+M.Sanchez,N.Y. Jets,QB,Face Mask (5 Yards),0
+M.Stafford,Detroit,QB,Low Block,0
+M.Stafford,Detroit,QB,Leaping,0
+M.Vick,Philadelphia,QB,Kickoff Out of Bounds,0
+P.Manning,Indianapolis,QB,Defensive Too Many Men on Field,0
+P.Manning,Indianapolis,QB,Illegal Blindside Block,0
+P.Manning,Indianapolis,QB,Intentional Grounding,29
+P.Manning,Indianapolis,QB,Illegal Cut,0
+P.Manning,Indianapolis,QB,Illegal Forward Handoff,0
+P.Rivers,San Diego,QB,Disqualification,0
+P.Rivers,San Diego,QB,Illegal Kick,0
+P.Rivers,San Diego,QB,Lowering the Head to Make Forcible Contact,0
+P.Rivers,San Diego,QB,Illegal Blindside Block,0
+P.Rivers,San Diego,QB,Face Mask (15 Yards),37
+P.Rivers,San Diego,QB,Running Into the Kicker,0
+R.Fitzpatrick,Buffalo,QB,Lowering the Head to Make Forcible Contact,0
+S.Hill,San Francisco,QB,Illegal Crackback,0
+S.Hill,San Francisco,QB,Illegal Receiver Pass,0
+S.Wallace,Cleveland,QB,Defensive Delay of Game,0
+S.Wallace,Seattle,QB,Player Out of Bounds on Kick,0
+S.Wallace,Seattle,QB,Roughing the Kicker,0
+Sh.Hill,Detroit,QB,Illegal Forward Handoff,0
+T.Brady,New England,QB,Illegal Forward Handoff,0
+T.Brady,New England,QB,Illegal Forward Handoff,0
+T.Brady,New England,QB,Illegal Forward Handoff,0
+T.Brady,New England,QB,Illegal Forward Handoff,0
+T.Collins,Washington,QB,Low Block,28
+T.Edwards,Buffalo,QB,Low Block,15
+T.Edwards,Buffalo,QB,Lowering the Head to Initiate Contact,0
+T.Edwards,Buffalo,QB,Tripping,10
+T.Jackson,Minnesota,QB,Defensive Holding,35
+T.Romo,Dallas,QB,Defensive 12 On-field,0
+T.Romo,Dallas,QB,Offensive Offside,5
+T.Romo,Dallas,QB,Low Block,0
+T.Romo,Dallas,QB,Offensive Holding,283
+T.Romo,Dallas,QB,Defensive Too Many Men on Field,0
+T.Romo,Dallas,QB,Defensive Offside,55
+V.Young,Tennessee,QB,Illegal Kick,0
+V.Young,Tennessee,QB,Delay of Kickoff,0
+A.Bradshaw,N.Y. Giants,RB,Illegal Shift,0
+A.Bradshaw,N.Y. Giants,RB,Clipping,19
+A.Bradshaw,N.Y. Giants,RB,Illegal Use of Hands,15
+A.Pearman,Tennessee,RB,Face Mask (15 Yards),72
+A.Peterson,Chicago,RB,Player Out of Bounds on Kick,0
+A.Peterson,Chicago,RB,Horse Collar Tackle,0
+A.Peterson,Chicago,RB,Illegal Contact,10
+A.Peterson,Chicago,RB,Offside on Free Kick,10
+A.Peterson,Minnesota,RB,Interference with Opportunity to Catch,15
+A.Young,Minnesota,RB,Delay of Kickoff,0
+B.Green-Ellis,New England,RB,Short Free Kick,0
+B.Jackson,Green Bay,RB,Tripping,20
+B.Jacobs,N.Y. Giants,RB,Kickoff Out of Bounds,0
+B.Jacobs,N.Y. Giants,RB,Illegal Double-Team Block,0
+B.Jacobs,N.Y. Giants,RB,Illegal Motion,0
+B.Wells,Arizona,RB,Illegal Touch Pass,0
+B.Wells,Arizona,RB,Player Out of Bounds on Kick,0
+C.Benson,Cincinnati,RB,Kickoff Out of Bounds,0
+C.Buckhalter,Denver,RB,Illegal Procedure,0
+C.Jennings,Cleveland,RB,Fair Catch Interference,0
+C.Johnson,Tennessee,RB,Taunting,15
+C.Johnson,Tennessee,RB,Running Into the Kicker,0
+C.Portis,Washington,RB,Fair Catch Interference,15
+C.Williams,Tampa Bay,RB,Ineligible Downfield Pass,10
+C.Williams,Tampa Bay,RB,Illegal Crackback,0
+D.Brown,Indianapolis,RB,Tripping,20
+D.Moore,Indianapolis,RB,Interference with Opportunity to Catch,15
+D.Nance,Green Bay,RB,Tripping,0
+D.Sproles,San Diego,RB,Defensive Pass Interference,123
+D.Ward,Tampa Bay,RB,Defensive Pass Interference,309
+D.Ward,Tampa Bay,RB,Illegal Substitution,0
+D.Ward,Tampa Bay,RB,Face Mask (15 Yards),15
+E.Buckley,Philadelphia,RB,Lowering the Head to Make Forcible Contact,0
+E.Buckley,Philadelphia,RB,Defensive Too Many Men on Field,0
+E.Buckley,Philadelphia,RB,Illegal Wedge,0
+F.Jackson,Buffalo,RB,Taunting,0
+F.Jones,Dallas,RB,Horse Collar Tackle,15
+G.Coffee,San Francisco,RB,Illegal Contact,55
+G.Coffee,San Francisco,RB,Player Out of Bounds on Kick,0
+G.Wolfe,Chicago,RB,Illegal Formation,15
+G.Wolfe,Chicago,RB,Illegal Motion,0
+J.Addai,Indianapolis,RB,Defensive Holding,27
+J.Charles,Kansas City,RB,Defensive Pass Interference,128
+J.Conner,N.Y. Jets,RB,Illegal Cut,0
+J.Davis,Cleveland,RB,Running Into the Kicker,5
+J.Fargas,Oakland,RB,Delay of Game,20
+J.Fargas,Oakland,RB,Illegal Crackback,0
+J.Felton,Detroit,RB,Offside on Free Kick,15
+J.Hester,San Diego,RB,Leverage,0
+J.Hester,San Diego,RB,Illegal Procedure,0
+J.McKie,Chicago,RB,Defensive Delay of Game,0
+J.McKie,Chicago,RB,Defensive Too Many Men on Field,0
+J.Wright,Arizona,RB,Short Free Kick,0
+J.Wright,Arizona,RB,Encroachment,15
+J.Wright,Arizona,RB,Face Mask (15 Yards),105
+K.Darby,St. Louis,RB,False Start,185
+K.Faulk,New England,RB,Intentional Grounding,0
+K.Moreno,Denver,RB,Illegal Wedge,0
+K.Moreno,Denver,RB,Face Mask (15 Yards),100
+K.Smith,Detroit,RB,Illegal Shift,0
+K.Williams,Washington,RB,Encroachment,15
+L.McCoy,Philadelphia,RB,Horse Collar Tackle,0
+L.Rankin,Seattle,RB,Illegal Wedge,0
+L.Stephens,Arizona,RB,Clipping,0
+L.Washington,N.Y. Jets,RB,Short Free Kick,0
+M.Bell,New Orleans,RB,Illegally Kicking Ball,0
+M.Jones-Drew,Jacksonville,RB,Illegal Procedure,0
+M.Lawrence,Baltimore,RB,Face Mask (15 Yards),75
+M.Lawrence,Baltimore,RB,Unnecessary Roughness,68
+M.Lynch,Buffalo,RB,Offensive Too Many Men on Field,0
+M.Lynch,Buffalo,RB,Illegal Bat,0
+M.Moore,Pittsburgh,RB,Offensive Holding,410
+M.Morris,Detroit,RB,Illegal Wedge,0
+M.Norris,San Francisco,RB,Invalid Fair Catch Signal,0
+M.Owens,Jacksonville,RB,Defensive Too Many Men on Field,0
+M.Owens,Jacksonville,RB,Illegally Kicking Ball,0
+M.Owens,Jacksonville,RB,Illegal Peelback,0
+P.Hillis,Cleveland,RB,Defensive Too Many Men on Field,0
+P.Hillis,Denver,RB,False Start,168
+P.Thomas,New Orleans,RB,Defensive Holding,21
+R.Cartwright,Washington,RB,Illegal Use of Hands,55
+R.Cartwright,Washington,RB,Face Mask,0
+R.Cartwright,Washington,RB,Illegal Wedge,0
+R.Moats,Houston,RB,Illegal Touch Kick,5
+R.Rice,Baltimore,RB,Tripping,15
+R.Rice,Baltimore,RB,Lowering the Head to Make Forcible Contact,0
+R.Rice,Baltimore,RB,Illegal Receiver Pass,0
+S.Gado,St. Louis,RB,Player Out of Bounds on Punt,0
+S.Greene,N.Y. Jets,RB,Roughing the Kicker,0
+S.Jackson,St. Louis,RB,Illegal Motion,15
+S.Jackson,St. Louis,RB,Illegal Formation,16
+S.Jackson,St. Louis,RB,Illegal Procedure,0
+S.Jackson,St. Louis,RB,Lowering the Head to Make Forcible Contact,0
+S.Morris,New England,RB,Encroachment,44
+T.Jones,N.Y. Jets,RB,Ineligible Downfield Pass,0
+W.McGahee,Baltimore,RB,Illegal Shift,0
+W.Parker,Pittsburgh,RB,Illegal Receiver Pass,0
+M.Hudson,Carolina,SAF,Illegal Contact,30
+A.Afalava,Chicago,SS,Offensive 12 On-field,1
+A.Afalava,Chicago,SS,Neutral Zone Infraction,10
+A.Afalava,Chicago,SS,Interference with Opportunity to Catch,0
+A.Afalava,Chicago,SS,Disqualification,29
+A.Bethea,Indianapolis,SS,Chop Block,74
+A.Bethea,Indianapolis,SS,Lowering the Head to Initiate Contact,0
+A.Bigby,Green Bay,SS,Unsportsmanlike Conduct,0
+A.Bigby,Green Bay,SS,Offensive 12 On-field,0
+A.Wilson,Arizona,SS,Personal Foul,55
+A.Wilson,Arizona,SS,Delay of Game,40
+A.Wilson,Arizona,SS,Kick Catch Interference,0
+A.Wilson,Arizona,SS,Offensive Too Many Men on Field,0
+A.Wilson,Arizona,SS,Tripping,10
+A.Wilson,Arizona,SS,Unsportsmanlike Conduct,45
+A.Wilson,Arizona,SS,Taunting,13
+B.Dawkins,Denver,SS,Illegal Forward Pass,0
+B.Dawkins,Denver,SS,Face Mask,0
+B.Dawkins,Denver,SS,Clipping,0
+B.Dawkins,Denver,SS,Interference with Opportunity to Catch,0
+B.Pollard,Houston,SS,Interference with Opportunity to Catch,15
+B.Pollard,Houston,SS,Illegal Shift,0
+B.Pollard,Houston,SS,Offensive Holding,412
+B.Pollard,Houston,SS,Invalid Fair Catch Signal,0
+B.Pollard,Houston,SS,Taunting,0
+B.Pollard,Houston,SS,Illegal Motion,0
+B.Pool,N.Y. Jets,SS,Illegal Touch Pass,5
+C.Greene,Jacksonville,SS,Player Out of Bounds on Punt,0
+C.Greene,Jacksonville,SS,Low Block,15
+D.Bruton,Denver,SS,Illegal Kick/Kicking Loose Ball,0
+D.Grant,Seattle,SS,Illegal Substitution,5
+D.Hall,Washington,SS,Delay of Kickoff,0
+D.Landry,Baltimore,SS,Roughing the Kicker,0
+D.Landry,Baltimore,SS,Kick Catch Interference,0
+D.Landry,Baltimore,SS,Offensive Too Many Men on Field,0
+D.Manning,Chicago,SS,Defensive 12 On-field,10
+D.Washington,Kansas City,SS,Defensive Holding,20
+D.Whitner,Buffalo,SS,Illegal Double-Team Block,0
+D.Whitner,Buffalo,SS,Illegal Double-Team Block,0
+D.Whitner,Buffalo,SS,Invalid Fair Catch Signal,0
+G.Wilson,Buffalo,SS,Taunting,15
+J.Ihedigbo,N.Y. Jets,SS,Neutral Zone Infraction,10
+J.Page,Kansas City,SS,Tripping,10
+J.Sanford,Minnesota,SS,Leverage,0
+L.Milloy,Seattle,SS,Face Mask (15 Yards),15
+M.Adams,Cleveland,SS,Ineligible Downfield Kick,0
+M.Adams,Cleveland,SS,Illegal Kick/Kicking Loose Ball,0
+M.Adams,Cleveland,SS,Fair Catch Interference,0
+M.Adams,Cleveland,SS,Defensive 12 On-field,18
+M.Bullitt,Indianapolis,SS,Illegal Onside Kick,0
+M.Burnett,Green Bay,SS,Lowering the Head to Initiate Contact,0
+M.Johnson,N.Y. Giants,SS,Lowering the Head to Initiate Contact,0
+M.Johnson,N.Y. Giants,SS,Illegal Block Above the Waist,105
+M.Johnson,N.Y. Giants,SS,Illegal Formation,25
+M.Johnson,N.Y. Giants,SS,Offensive Holding,316
+M.Johnson,N.Y. Giants,SS,Illegal Wedge,0
+M.Lewis,San Francisco,SS,Illegal Touch Pass,0
+M.Lewis,San Francisco,SS,Delay of Game,30
+M.Lewis,San Francisco,SS,Ineligible Downfield Pass,0
+M.Manuel,Detroit,SS,Illegal Receiver Pass,0
+M.Roman,San Francisco,SS,Roughing the Kicker,0
+M.Roman,San Francisco,SS,Illegal Bat,0
+N.Clements,San Francisco,SS,Illegal Cut,0
+N.Clements,San Francisco,SS,Illegal Peelback,0
+N.Clements,San Francisco,SS,Illegal Crackback,0
+P.Chung,New England,SS,Illegally Kicking Ball,0
+P.Chung,New England,SS,Illegal Peelback,0
+P.Chung,New England,SS,Offensive Offside,0
+P.Oliver,San Diego,SS,Illegal Onside Kick,0
+P.Oliver,San Diego,SS,Defensive Pass Interference,293
+P.Oliver,San Diego,SS,Illegal Block Above the Waist,107
+Q.Mikell,Philadelphia,SS,Kick Catch Interference,0
+R.Doughty,Washington,SS,Illegal Touch Kick,0
+R.Doughty,Washington,SS,Lowering the Head to Initiate Contact,0
+R.Harper,New Orleans,SS,Unsportsmanlike Conduct,60
+R.Harper,New Orleans,SS,Roughing the Passer,156
+R.Harper,New Orleans,SS,Defensive Pass Interference,236
+R.Harper,New Orleans,SS,Kickoff Out of Bounds,0
+R.Hill,Denver,SS,Illegal Use of Hands,30
+R.Hill,Denver,SS,Ineligible Downfield Kick,0
+R.Mundy,Pittsburgh,SS,Illegal Kick,0
+R.Mundy,Pittsburgh,SS,Illegally Kicking Ball,0
+S.Piscitelli,Tampa Bay,SS,Roughing the Kicker,0
+S.Piscitelli,Tampa Bay,SS,Delay of Game,27
+S.Piscitelli,Tampa Bay,SS,Illegal Motion,10
+S.Piscitelli,Tampa Bay,SS,Ineligible Downfield Pass,15
+S.Piscitelli,Tampa Bay,SS,Illegal Crackback,0
+T.Polamalu,Pittsburgh,SS,Defensive 12 On-field,5
+T.Polamalu,Pittsburgh,SS,Unnecessary Roughness,97
+T.Zbikowski,Baltimore,SS,Defensive 12 On-field,0
+T.Zbikowski,Baltimore,SS,Unsportsmanlike Conduct,60
+T.Zbikowski,Baltimore,SS,Intentional Grounding,33
+T.Zbikowski,Baltimore,SS,Clipping,0
+U.Young,New Orleans,SS,Face Mask,0
+U.Young,New Orleans,SS,Illegal Bat,0
+W.Allen,Pittsburgh,SS,Encroachment,20
+W.Moore,Atlanta,SS,Illegal Cut,0
+Y.Bell,Miami,SS,Delay of Game,15
+A.Barbre,Green Bay,T,Defensive Pass Interference,79
+A.Barbre,Green Bay,T,Illegal Forward Pass,0
+A.Barron,Dallas,T,Illegal Block Above the Waist,30
+A.Barron,St. Louis,T,Illegal Receiver Pass,0
+A.Barron,St. Louis,T,Neutral Zone Infraction,15
+A.Barron,St. Louis,T,Face Mask (5 Yards),0
+A.Barron,St. Louis,T,Clipping,0
+A.Barron,St. Louis,T,Illegal Kick,0
+A.Barron,St. Louis,T,Illegal Touch Kick,5
+A.Barron,St. Louis,T,Leaping,0
+A.Barron,St. Louis,T,Invalid Fair Catch Signal,0
+A.Barron,St. Louis,T,Ineligible Downfield Kick,0
+A.Barron,St. Louis,T,Clipping,0
+A.Collins,Cincinnati,T,Face Mask (5 Yards),0
+A.Collins,Cincinnati,T,Illegal Receiver Pass,0
+A.Davis,San Francisco,T,Illegal Contact,10
+A.Davis,San Francisco,T,Roughing the Passer,60
+A.Goldberg,St. Louis,T,Illegal Kick/Kicking Loose Ball,0
+A.Goldberg,St. Louis,T,Illegal Kick,0
+A.Goldberg,St. Louis,T,Defensive Delay of Game,0
+A.Goldberg,St. Louis,T,Personal Foul,75
+A.Goldberg,St. Louis,T,Illegal Touch Pass,5
+A.Goldberg,St. Louis,T,Illegal Receiver Pass,0
+A.Lucas,Seattle,T,Fair Catch Interference,0
+A.Lucas,Seattle,T,Encroachment,5
+A.Lucas,Seattle,T,Illegal Onside Kick,0
+A.Lucas,Seattle,T,Interference with Opportunity to Catch,0
+A.Lucas,Seattle,T,Neutral Zone Infraction,10
+A.Ramsey,Buffalo,T,Offensive Holding,276
+A.Ramsey,Buffalo,T,Illegal Substitution,0
+A.Smith,Cincinnati,T,Face Mask (5 Yards),0
+A.Whitworth,Cincinnati,T,Illegal Substitution,0
+A.Whitworth,Cincinnati,T,Personal Foul,75
+A.Whitworth,Cincinnati,T,Player Out of Bounds on Punt,0
+A.Whitworth,Cincinnati,T,Defensive Pass Interference,223
+A.Whitworth,Cincinnati,T,Illegal Forward Pass,5
+A.Whitworth,Cincinnati,T,Player Out of Bounds on Kick,0
+A.Whitworth,Cincinnati,T,Illegal Forward Pass,0
+A.Whitworth,Cincinnati,T,Illegal Wedge,0
+A.Whitworth,Cincinnati,T,Unsportsmanlike Conduct,45
+B.Albert,Kansas City,T,Player Out of Bounds on Kick,0
+B.Albert,Kansas City,T,Face Mask (15 Yards),45
+B.Albert,Kansas City,T,Player Out of Bounds on Punt,0
+B.Albert,Kansas City,T,Ineligible Downfield Kick,0
+B.Albert,Kansas City,T,Roughing the Kicker,0
+B.Albert,Kansas City,T,Illegal Forward Pass,10
+B.Albert,Kansas City,T,Offensive Offside,5
+B.Albert,Kansas City,T,Defensive Too Many Men on Field,0
+B.Bulaga,Green Bay,T,Defensive Delay of Game,0
+B.Dombrowski,San Diego,T,Illegal Bat,10
+B.Dombrowski,San Diego,T,Encroachment,10
+B.Dombrowski,San Diego,T,Interference with Opportunity to Catch,15
+B.Dombrowski,San Diego,T,Ineligible Downfield Pass,5
+B.Dombrowski,San Diego,T,Illegal Wedge,0
+B.Dombrowski,San Diego,T,Illegal Kick,0
+B.Dombrowski,San Diego,T,Illegal Procedure,0
+B.Dombrowski,San Diego,T,Defensive Too Many Men on Field,0
+B.Frye,Seattle,T,Clipping,0
+B.Frye,Seattle,T,Face Mask (5 Yards),0
+B.Keith,Arizona,T,Unsportsmanlike Conduct,44
+B.McKinnie,Minnesota,T,Illegal Substitution,0
+B.McKinnie,Minnesota,T,Illegal Formation,5
+B.McKinnie,Minnesota,T,Interference with Opportunity to Catch,0
+B.Richardson,Kansas City,T,Defensive Holding,30
+B.Richardson,Kansas City,T,Illegal Receiver Pass,0
+B.Richardson,Kansas City,T,Fair Catch Interference,0
+B.Richardson,Kansas City,T,Illegal Touch Pass,0
+B.Sims,San Francisco,T,Face Mask (15 Yards),24
+B.Sims,San Francisco,T,Personal Foul,60
+C.Brown,New Orleans,T,Illegal Substitution,5
+C.Clifton,Green Bay,T,Illegal Contact,10
+C.Clifton,Green Bay,T,Tripping,10
+C.Clifton,Green Bay,T,Illegal Use of Hands,5
+C.Clifton,Green Bay,T,Leverage,0
+C.Clifton,Green Bay,T,Illegal Motion,6
+C.Clifton,Green Bay,T,Low Block,0
+C.Green,Buffalo,T,Unnecessary Roughness,90
+C.Green,Buffalo,T,Short Free Kick,0
+C.Green,Oakland,T,Defensive Too Many Men on Field,0
+C.Green,Oakland,T,Defensive Holding,25
+C.Green,Oakland,T,Illegal Kick/Kicking Loose Ball,0
+C.Green,Oakland,T,Running Into the Kicker,0
+C.Green,Oakland,T,Defensive Offside,78
+C.Green,Oakland,T,Illegal Double-Team Block,0
+C.Green,Oakland,T,Illegal Onside Kick,0
+C.Green,Oakland,T,Kickoff Out of Bounds,0
+C.Williams,Chicago,T,Invalid Fair Catch Signal,0
+C.Williams,Chicago,T,Illegal Procedure,0
+C.Williams,Chicago,T,Ineligible Downfield Pass,0
+C.Williams,Chicago,T,Illegal Bat,0
+C.Williams,Chicago,T,Delay of Game,45
+C.Williams,Chicago,T,Offside on Free Kick,10
+D.Bell,Buffalo,T,Illegal Cut,0
+D.Bell,Buffalo,T,Chop Block,0
+D.Bell,Buffalo,T,Defensive 12 On-field,5
+D.Bell,Buffalo,T,Personal Foul,17
+D.Bell,Buffalo,T,Delay of Game,38
+D.Bell,Buffalo,T,Illegal Touch Kick,5
+D.Bell,Buffalo,T,Illegal Cut,0
+D.Brown,Houston,T,Illegal Blindside Block,0
+D.Brown,Houston,T,Illegal Crackback,0
+D.Brown,Houston,T,Roughing the Kicker,15
+D.Brown,Houston,T,Illegal Bat,0
+D.Brown,Houston,T,Illegal Substitution,5
+D.Brown,Houston,T,Defensive Pass Interference,256
+D.Brown,Houston,T,Defensive Offside,70
+D.Brown,Houston,T,Low Block,15
+D.Dotson,Tampa Bay,T,Intentional Grounding,27
+D.Ferguson,N.Y. Jets,T,Encroachment,20
+D.Ferguson,N.Y. Jets,T,Offensive 12 On-field,5
+D.Ferguson,N.Y. Jets,T,Offensive Holding,259
+D.Ferguson,N.Y. Jets,T,Illegal Contact,10
+D.Ferguson,N.Y. Jets,T,Face Mask (5 Yards),0
+D.Ferguson,N.Y. Jets,T,Illegal Peelback,0
+D.Ferguson,N.Y. Jets,T,Defensive 12 On-field,5
+D.Ferguson,N.Y. Jets,T,Illegal Motion,0
+D.Free,Dallas,T,Illegal Blindside Block,0
+D.Free,Dallas,T,Player Out of Bounds on Kick,0
+D.Free,Dallas,T,Offensive Too Many Men on Field,0
+D.Free,Dallas,T,Player Out of Bounds on Kick,0
+D.Free,Dallas,T,Illegal Contact,10
+D.Free,Dallas,T,Illegal Motion,5
+D.Loper,Detroit,T,Defensive Delay of Game,5
+D.Loper,Detroit,T,Short Free Kick,0
+D.McIntosh,Seattle,T,Horse Collar Tackle,15
+D.Penn,Tampa Bay,T,Offensive Offside,0
+D.Penn,Tampa Bay,T,Delay of Game,29
+D.Penn,Tampa Bay,T,Lowering the Head to Make Forcible Contact,0
+D.Penn,Tampa Bay,T,Face Mask,0
+D.Penn,Tampa Bay,T,Face Mask (5 Yards),0
+D.Penn,Tampa Bay,T,Unsportsmanlike Conduct,26
+D.Penn,Tampa Bay,T,Illegal Receiver Pass,0
+D.Penn,Tampa Bay,T,Offensive Holding,298
+D.Penn,Tampa Bay,T,Illegal Peelback,0
+D.Penn,Tampa Bay,T,Illegal Motion,5
+D.Penn,Tampa Bay,T,Offensive Too Many Men on Field,0
+D.Roland,Cincinnati,T,Illegal Cut,0
+D.Roland,Cincinnati,T,Illegal Kick/Kicking Loose Ball,0
+D.Roland,Cincinnati,T,Illegal Kick,0
+D.Roland,Cincinnati,T,Lowering the Head to Initiate Contact,0
+D.Roland,Cincinnati,T,Defensive Too Many Men on Field,0
+D.Roland,Cincinnati,T,Interference with Opportunity to Catch,0
+D.Roland,Cincinnati,T,Face Mask (15 Yards),144
+D.Roland,Cincinnati,T,Neutral Zone Infraction,46
+D.Roland,Cincinnati,T,Encroachment,25
+D.Stewart,Tennessee,T,Lowering the Head to Initiate Contact,0
+D.Stewart,Tennessee,T,Offensive Offside,10
+D.Stewart,Tennessee,T,Clipping,0
+D.Stewart,Tennessee,T,Illegal Blindside Block,0
+D.Woody,N.Y. Jets,T,Offensive 12 On-field,0
+D.Woody,N.Y. Jets,T,Offensive Pass Interference,50
+D.Woody,N.Y. Jets,T,Offensive Offside,0
+D.Woody,N.Y. Jets,T,Illegally Kicking Ball,0
+D.Woody,N.Y. Jets,T,Leverage,0
+D.Woody,N.Y. Jets,T,Neutral Zone Infraction,11
+D.Woody,N.Y. Jets,T,Interference with Opportunity to Catch,0
+E.Britton,Jacksonville,T,Illegal Shift,5
+E.Britton,Jacksonville,T,Unnecessary Roughness,146
+E.Monroe,Jacksonville,T,Short Free Kick,0
+E.Monroe,Jacksonville,T,Illegal Touch Kick,0
+E.Monroe,Jacksonville,T,Unnecessary Roughness,156
+E.Monroe,Jacksonville,T,Short Free Kick,0
+E.Monroe,Jacksonville,T,Taunting,0
+E.Pears,Oakland,T,Clipping,0
+E.Pears,Oakland,T,Encroachment,10
+E.Pears,Oakland,T,Offensive Too Many Men on Field,0
+E.Winston,Houston,T,Illegal Touch Kick,5
+E.Winston,Houston,T,Illegal Receiver Pass,0
+E.Winston,Houston,T,Leverage,0
+E.Winston,Houston,T,Lowering the Head to Make Forcible Contact,0
+F.Adams,Dallas,T,Kick Catch Interference,0
+F.Adams,Dallas,T,Illegal Onside Kick,0
+F.Adams,Dallas,T,Delay of Kickoff,0
+F.Adams,Dallas,T,Illegal Procedure,0
+F.Adams,Dallas,T,Illegal Formation,15
+F.Adams,Dallas,T,Roughing the Passer,55
+F.Adams,Dallas,T,Delay of Kickoff,0
+F.Adams,Dallas,T,Offside on Free Kick,10
+F.Adams,Dallas,T,Illegal Crackback,0
+F.Adams,Pittsburgh,T,False Start,174
+F.Adams,Pittsburgh,T,Kick Catch Interference,0
+F.Omiyale,Chicago,T,Illegal Peelback,0
+F.Omiyale,Chicago,T,Personal Foul,15
+F.Omiyale,Chicago,T,Illegal Block Above the Waist,40
+F.Omiyale,Chicago,T,Offensive Too Many Men on Field,0
+F.Omiyale,Chicago,T,Face Mask (15 Yards),32
+G.Cherilus,Detroit,T,Illegal Forward Pass,0
+G.Cherilus,Detroit,T,Fair Catch Interference,0
+G.Cherilus,Detroit,T,Illegal Cut,0
+G.Cherilus,Detroit,T,Illegal Cut,0
+G.Cherilus,Detroit,T,Illegal Formation,25
+G.Cherilus,Detroit,T,Offensive Too Many Men on Field,0
+G.Williams,Carolina,T,Roughing the Kicker,15
+J.Backus,Detroit,T,Defensive Delay of Game,0
+J.Backus,Detroit,T,Illegal Use of Hands,15
+J.Backus,Detroit,T,Roughing the Passer,86
+J.Backus,Detroit,T,Clipping,0
+J.Backus,Detroit,T,Defensive Delay of Game,5
+J.Black,Jacksonville,T,Illegal Receiver Pass,0
+J.Brown,Washington,T,Lowering the Head to Initiate Contact,0
+J.Brown,Washington,T,Intentional Grounding,43
+J.Bushrod,New Orleans,T,Illegal Onside Kick,0
+J.Bushrod,New Orleans,T,Interference with Opportunity to Catch,0
+J.Bushrod,New Orleans,T,Offensive Holding,345
+J.Bushrod,New Orleans,T,Illegal Bat,0
+J.Bushrod,New Orleans,T,Illegal Shift,0
+J.Bushrod,New Orleans,T,Illegal Double-Team Block,0
+J.Bushrod,New Orleans,T,Disqualification,0
+J.Gaither,Baltimore,T,Player Out of Bounds on Kick,0
+J.Gaither,Baltimore,T,Illegal Blindside Block,0
+J.Gaither,Baltimore,T,Kick Catch Interference,0
+J.Gaither,Baltimore,T,Short Free Kick,0
+J.Gaither,Baltimore,T,Illegal Double-Team Block,0
+J.Gaither,Baltimore,T,Invalid Fair Catch Signal,0
+J.Gross,Carolina,T,Player Out of Bounds on Punt,5
+J.Jansen,Detroit,T,Illegal Crackback,0
+J.Long,Miami,T,Fair Catch Interference,30
+J.Long,Miami,T,Tripping,0
+J.Long,Miami,T,Chop Block,26
+J.Long,Miami,T,Offensive Holding,328
+J.Otah,Carolina,T,Defensive Delay of Game,10
+J.Otah,Carolina,T,Illegal Block Above the Waist,34
+J.Otah,Carolina,T,Lowering the Head to Initiate Contact,0
+J.Otah,Carolina,T,Offensive Offside,5
+J.Otah,Carolina,T,Defensive Delay of Game,0
+J.Otah,Carolina,T,Illegal Cut,0
+J.Peters,Philadelphia,T,Ineligible Downfield Pass,0
+J.Peters,Philadelphia,T,Delay of Game,59
+J.Peters,Philadelphia,T,Illegal Touch Pass,0
+J.Peters,Philadelphia,T,Defensive Delay of Game,0
+J.Peters,Philadelphia,T,Illegal Double-Team Block,0
+J.Peters,Philadelphia,T,Horse Collar Tackle,18
+J.Peters,Philadelphia,T,Face Mask,0
+J.Peters,Philadelphia,T,Illegal Cut,0
+J.Scott,Buffalo,T,Illegal Receiver Pass,0
+J.Scott,Buffalo,T,Illegal Peelback,0
+J.Scott,Buffalo,T,Defensive Holding,16
+J.Scott,Buffalo,T,Lowering the Head to Make Forcible Contact,0
+J.Scott,Pittsburgh,T,Defensive Too Many Men on Field,0
+J.Smith,St. Louis,T,Defensive Too Many Men on Field,0
+J.Smith,St. Louis,T,Illegal Block Above the Waist,44
+J.Smith,St. Louis,T,Running Into the Kicker,5
+J.St. Clair,Cleveland,T,Horse Collar Tackle,0
+J.St. Clair,Cleveland,T,Low Block,0
+J.St. Clair,Cleveland,T,Illegal Formation,30
+J.St. Clair,Cleveland,T,Offensive Holding,310
+J.St. Clair,Cleveland,T,Illegal Kick/Kicking Loose Ball,0
+J.Stinchcomb,New Orleans,T,Invalid Fair Catch Signal,0
+J.Stinchcomb,New Orleans,T,Illegal Forward Pass,10
+J.Stinchcomb,New Orleans,T,Defensive Too Many Men on Field,0
+J.Stinchcomb,New Orleans,T,Personal Foul,43
+J.Stinchcomb,New Orleans,T,Offensive Holding,258
+J.Stinchcomb,New Orleans,T,Illegal Touch Pass,5
+J.Thomas,Cleveland,T,Illegal Receiver Pass,0
+J.Thomas,Cleveland,T,Offside on Free Kick,0
+J.Thomas,Cleveland,T,Illegally Kicking Ball,0
+J.Thomas,Cleveland,T,Delay of Kickoff,0
+J.Thomas,Cleveland,T,Illegal Wedge,27
+J.Thomas,Cleveland,T,Offensive Pass Interference,7
+J.Thomas,Cleveland,T,Illegal Wedge,0
+J.Thomas,Cleveland,T,Offside on Free Kick,10
+J.Trueblood,Tampa Bay,T,Roughing the Passer,85
+J.Trueblood,Tampa Bay,T,Ineligible Downfield Kick,5
+J.Trueblood,Tampa Bay,T,Interference with Opportunity to Catch,0
+J.Trueblood,Tampa Bay,T,Ineligible Downfield Pass,5
+J.Trueblood,Tampa Bay,T,Illegal Touch Pass,10
+J.Trueblood,Tampa Bay,T,Face Mask,0
+J.Trueblood,Tampa Bay,T,Defensive Delay of Game,0
+J.Trueblood,Tampa Bay,T,Illegal Double-Team Block,0
+J.Trueblood,Tampa Bay,T,False Start,168
+J.Trueblood,Tampa Bay,T,Illegal Forward Handoff,0
+J.Trueblood,Tampa Bay,T,Offensive Too Many Men on Field,0
+J.Trueblood,Tampa Bay,T,Illegal Formation,29
+J.Veldheer,Oakland,T,Face Mask,0
+J.Veldheer,Oakland,T,Defensive Offside,51
+J.Veldheer,Oakland,T,Illegal Shift,5
+K.Barnes,Oakland,T,Illegal Double-Team Block,0
+K.Barnes,Oakland,T,Offensive Offside,0
+K.Chambers,Buffalo,T,Illegal Procedure,0
+K.Chambers,Buffalo,T,Face Mask (15 Yards),99
+K.Chambers,Buffalo,T,Chop Block,0
+K.Chambers,Buffalo,T,Defensive Delay of Game,5
+K.McKenzie,N.Y. Giants,T,Illegal Block Above the Waist,49
+K.McKenzie,N.Y. Giants,T,Roughing the Passer,30
+K.McKenzie,N.Y. Giants,T,Taunting,0
+K.McKenzie,N.Y. Giants,T,Defensive Too Many Men on Field,0
+K.Shaffer,Chicago,T,Kickoff Out of Bounds,0
+K.Shaffer,Chicago,T,Delay of Game,17
+K.Shaffer,Chicago,T,Offensive 12 On-field,5
+K.Shaffer,Chicago,T,Delay of Kickoff,0
+K.Shaffer,Chicago,T,Illegal Blindside Block,0
+K.Williams,Seattle,T,Low Block,0
+K.Williams,Seattle,T,Illegal Use of Hands,25
+L.Brown,Arizona,T,Tripping,0
+L.Brown,Arizona,T,Offside on Free Kick,7
+L.Brown,Arizona,T,Illegal Shift,0
+L.Brown,Arizona,T,Chop Block,57
+L.Brown,Arizona,T,Face Mask (5 Yards),0
+L.Brown,Arizona,T,Chop Block,15
+L.Brown,Arizona,T,Unsportsmanlike Conduct,30
+L.Brown,Arizona,T,Personal Foul,75
+L.Brown,Arizona,T,Intentional Grounding,10
+L.Brown,Arizona,T,Fair Catch Interference,0
+L.Jones,Washington,T,Illegal Kick,0
+L.Jones,Washington,T,Player Out of Bounds on Kick,0
+L.Jones,Washington,T,Illegal Cut,0
+L.Vasquez,San Diego,T,Illegal Cut,0
+L.Walker,Oakland,T,Fair Catch Interference,15
+M.Colombo,Dallas,T,Lowering the Head to Initiate Contact,0
+M.Colombo,Dallas,T,Disqualification,15
+M.Colombo,Dallas,T,Offensive Too Many Men on Field,0
+M.Colombo,Dallas,T,Illegal Block Above the Waist,40
+M.Colombo,Dallas,T,Illegal Motion,0
+M.Gandy,Arizona,T,Illegal Crackback,0
+M.Gandy,Arizona,T,Illegal Block Above the Waist,30
+M.Gandy,Arizona,T,Illegal Peelback,0
+M.Gandy,Arizona,T,Roughing the Passer,44
+M.Gandy,Arizona,T,Low Block,15
+M.Gandy,Arizona,T,Kick Catch Interference,0
+M.Henderson,Oakland,T,Kickoff Out of Bounds,0
+M.Henderson,Oakland,T,Illegal Formation,20
+M.Henderson,Oakland,T,Illegal Forward Handoff,0
+M.Henderson,Oakland,T,Offside on Free Kick,0
+M.Henderson,Oakland,T,Horse Collar Tackle,30
+M.LeVoir,New England,T,Illegal Touch Kick,0
+M.Light,New England,T,Offside on Free Kick,5
+M.Light,New England,T,Player Out of Bounds on Punt,0
+M.McNeill,San Diego,T,Lowering the Head to Make Forcible Contact,0
+M.McNeill,San Diego,T,Offensive 12 On-field,5
+M.McNeill,San Diego,T,Clipping,0
+M.McNeill,San Diego,T,Defensive 12 On-field,5
+M.McNeill,San Diego,T,Ineligible Downfield Kick,0
+M.Oher,Baltimore,T,Running Into the Kicker,0
+M.Oher,Baltimore,T,Defensive Too Many Men on Field,0
+M.Oher,Baltimore,T,Short Free Kick,0
+M.Oher,Baltimore,T,Delay of Kickoff,0
+M.Oher,Baltimore,T,Illegal Kick,0
+M.Oher,Baltimore,T,Offensive 12 On-field,10
+M.Oher,Baltimore,T,Offensive Too Many Men on Field,0
+M.Oher,Baltimore,T,Offensive Too Many Men on Field,0
+M.Oher,Baltimore,T,Short Free Kick,0
+M.Roos,Tennessee,T,Leverage,0
+M.Roos,Tennessee,T,Disqualification,0
+M.Roos,Tennessee,T,Illegal Kick/Kicking Loose Ball,0
+M.Roos,Tennessee,T,Fair Catch Interference,0
+M.Roos,Tennessee,T,Offensive Pass Interference,29
+M.Starks,Pittsburgh,T,Unsportsmanlike Conduct,45
+M.Starks,Pittsburgh,T,Kick Catch Interference,0
+M.Starks,Pittsburgh,T,Illegal Double-Team Block,0
+M.Starks,Pittsburgh,T,Illegal Kick/Kicking Loose Ball,0
+M.Starks,Pittsburgh,T,Illegal Forward Pass,0
+M.Starks,Pittsburgh,T,Illegal Blindside Block,0
+M.Starks,Pittsburgh,T,Taunting,0
+M.Tauscher,Green Bay,T,Low Block,15
+M.Tauscher,Green Bay,T,Offensive 12 On-field,0
+M.Tauscher,Green Bay,T,Face Mask,0
+M.Tauscher,Green Bay,T,Illegal Motion,5
+N.Kaczur,New England,T,Delay of Kickoff,0
+O.Cousins,Baltimore,T,Unnecessary Roughness,161
+O.Cousins,Baltimore,T,Illegal Touch Kick,0
+O.Pace,Chicago,T,Short Free Kick,0
+O.Pace,Chicago,T,False Start,213
+O.Pace,Chicago,T,Neutral Zone Infraction,15
+O.Pace,Chicago,T,Tripping,0
+P.Loadholt,Minnesota,T,Offensive Pass Interference,39
+P.Loadholt,Minnesota,T,Illegal Blindside Block,0
+P.Loadholt,Minnesota,T,Illegal Cut,0
+P.Loadholt,Minnesota,T,Personal Foul,29
+P.Loadholt,Minnesota,T,Defensive Holding,32
+P.Loadholt,Minnesota,T,Illegal Procedure,0
+P.Loadholt,Minnesota,T,Illegal Cut,0
+P.Loadholt,Minnesota,T,Illegal Double-Team Block,0
+P.Loadholt,Minnesota,T,Illegal Double-Team Block,0
+P.Loadholt,Minnesota,T,Chop Block,15
+P.Loadholt,Minnesota,T,Delay of Kickoff,0
+P.Loadholt,Minnesota,T,Illegal Wedge,0
+P.McQuistan,Miami,T,Intentional Grounding,54
+R.Butler,Houston,T,Defensive 12 On-field,10
+R.Butler,Houston,T,Kickoff Out of Bounds,0
+R.Clady,Denver,T,Illegal Kick/Kicking Loose Ball,0
+R.Clady,Denver,T,Offensive Too Many Men on Field,0
+R.Clady,Denver,T,Illegal Touch Kick,0
+R.Clady,Denver,T,Illegal Cut,0
+R.Clady,Denver,T,Illegal Blindside Block,0
+R.Clady,Denver,T,Horse Collar Tackle,21
+R.Clady,Denver,T,Ineligible Downfield Pass,10
+R.Harris,Denver,T,Encroachment,30
+R.Harris,Denver,T,Fair Catch Interference,0
+R.O'Callaghan,Kansas City,T,Illegal Formation,0
+R.O'Callaghan,Kansas City,T,Face Mask,0
+R.Wells,Arizona,T,Illegal Formation,15
+R.Wells,Arizona,T,Roughing the Kicker,0
+R.Wells,Arizona,T,Defensive Offside,55
+R.Wells,Philadelphia,T,Illegal Forward Pass,4
+R.Willis,Seattle,T,Defensive Offside,70
+R.Willis,Seattle,T,Kickoff Out of Bounds,0
+R.Willis,Seattle,T,Neutral Zone Infraction,15
+R.Willis,Seattle,T,Fair Catch Interference,15
+R.Willis,Seattle,T,Delay of Kickoff,0
+S.Baker,Atlanta,T,Illegal Crackback,0
+S.Baker,Atlanta,T,Tripping,20
+S.Baker,Atlanta,T,Leaping,0
+S.Baker,Atlanta,T,Ineligible Downfield Kick,0
+S.Baker,Atlanta,T,Illegal Block Above the Waist,50
+S.Baker,Atlanta,T,Offensive Offside,0
+S.Baker,Atlanta,T,Roughing the Passer,75
+S.Baker,Atlanta,T,Interference with Opportunity to Catch,0
+S.Heyer,Washington,T,Offside on Free Kick,5
+S.Heyer,Washington,T,Chop Block,5
+S.Heyer,Washington,T,Offensive Offside,0
+S.Heyer,Washington,T,Delay of Kickoff,0
+S.Heyer,Washington,T,Encroachment,10
+S.Heyer,Washington,T,Running Into the Kicker,5
+S.Heyer,Washington,T,Illegal Kick/Kicking Loose Ball,0
+S.Vollmer,New England,T,Disqualification,0
+S.Vollmer,New England,T,Short Free Kick,0
+T.Clabo,Atlanta,T,Clipping,0
+T.Clabo,Atlanta,T,Face Mask,0
+T.Clabo,Atlanta,T,Illegal Block Above the Waist,34
+T.Clabo,Atlanta,T,Illegal Touch Kick,0
+T.Clabo,Atlanta,T,Roughing the Passer,50
+T.Clabo,Atlanta,T,Illegal Double-Team Block,0
+T.Essex,Pittsburgh,T,Illegal Formation,20
+T.Essex,Pittsburgh,T,Illegal Formation,10
+T.Essex,Pittsburgh,T,Lowering the Head to Make Forcible Contact,0
+T.Essex,Pittsburgh,T,Encroachment,31
+T.Essex,Pittsburgh,T,Disqualification,0
+T.Pashos,Cleveland,T,Defensive Offside,40
+T.Pashos,San Francisco,T,Defensive Holding,35
+T.Thomas,Jacksonville,T,Illegally Kicking Ball,0
+T.Williams,Washington,T,Player Out of Bounds on Punt,0
+W.Beatty,N.Y. Giants,T,Illegal Use of Hands,5
+W.Beatty,N.Y. Giants,T,Illegal Receiver Pass,0
+W.Beatty,N.Y. Giants,T,Defensive Too Many Men on Field,0
+W.Hunter,N.Y. Jets,T,Running Into the Kicker,5
+W.Hunter,N.Y. Jets,T,Illegal Motion,0
+W.Hunter,N.Y. Jets,T,Personal Foul,23
+W.Justice,Philadelphia,T,Defensive Holding,51
+W.Justice,Philadelphia,T,Illegal Bat,0
+W.Justice,Philadelphia,T,Illegally Kicking Ball,0
+W.Justice,Philadelphia,T,Illegal Forward Handoff,0
+W.Justice,Philadelphia,T,Kickoff Out of Bounds,0
+W.Justice,Philadelphia,T,Illegal Crackback,15
+W.Smith,Kansas City,T,Illegal Forward Handoff,0
+W.Smith,Kansas City,T,Roughing the Kicker,0
+W.Svitek,Atlanta,T,Unnecessary Roughness,147
+Z.Strief,New Orleans,T,Illegal Contact,10
+Z.Strief,New Orleans,T,Leverage,0
+A.Becht,Arizona,TE,Delay of Game,45
+A.Becht,Arizona,TE,Illegal Onside Kick,0
+A.Crumpler,New England,TE,Invalid Fair Catch Signal,0
+A.Crumpler,New England,TE,Unnecessary Roughness,120
+A.Crumpler,Tennessee,TE,Face Mask (15 Yards),15
+A.Fasano,Miami,TE,Roughing the Passer,53
+A.Fasano,Miami,TE,Player Out of Bounds on Punt,0
+A.Fasano,Miami,TE,Player Out of Bounds on Punt,0
+A.Fasano,Miami,TE,Defensive Holding,46
+A.Fasano,Miami,TE,Neutral Zone Infraction,50
+A.Gates,San Diego,TE,Delay of Game,50
+A.Gates,San Diego,TE,Illegal Cut,0
+A.Hernandez,New England,TE,Illegal Bat,0
+A.Hill,Houston,TE,Unsportsmanlike Conduct,60
+A.Smith,Philadelphia,TE,Illegal Forward Pass,0
+B.Bajema,St. Louis,TE,Neutral Zone Infraction,14
+B.Bajema,St. Louis,TE,Illegal Touch Kick,0
+B.Celek,Philadelphia,TE,Unnecessary Roughness,168
+B.Celek,Philadelphia,TE,Neutral Zone Infraction,25
+B.Hartsock,N.Y. Jets,TE,Running Into the Kicker,5
+B.Hartsock,N.Y. Jets,TE,Invalid Fair Catch Signal,0
+B.Hartsock,N.Y. Jets,TE,Horse Collar Tackle,30
+B.Hartsock,N.Y. Jets,TE,Player Out of Bounds on Kick,0
+B.Hartsock,N.Y. Jets,TE,Lowering the Head to Initiate Contact,0
+B.Manumaleuna,Chicago,TE,Illegal Double-Team Block,0
+B.Manumaleuna,San Diego,TE,Illegal Kick,0
+B.Myers,Oakland,TE,Face Mask (5 Yards),0
+B.Myers,Oakland,TE,Encroachment,21
+B.Patrick,Arizona,TE,Roughing the Passer,100
+B.Patrick,Arizona,TE,Offensive Offside,10
+B.Patrick,Arizona,TE,Leaping,0
+B.Pettigrew,Detroit,TE,Illegal Wedge,0
+B.Pettigrew,Detroit,TE,Illegal Touch Kick,0
+B.Pettigrew,Detroit,TE,Illegal Kick,0
+B.Pettigrew,Detroit,TE,Illegal Block Above the Waist,58
+B.Pettigrew,Detroit,TE,Player Out of Bounds on Kick,0
+B.Pettigrew,Detroit,TE,Illegal Bat,0
+B.Pettigrew,Detroit,TE,Illegal Crackback,15
+B.Pettigrew,Detroit,TE,Player Out of Bounds on Kick,0
+B.Scaife,Tennessee,TE,Illegal Bat,10
+B.Scaife,Tennessee,TE,Disqualification,0
+B.Scaife,Tennessee,TE,Delay of Game,29
+B.Scaife,Tennessee,TE,Illegal Kick/Kicking Loose Ball,0
+B.Watson,Cleveland,TE,Disqualification,0
+B.Watson,Cleveland,TE,Illegal Bat,0
+B.Watson,New England,TE,Tripping,0
+B.Watson,New England,TE,Unsportsmanlike Conduct,88
+B.Watson,New England,TE,Offensive 12 On-field,0
+C.Baker,New England,TE,Kickoff Out of Bounds,0
+C.Baker,New England,TE,Defensive Pass Interference,175
+C.Baker,New England,TE,Leaping,0
+C.Baker,New England,TE,Offensive Offside,0
+C.Baker,Seattle,TE,Ineligible Downfield Pass,0
+C.Cooley,Washington,TE,Offside on Free Kick,20
+C.Cooley,Washington,TE,Leaping,0
+C.Fitzsimmons,Detroit,TE,Roughing the Passer,75
+C.Fitzsimmons,Detroit,TE,Offensive Offside,0
+C.Harbor,Philadelphia,TE,Kickoff Out of Bounds,0
+C.Stevens,Tennessee,TE,Unsportsmanlike Conduct,63
+D.Clark,Indianapolis,TE,Offensive Holding,434
+D.Clark,Indianapolis,TE,Player Out of Bounds on Kick,0
+D.Coats,Cincinnati,TE,Personal Foul,30
+D.Coats,Cincinnati,TE,False Start,184
+D.Dinkins,New Orleans,TE,Personal Foul,15
+D.Dinkins,New Orleans,TE,Illegal Kick/Kicking Loose Ball,0
+D.Fells,St. Louis,TE,Illegal Wedge,0
+D.Fells,St. Louis,TE,Lowering the Head to Initiate Contact,0
+D.Fells,St. Louis,TE,Illegal Substitution,5
+D.Fells,St. Louis,TE,Face Mask (15 Yards),74
+D.Fells,St. Louis,TE,Offensive Pass Interference,60
+D.Fells,St. Louis,TE,Illegal Receiver Pass,0
+D.Fine,Buffalo,TE,Short Free Kick,0
+D.Fine,Buffalo,TE,Lowering the Head to Initiate Contact,0
+D.Graham,Denver,TE,Invalid Fair Catch Signal,0
+D.Graham,Denver,TE,Horse Collar Tackle,30
+D.Graham,Denver,TE,Illegal Use of Hands,15
+D.Graham,Denver,TE,Illegal Forward Pass,0
+D.Graham,Denver,TE,Ineligible Downfield Pass,0
+D.Graham,Denver,TE,Neutral Zone Infraction,0
+D.Graham,Denver,TE,Invalid Fair Catch Signal,0
+D.Johnson,N.Y. Giants,TE,Illegal Bat,0
+D.Johnson,Pittsburgh,TE,Illegal Onside Kick,0
+D.Johnson,St. Louis,TE,Fair Catch Interference,0
+D.Keller,N.Y. Jets,TE,Face Mask (15 Yards),75
+D.Keller,N.Y. Jets,TE,Kickoff Out of Bounds,0
+D.Keller,N.Y. Jets,TE,Illegally Kicking Ball,0
+D.Keller,N.Y. Jets,TE,Illegal Onside Kick,0
+D.Keller,N.Y. Jets,TE,Encroachment,20
+D.Lee,Green Bay,TE,False Start,174
+D.Lee,Green Bay,TE,Clipping,0
+D.Lee,Green Bay,TE,Illegal Motion,5
+D.Rosario,Carolina,TE,Illegally Kicking Ball,0
+D.Rosario,Carolina,TE,Chop Block,0
+D.Rosario,Carolina,TE,Illegal Substitution,0
+D.Schouman,Buffalo,TE,Illegal Bat,0
+D.Thomas,New Orleans,TE,Defensive 12 On-field,16
+D.Thomas,New Orleans,TE,Kickoff Out of Bounds,0
+D.Thomas,New Orleans,TE,Illegal Touch Pass,0
+D.Thomas,New Orleans,TE,Lowering the Head to Initiate Contact,0
+D.Walker,San Francisco,TE,Illegal Formation,15
+D.Walker,San Francisco,TE,Illegal Substitution,25
+D.Walker,San Francisco,TE,Offensive Too Many Men on Field,0
+D.Walker,San Francisco,TE,Horse Collar Tackle,4
+D.Walker,San Francisco,TE,Defensive Offside,65
+E.Moore,Cleveland,TE,Illegal Motion,15
+E.Moore,Cleveland,TE,Defensive 12 On-field,0
+F.Davis,Washington,TE,Delay of Game,35
+F.Davis,Washington,TE,Personal Foul,45
+F.Davis,Washington,TE,Leaping,0
+F.Davis,Washington,TE,Illegal Contact,40
+F.Davis,Washington,TE,Unsportsmanlike Conduct,53
+G.Estandia,Cleveland,TE,Illegal Kick/Kicking Loose Ball,0
+G.Estandia,Jacksonville,TE,Illegally Kicking Ball,0
+G.Olsen,Chicago,TE,Kick Catch Interference,0
+G.Olsen,Chicago,TE,Illegal Kick/Kicking Loose Ball,0
+G.Olsen,Chicago,TE,Interference with Opportunity to Catch,0
+G.Robinson,Indianapolis,TE,Tripping,0
+G.Robinson,Indianapolis,TE,Delay of Kickoff,0
+H.Miller,Pittsburgh,TE,Roughing the Kicker,15
+H.Miller,Pittsburgh,TE,Player Out of Bounds on Punt,0
+H.Miller,Pittsburgh,TE,Face Mask (15 Yards),72
+H.Miller,Pittsburgh,TE,Illegal Forward Handoff,0
+H.Miller,Pittsburgh,TE,Illegal Kick,0
+J.Carlson,Seattle,TE,Face Mask,0
+J.Carlson,Seattle,TE,Ineligible Downfield Pass,0
+J.Carlson,Seattle,TE,Illegal Forward Handoff,0
+J.Carlson,Seattle,TE,Illegal Touch Kick,5
+J.Carlson,Seattle,TE,Defensive Delay of Game,0
+J.Carlson,Seattle,TE,Ineligible Downfield Kick,15
+J.Dreessen,Houston,TE,Illegal Onside Kick,0
+J.Dugan,Minnesota,TE,Defensive Too Many Men on Field,0
+J.Foschi,Cincinnati,TE,Illegal Touch Pass,10
+J.Foschi,Cincinnati,TE,Illegal Block Above the Waist,128
+J.Foschi,Cincinnati,TE,Offside on Free Kick,0
+J.Foschi,Cincinnati,TE,Kick Catch Interference,0
+J.Foschi,Cincinnati,TE,Horse Collar Tackle,15
+J.Foschi,Cincinnati,TE,Disqualification,0
+J.Foschi,Cincinnati,TE,Clipping,0
+J.Gilmore,Tampa Bay,TE,Ineligible Downfield Pass,5
+J.Gilmore,Tampa Bay,TE,Illegal Kick,0
+J.Gilmore,Tampa Bay,TE,Ineligible Downfield Pass,5
+J.Gilmore,Tampa Bay,TE,Lowering the Head to Initiate Contact,0
+J.Gresham,Cincinnati,TE,Illegal Wedge,0
+J.Gresham,Cincinnati,TE,Kickoff Out of Bounds,0
+J.Haynos,Miami,TE,Invalid Fair Catch Signal,0
+J.Haynos,Miami,TE,Low Block,0
+J.Haynos,Miami,TE,Interference with Opportunity to Catch,0
+J.King,Carolina,TE,False Start,167
+J.King,Carolina,TE,Illegal Use of Hands,10
+J.King,Carolina,TE,Illegal Crackback,30
+J.King,Carolina,TE,Kickoff Out of Bounds,0
+J.King,Carolina,TE,Illegal Contact,15
+J.Kleinsasser,Minnesota,TE,Tripping,0
+J.Kleinsasser,Minnesota,TE,Lowering the Head to Make Forcible Contact,0
+J.Kleinsasser,Minnesota,TE,Intentional Grounding,0
+J.Kleinsasser,Minnesota,TE,Illegal Motion,10
+J.Kleinsasser,Minnesota,TE,Illegal Blindside Block,0
+J.Klopfenstein,Buffalo,TE,Chop Block,30
+J.O'Connell,Kansas City,TE,Illegal Peelback,0
+J.Peelle,Atlanta,TE,Tripping,20
+J.Peelle,Atlanta,TE,Unsportsmanlike Conduct,30
+J.Peelle,Atlanta,TE,Offensive Too Many Men on Field,0
+J.Phillips,Dallas,TE,Illegal Use of Hands,0
+J.Phillips,Dallas,TE,Delay of Kickoff,0
+J.Shockey,New Orleans,TE,Low Block,15
+J.Shockey,New Orleans,TE,Defensive Delay of Game,0
+J.Shockey,New Orleans,TE,Offensive Too Many Men on Field,0
+J.Shockey,New Orleans,TE,Chop Block,25
+J.Stevens,Tampa Bay,TE,Face Mask (15 Yards),135
+J.Stevens,Tampa Bay,TE,Clipping,0
+J.Stupar,Buffalo,TE,Lowering the Head to Initiate Contact,0
+J.Witten,Dallas,TE,Illegal Forward Pass,5
+J.Witten,Dallas,TE,Player Out of Bounds on Punt,0
+J.Witten,Dallas,TE,Illegal Kick,0
+J.Witten,Dallas,TE,Roughing the Kicker,0
+J.Witten,Dallas,TE,Intentional Grounding,42
+J.Witten,Dallas,TE,Offensive Too Many Men on Field,0
+J.Witten,Dallas,TE,Personal Foul,45
+J.Witten,Dallas,TE,Illegal Peelback,0
+J.Witten,Dallas,TE,Offensive 12 On-field,0
+K.Boss,N.Y. Giants,TE,Encroachment,0
+K.Boss,N.Y. Giants,TE,Illegal Procedure,0
+K.Davis,Chicago,TE,Illegal Use of Hands,10
+K.Davis,Chicago,TE,Illegal Bat,0
+K.Winslow,Tampa Bay,TE,Illegal Onside Kick,0
+K.Winslow,Tampa Bay,TE,Illegal Substitution,20
+K.Winslow,Tampa Bay,TE,Offensive Holding,373
+K.Winslow,Tampa Bay,TE,Intentional Grounding,10
+K.Winslow,Tampa Bay,TE,Kick Catch Interference,0
+L.Pope,Kansas City,TE,Illegal Cut,0
+L.Pope,Kansas City,TE,Illegal Use of Hands,20
+L.Pope,Kansas City,TE,Defensive Offside,54
+L.Pope,Kansas City,TE,Lowering the Head to Initiate Contact,0
+L.Smith,Baltimore,TE,Offensive Pass Interference,40
+M.Bennett,Dallas,TE,Tripping,0
+M.Bennett,Dallas,TE,Illegal Double-Team Block,0
+M.Bennett,Dallas,TE,Defensive Too Many Men on Field,0
+M.Bennett,Dallas,TE,Defensive Delay of Game,5
+M.Bennett,Dallas,TE,Delay of Kickoff,0
+M.Bennett,Dallas,TE,Illegal Forward Pass,5
+M.Bennett,Dallas,TE,Delay of Game,17
+M.Gaines,Cleveland,TE,Running Into the Kicker,0
+M.Lewis,Jacksonville,TE,Illegal Shift,5
+M.Lewis,Jacksonville,TE,Offensive Too Many Men on Field,0
+M.Lewis,Jacksonville,TE,Illegal Peelback,0
+M.Lewis,Jacksonville,TE,Illegal Procedure,0
+M.Matthews,New England,TE,Running Into the Kicker,0
+M.Mulligan,N.Y. Jets,TE,Illegal Cut,0
+M.Sellers,Washington,TE,Low Block,0
+M.Sellers,Washington,TE,Illegal Use of Hands,25
+M.Sellers,Washington,TE,Delay of Game,45
+M.Sellers,Washington,TE,Illegal Substitution,0
+M.Sellers,Washington,TE,Player Out of Bounds on Punt,10
+M.Sellers,Washington,TE,False Start,188
+M.Sellers,Washington,TE,Delay of Kickoff,0
+M.Spaeth,Pittsburgh,TE,Defensive Offside,45
+M.Spaeth,Pittsburgh,TE,Illegal Substitution,10
+M.Spaeth,Pittsburgh,TE,Invalid Fair Catch Signal,0
+O.Daniels,Houston,TE,Illegal Crackback,0
+O.Daniels,Houston,TE,Running Into the Kicker,10
+R.Gronkowski,New England,TE,Fair Catch Interference,15
+R.Gronkowski,New England,TE,Short Free Kick,0
+R.McMichael,St. Louis,TE,Neutral Zone Infraction,38
+R.McMichael,St. Louis,TE,Face Mask,0
+R.McMichael,St. Louis,TE,Lowering the Head to Initiate Contact,0
+R.Quinn,Denver,TE,Interference with Opportunity to Catch,0
+R.Quinn,Denver,TE,Unsportsmanlike Conduct,27
+S.Havner,Green Bay,TE,Face Mask (5 Yards),0
+S.Havner,Green Bay,TE,Defensive Delay of Game,0
+S.Havner,Green Bay,TE,Ineligible Downfield Kick,10
+S.Havner,Green Bay,TE,Illegal Bat,0
+S.Heiden,Cleveland,TE,Illegal Receiver Pass,0
+S.Heiden,Cleveland,TE,Defensive Pass Interference,366
+S.Nelson,Buffalo,TE,Low Block,0
+S.Nelson,Buffalo,TE,Illegal Crackback,0
+S.Nelson,Buffalo,TE,Illegal Procedure,0
+S.Nelson,Buffalo,TE,Tripping,10
+S.Ryan,Kansas City,TE,Personal Foul,18
+S.Ryan,Kansas City,TE,Chop Block,15
+S.Ryan,Kansas City,TE,Invalid Fair Catch Signal,0
+S.Spach,Arizona,TE,Offensive Offside,0
+S.Spach,Arizona,TE,Disqualification,0
+S.Spach,Arizona,TE,Illegal Receiver Pass,0
+S.Spach,Arizona,TE,Illegal Shift,5
+S.Spach,Arizona,TE,Clipping,0
+T.Beckum,N.Y. Giants,TE,Defensive Holding,42
+T.Beckum,N.Y. Giants,TE,Illegal Block Above the Waist,36
+T.Crabtree,Green Bay,TE,Defensive Holding,35
+T.Gonzalez,Atlanta,TE,Illegal Touch Kick,0
+T.Gonzalez,Atlanta,TE,Disqualification,0
+T.Gonzalez,Atlanta,TE,Defensive 12 On-field,5
+T.Heap,Baltimore,TE,Offensive 12 On-field,0
+T.Heap,Baltimore,TE,Leaping,0
+T.Heap,Baltimore,TE,Intentional Grounding,26
+T.Heap,Baltimore,TE,Offensive Offside,0
+T.Heap,Baltimore,TE,Neutral Zone Infraction,15
+T.Moeaki,Kansas City,TE,Illegal Formation,15
+T.Santi,Indianapolis,TE,Illegal Forward Pass,5
+T.Scheffler,Denver,TE,Illegally Kicking Ball,0
+T.Scheffler,Denver,TE,Disqualification,0
+T.Stewart,Oakland,TE,Leverage,14
+T.Stewart,Oakland,TE,Taunting,0
+V.Davis,San Francisco,TE,Offensive 12 On-field,0
+V.Davis,San Francisco,TE,Offensive 12 On-field,0
+V.Davis,San Francisco,TE,Illegal Cut,0
+V.Davis,San Francisco,TE,Player Out of Bounds on Punt,5
+V.Davis,San Francisco,TE,Roughing the Passer,83
+V.Davis,San Francisco,TE,Illegal Bat,0
+V.Davis,San Francisco,TE,Personal Foul,30
+V.Davis,San Francisco,TE,Illegal Touch Pass,0
+V.Davis,San Francisco,TE,Defensive Holding,18
+V.Davis,San Francisco,TE,Illegal Receiver Pass,0
+V.Shiancoe,Minnesota,TE,Illegal Forward Pass,0
+V.Shiancoe,Minnesota,TE,Lowering the Head to Initiate Contact,0
+V.Shiancoe,Minnesota,TE,Illegal Onside Kick,0
+V.Shiancoe,Minnesota,TE,Defensive 12 On-field,5
+W.Heller,Detroit,TE,Face Mask (15 Yards),117
+W.Heller,Detroit,TE,Horse Collar Tackle,28
+W.Heller,Detroit,TE,Illegal Formation,20
+W.Heller,Detroit,TE,Short Free Kick,0
+Z.Miller,Oakland,TE,Player Out of Bounds on Kick,0
+Z.Miller,Oakland,TE,Offensive 12 On-field,0
+Z.Miller,Oakland,TE,Illegal Block Above the Waist,58
+Z.Miller,Oakland,TE,Horse Collar Tackle,30
+Z.Potter,Jacksonville,TE,Defensive 12 On-field,0
+A.Battle,San Francisco,WR,Roughing the Passer,15
+A.Benn,Tampa Bay,WR,Illegal Forward Handoff,0
+A.Boldin,Arizona,WR,Encroachment,19
+A.Boldin,Arizona,WR,Unsportsmanlike Conduct,28
+A.Boldin,Baltimore,WR,Offensive Too Many Men on Field,0
+A.Bryant,Tampa Bay,WR,Illegal Procedure,0
+A.Collie,Indianapolis,WR,Personal Foul,143
+A.Collie,Indianapolis,WR,Horse Collar Tackle,0
+A.Collie,Indianapolis,WR,Player Out of Bounds on Punt,0
+A.Collie,Indianapolis,WR,Player Out of Bounds on Kick,0
+A.Johnson,Houston,WR,Leverage,0
+B.Berrian,Minnesota,WR,False Start,194
+B.Berrian,Minnesota,WR,Offensive Holding,354
+B.Berrian,Minnesota,WR,Delay of Game,46
+B.Berrian,Minnesota,WR,Illegal Formation,10
+B.Clark,Tampa Bay,WR,Taunting,15
+B.Clark,Tampa Bay,WR,Illegal Blindside Block,0
+B.Edwards,Cleveland,WR,Illegal Motion,0
+B.Edwards,Cleveland,WR,Defensive Too Many Men on Field,0
+B.Edwards,Cleveland,WR,Leverage,0
+B.Edwards,N.Y. Jets,WR,Personal Foul,75
+B.Edwards,N.Y. Jets,WR,Defensive Too Many Men on Field,0
+B.Edwards,N.Y. Jets,WR,Illegal Touch Pass,0
+B.Edwards,N.Y. Jets,WR,Illegal Formation,10
+B.Edwards,N.Y. Jets,WR,Ineligible Downfield Kick,10
+B.Edwards,N.Y. Jets,WR,Offensive Holding,393
+B.Finneran,Atlanta,WR,Illegal Double-Team Block,0
+B.Gibson,St. Louis,WR,Offensive Holding,323
+B.Hartline,Miami,WR,Leverage,15
+B.Hartline,Miami,WR,Illegal Forward Pass,0
+B.Hartline,Miami,WR,Kickoff Out of Bounds,0
+B.Jones,San Francisco,WR,Ineligible Downfield Kick,0
+B.Marshall,Denver,WR,Illegal Block Above the Waist,27
+B.Marshall,Denver,WR,Unnecessary Roughness,75
+B.Marshall,Denver,WR,Unnecessary Roughness,47
+B.Marshall,Denver,WR,Defensive 12 On-field,15
+B.Marshall,Denver,WR,Defensive Too Many Men on Field,0
+B.Obomanu,Seattle,WR,Face Mask (5 Yards),0
+B.Obomanu,Seattle,WR,Illegal Shift,15
+B.Smith,N.Y. Jets,WR,Kickoff Out of Bounds,0
+B.Smith,N.Y. Jets,WR,Offensive Holding,321
+B.Smith,N.Y. Jets,WR,Chop Block,30
+B.Stokley,Denver,WR,Unsportsmanlike Conduct,59
+B.Tate,New England,WR,Illegal Procedure,0
+B.Wade,Kansas City,WR,Face Mask (15 Yards),75
+B.Wade,Kansas City,WR,Low Block,0
+C.Chambers,Kansas City,WR,Illegal Touch Kick,0
+C.Chambers,Kansas City,WR,Illegal Use of Hands,24
+C.Chambers,Kansas City,WR,Delay of Kickoff,0
+C.Chambers,Kansas City,WR,Illegal Peelback,0
+C.Johnson,Cincinnati,WR,Offensive Holding,344
+C.Johnson,Cincinnati,WR,Taunting,0
+C.Johnson,Cincinnati,WR,Defensive Pass Interference,57
+C.Johnson,Cincinnati,WR,Illegal Receiver Pass,0
+C.Johnson,Cincinnati,WR,Defensive Offside,45
+C.Johnson,Cincinnati,WR,Illegal Bat,0
+C.Johnson,Cincinnati,WR,Taunting,0
+C.Johnson,Cincinnati,WR,Unnecessary Roughness,180
+C.Johnson,Detroit,WR,Illegal Onside Kick,0
+C.Johnson,Detroit,WR,Illegal Contact,35
+C.Johnson,Detroit,WR,Illegal Peelback,0
+C.Johnson,Detroit,WR,Offside on Free Kick,0
+C.Roby,New Orleans,WR,Illegal Bat,0
+C.Roby,New Orleans,WR,Illegal Contact,20
+C.Roby,New Orleans,WR,Leaping,0
+C.Roby,New Orleans,WR,Offside on Free Kick,10
+C.Schilens,Oakland,WR,Offensive Pass Interference,65
+C.Schilens,Oakland,WR,Leaping,0
+C.Schilens,Oakland,WR,Invalid Fair Catch Signal,0
+D.Amendola,St. Louis,WR,Face Mask (15 Yards),85
+D.Amendola,St. Louis,WR,Illegal Motion,5
+D.Anderson,Houston,WR,Offside on Free Kick,10
+D.Avery,St. Louis,WR,Encroachment,15
+D.Bess,Miami,WR,Kick Catch Interference,0
+D.Bowe,Kansas City,WR,Illegal Double-Team Block,0
+D.Bowe,Kansas City,WR,Fair Catch Interference,0
+D.Branch,Seattle,WR,Taunting,0
+D.Bryant,Dallas,WR,Interference with Opportunity to Catch,15
+D.Bryant,Dallas,WR,Neutral Zone Infraction,15
+D.Driver,Green Bay,WR,Face Mask (5 Yards),0
+D.Driver,Green Bay,WR,Lowering the Head to Make Forcible Contact,0
+D.Hagan,N.Y. Giants,WR,Illegal Forward Pass,0
+D.Hagan,N.Y. Giants,WR,Running Into the Kicker,0
+D.Henderson,New Orleans,WR,Illegal Formation,20
+D.Henderson,New Orleans,WR,Encroachment,50
+D.Henderson,New Orleans,WR,Illegal Double-Team Block,0
+D.Hester,Chicago,WR,Illegal Contact,15
+D.Hester,Chicago,WR,Illegal Wedge,0
+D.Hester,Chicago,WR,Short Free Kick,0
+D.Heyward-Bey,Oakland,WR,Illegal Receiver Pass,0
+D.Hixon,N.Y. Giants,WR,Offensive Too Many Men on Field,0
+D.Jackson,Philadelphia,WR,Unnecessary Roughness,66
+D.Jackson,Philadelphia,WR,Ineligible Downfield Kick,5
+D.Jackson,Philadelphia,WR,False Start,165
+D.Jackson,Philadelphia,WR,Illegal Use of Hands,10
+D.Jackson,Philadelphia,WR,Illegal Kick,0
+D.Jarrett,Carolina,WR,Defensive Delay of Game,0
+D.Mason,Baltimore,WR,Interference with Opportunity to Catch,0
+D.Mason,Baltimore,WR,Illegal Peelback,0
+D.Mason,Baltimore,WR,Kick Catch Interference,0
+D.Mason,Baltimore,WR,Lowering the Head to Make Forcible Contact,0
+D.Mason,Baltimore,WR,Illegal Block Above the Waist,27
+D.Northcutt,Detroit,WR,Illegal Shift,0
+D.Tyree,Baltimore,WR,Offensive Offside,0
+D.Tyree,Baltimore,WR,Roughing the Passer,120
+D.Williams,Detroit,WR,Low Block,0
+D.Williams,Detroit,WR,Neutral Zone Infraction,34
+E.Bennett,Chicago,WR,Tripping,0
+E.Bennett,Chicago,WR,Illegal Formation,15
+E.Decker,Denver,WR,Disqualification,17
+E.Royal,Denver,WR,Illegal Kick,0
+E.Royal,Denver,WR,Illegal Peelback,0
+E.Royal,Denver,WR,Player Out of Bounds on Punt,5
+E.Weems,Atlanta,WR,Illegal Block Above the Waist,25
+E.Wilford,Jacksonville,WR,Leaping,0
+E.Wilford,Jacksonville,WR,Defensive Delay of Game,0
+G.Camarillo,Miami,WR,Encroachment,10
+G.Camarillo,Miami,WR,Illegal Blindside Block,0
+G.Jennings,Green Bay,WR,Clipping,0
+G.Jennings,Green Bay,WR,Offensive 12 On-field,0
+G.Lewis,Minnesota,WR,Illegal Forward Handoff,0
+G.Lewis,Minnesota,WR,Clipping,0
+H.Baskett,Minnesota,WR,Defensive Pass Interference,330
+H.Ward,Pittsburgh,WR,Offside on Free Kick,0
+H.Ward,Pittsburgh,WR,Leverage,0
+H.Ward,Pittsburgh,WR,Ineligible Downfield Kick,15
+H.Ward,Pittsburgh,WR,Illegal Touch Kick,0
+I.Bruce,San Francisco,WR,Clipping,0
+J.Avant,Philadelphia,WR,Ineligible Downfield Kick,10
+J.Avant,Philadelphia,WR,Illegal Onside Kick,0
+J.Cribbs,Cleveland,WR,Illegal Kick/Kicking Loose Ball,0
+J.Gage,Tennessee,WR,Running Into the Kicker,0
+J.Gage,Tennessee,WR,Short Free Kick,0
+J.Galloway,New England,WR,Low Block,0
+J.Hill,San Francisco,WR,Illegal Onside Kick,0
+J.Jones,Green Bay,WR,Illegal Blindside Block,0
+J.Jones,Green Bay,WR,Tripping,20
+J.Jones,Houston,WR,Face Mask (5 Yards),0
+J.Knox,Chicago,WR,Running Into the Kicker,5
+J.Maclin,Philadelphia,WR,Offensive Pass Interference,40
+J.Maclin,Philadelphia,WR,Illegal Forward Pass,0
+J.Morgan,San Francisco,WR,Player Out of Bounds on Kick,0
+J.Morgan,San Francisco,WR,Defensive Holding,48
+J.Morgan,San Francisco,WR,Illegal Use of Hands,5
+J.Morgan,San Francisco,WR,Illegal Motion,0
+J.Morgan,San Francisco,WR,Chop Block,0
+J.Morgan,San Francisco,WR,Roughing the Kicker,0
+J.Morgan,San Francisco,WR,Offensive Holding,263
+J.Nelson,Green Bay,WR,Face Mask,0
+J.Reed,Buffalo,WR,Running Into the Kicker,5
+J.Standeford,Detroit,WR,Offensive 12 On-field,5
+K.Britt,Tennessee,WR,Disqualification,0
+K.Britt,Tennessee,WR,Face Mask,0
+K.Britt,Tennessee,WR,Defensive Pass Interference,234
+K.Ogletree,Dallas,WR,Fair Catch Interference,0
+K.Osgood,Jacksonville,WR,Face Mask (5 Yards),0
+K.Osgood,San Diego,WR,Illegal Touch Pass,10
+K.Osgood,San Diego,WR,Leverage,0
+K.Walter,Houston,WR,Roughing the Passer,45
+K.Walter,Houston,WR,Ineligible Downfield Pass,10
+K.Walter,Houston,WR,Illegal Receiver Pass,0
+K.Washington,Baltimore,WR,Defensive Too Many Men on Field,0
+K.Washington,Baltimore,WR,Lowering the Head to Initiate Contact,0
+L.Coles,Cincinnati,WR,Delay of Game,65
+L.Evans,Buffalo,WR,Horse Collar Tackle,30
+L.Fitzgerald,Arizona,WR,Illegal Contact,15
+L.Fitzgerald,Arizona,WR,Defensive Holding,51
+L.Murphy,Oakland,WR,Invalid Fair Catch Signal,0
+L.Murphy,Oakland,WR,Kick Catch Interference,0
+L.Murphy,Oakland,WR,Illegal Use of Hands,15
+L.Murphy,Oakland,WR,Illegal Forward Handoff,0
+L.Murphy,Oakland,WR,Illegal Cut,0
+L.Naanee,San Diego,WR,Disqualification,0
+L.Naanee,San Diego,WR,Illegal Motion,5
+L.Naanee,San Diego,WR,Illegal Wedge,0
+L.Sweed,Pittsburgh,WR,Invalid Fair Catch Signal,0
+M.Austin,Dallas,WR,Leverage,0
+M.Austin,Dallas,WR,Kickoff Out of Bounds,0
+M.Austin,Dallas,WR,Illegal Double-Team Block,0
+M.Austin,Dallas,WR,Offensive 12 On-field,0
+M.Bradley,Kansas City,WR,Illegal Peelback,0
+M.Bradley,Kansas City,WR,Roughing the Passer,81
+M.Clayton,Baltimore,WR,Short Free Kick,0
+M.Clayton,Baltimore,WR,Delay of Game,30
+M.Clayton,St. Louis,WR,Illegal Onside Kick,0
+M.Clayton,Tampa Bay,WR,Defensive Offside,42
+M.Clayton,Tampa Bay,WR,Illegal Formation,16
+M.Colston,New Orleans,WR,Illegal Receiver Pass,0
+M.Crabtree,San Francisco,WR,False Start,151
+M.Floyd,San Diego,WR,Defensive Offside,39
+M.Floyd,San Diego,WR,Offensive Holding,323
+M.Floyd,San Diego,WR,Offensive 12 On-field,5
+M.Jenkins,Atlanta,WR,Encroachment,40
+M.Jenkins,Atlanta,WR,Defensive Offside,49
+M.Jenkins,Atlanta,WR,Offensive Holding,323
+M.Kelly,Washington,WR,Illegal Use of Hands,5
+M.Kelly,Washington,WR,Offensive Offside,0
+M.Manningham,N.Y. Giants,WR,Offensive Offside,5
+M.Manningham,N.Y. Giants,WR,Illegal Blindside Block,0
+M.Massaquoi,Cleveland,WR,Horse Collar Tackle,15
+M.Muhammad,Carolina,WR,Illegal Motion,0
+M.Muhammad,Carolina,WR,Delay of Kickoff,0
+M.Muhammad,Carolina,WR,Illegal Receiver Pass,0
+M.Purify,Cincinnati,WR,Illegal Motion,5
+M.Sims-Walker,Jacksonville,WR,Personal Foul,39
+M.Sims-Walker,Jacksonville,WR,Illegal Substitution,0
+M.Stovall,Tampa Bay,WR,Illegal Motion,0
+M.Stovall,Tampa Bay,WR,Illegal Contact,34
+M.Thomas,Jacksonville,WR,Face Mask (15 Yards),45
+M.Thomas,Jacksonville,WR,Defensive Holding,33
+M.Thomas,Jacksonville,WR,Horse Collar Tackle,15
+M.Wallace,Pittsburgh,WR,False Start,214
+M.Wallace,Pittsburgh,WR,Disqualification,0
+M.Williams,Tampa Bay,WR,Illegal Touch Kick,0
+M.Willis,Denver,WR,Illegal Peelback,0
+N.Burleson,Seattle,WR,Clipping,0
+N.Burleson,Seattle,WR,Offensive 12 On-field,0
+N.Washington,Tennessee,WR,Illegal Kick/Kicking Loose Ball,0
+N.Washington,Tennessee,WR,Illegal Procedure,0
+P.Crayton,Dallas,WR,Defensive Too Many Men on Field,0
+P.Garcon,Indianapolis,WR,Illegal Double-Team Block,0
+P.Garcon,Indianapolis,WR,Illegal Kick,0
+P.Garcon,Indianapolis,WR,Illegal Touch Kick,0
+P.Garcon,Indianapolis,WR,Player Out of Bounds on Kick,0
+P.Garcon,Indianapolis,WR,Illegal Substitution,5
+P.Garcon,Indianapolis,WR,Illegal Forward Handoff,0
+P.Garcon,Indianapolis,WR,Illegal Double-Team Block,0
+P.Garcon,Indianapolis,WR,Illegal Onside Kick,0
+P.Harvin,Minnesota,WR,Interference with Opportunity to Catch,0
+P.Harvin,Minnesota,WR,Running Into the Kicker,0
+P.Harvin,Minnesota,WR,Face Mask,0
+P.Harvin,Minnesota,WR,Illegal Kick,0
+P.Turner,Miami,WR,Tripping,0
+R.Davis,Chicago,WR,Illegal Touch Pass,5
+R.Davis,Chicago,WR,Low Block,25
+R.Davis,Chicago,WR,Illegal Kick,0
+R.Davis,Chicago,WR,Illegal Peelback,0
+R.Meachem,New Orleans,WR,Invalid Fair Catch Signal,0
+R.Moss,New England,WR,Lowering the Head to Make Forcible Contact,0
+R.Moss,New England,WR,Leverage,0
+R.Moss,New England,WR,Chop Block,45
+R.Moss,New England,WR,Lowering the Head to Initiate Contact,0
+R.Wayne,Indianapolis,WR,Illegal Forward Pass,0
+R.Wayne,Indianapolis,WR,Illegal Touch Pass,5
+R.Wayne,Indianapolis,WR,Illegal Contact,30
+R.Wayne,Indianapolis,WR,Illegal Touch Pass,0
+R.White,Atlanta,WR,Illegal Block Above the Waist,46
+R.White,Atlanta,WR,Short Free Kick,0
+R.White,Atlanta,WR,Horse Collar Tackle,13
+R.White,Atlanta,WR,Face Mask (15 Yards),107
+R.White,Atlanta,WR,Defensive Delay of Game,0
+R.White,Atlanta,WR,Illegal Forward Handoff,0
+R.White,Atlanta,WR,Encroachment,15
+R.White,Atlanta,WR,Intentional Grounding,30
+R.Williams,Dallas,WR,Delay of Kickoff,0
+S.Aiken,Cleveland,WR,Defensive Holding,49
+S.Aiken,New England,WR,Unnecessary Roughness,56
+S.Aiken,New England,WR,Defensive Too Many Men on Field,0
+S.Aiken,New England,WR,Leverage,0
+S.Breaston,Arizona,WR,Lowering the Head to Initiate Contact,0
+S.Breaston,Arizona,WR,Illegal Onside Kick,0
+S.Breaston,Arizona,WR,Illegal Procedure,0
+S.Breaston,Arizona,WR,Defensive Holding,30
+S.Breaston,Arizona,WR,Offensive Holding,425
+S.Breaston,Arizona,WR,Illegal Formation,25
+S.Holmes,Pittsburgh,WR,Intentional Grounding,0
+S.Hurd,Dallas,WR,Fair Catch Interference,0
+S.Hurd,Dallas,WR,Kick Catch Interference,0
+S.Hurd,Dallas,WR,Player Out of Bounds on Kick,0
+S.Johnson,Buffalo,WR,Defensive Pass Interference,403
+S.Morey,Arizona,WR,Roughing the Passer,30
+S.Moss,Washington,WR,Fair Catch Interference,0
+S.Moss,Washington,WR,Defensive Pass Interference,99
+S.Moss,Washington,WR,Illegal Receiver Pass,0
+S.Moss,Washington,WR,Illegal Blindside Block,0
+S.Moss,Washington,WR,Unnecessary Roughness,54
+S.Rice,Minnesota,WR,Roughing the Kicker,2
+S.Rice,Minnesota,WR,Illegal Forward Pass,0
+S.Rice,Minnesota,WR,Interference with Opportunity to Catch,0
+S.Smith,Carolina,WR,Illegal Receiver Pass,0
+S.Smith,Carolina,WR,Face Mask,0
+S.Smith,Carolina,WR,Neutral Zone Infraction,15
+S.Smith,N.Y. Giants,WR,Illegal Formation,15
+S.Smith,N.Y. Giants,WR,Player Out of Bounds on Kick,0
+S.Smith,N.Y. Giants,WR,Illegal Onside Kick,0
+S.Stroughter,Tampa Bay,WR,Taunting,11
+T.Copper,Kansas City,WR,Illegal Onside Kick,0
+T.Ginn,Miami,WR,Offside on Free Kick,0
+T.Ginn,Miami,WR,Leverage,0
+T.Holt,Jacksonville,WR,Defensive Offside,80
+T.Holt,Jacksonville,WR,Delay of Kickoff,0
+T.Holt,Jacksonville,WR,Running Into the Kicker,5
+T.Houshmandzadeh,Seattle,WR,Defensive Pass Interference,118
+T.Houshmandzadeh,Seattle,WR,Neutral Zone Infraction,44
+T.Houshmandzadeh,Seattle,WR,Running Into the Kicker,10
+T.Houshmandzadeh,Seattle,WR,Illegal Kick/Kicking Loose Ball,0
+T.Owens,Buffalo,WR,Illegal Blindside Block,0
+T.Owens,Buffalo,WR,Defensive Delay of Game,0
+T.Owens,Buffalo,WR,Lowering the Head to Initiate Contact,0
+T.Watkins,Oakland,WR,Illegal Substitution,5
+V.Jackson,San Diego,WR,Leaping,0
+W.Wright,N.Y. Jets,WR,Illegal Double-Team Block,0
