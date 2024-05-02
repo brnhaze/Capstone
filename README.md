@@ -46,6 +46,6 @@ Apply learnings from program to leverage data exploring problems and presenting 
 
 ## Files
 
-[Hypothesis and Problem Statement]([https://raw.githubusercontent.com/username/repository/main/text_files/sample.txt](https://github.com/brnhaze/capstone_project_repo/blob/main/hyp_prob_stat.md)
+[Hypothesis and Problem Statement](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
 
-[Instructions]([https://raw.githubusercontent.com/username/repository/main/text_files/sample.txt](https://github.com/brnhaze/capstone_project_repo/blob/main/instructions.md)
+[Instructions](https://github.com/brnhaze/capstone/blob/main/documents/instructions.md)
