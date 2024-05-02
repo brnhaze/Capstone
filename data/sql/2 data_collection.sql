@@ -2,6 +2,7 @@ SELECT * FROM games
 SELECT * FROM penalties
 SELECT * FROM players
 SELECT * FROM team
+SELECT * FROM log
 
 SELECT * FROM penalties
 
