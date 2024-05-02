@@ -69,12 +69,8 @@ Apply learnings from program to leverage data exploring problems and presenting 
     - [3 Data Preparation.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/3%20Data%20Preparation.sql)
     - [4 EDA_help.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/4%20EDA_help.sql)
 - [documents](https://github.com/brnhaze/capstone/tree/main/documents)
-  - [hyp_prob_stat.md](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
+  - [Hypothesis and Problem Statement](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
   - [instructions.md](https://github.com/brnhaze/capstone/blob/main/documents/instructions.md)
 - [images](https://github.com/brnhaze/capstone/tree/main/images)
   - [ERD.JPG](https://github.com/brnhaze/capstone/blob/main/images/ERD.JPG)
   - [schematic.pgerd](https://github.com/brnhaze/capstone/blob/main/images/schematic.pgerd)
-
-[Hypothesis and Problem Statement](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
-
-[Instructions](https://github.com/brnhaze/capstone/blob/main/documents/instructions.md)
