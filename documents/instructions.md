@@ -39,10 +39,7 @@ Conduct statistical analysis to examine the distribution of penalties across dif
 ### 6. [Hypothesis](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
 Testing: Use appropriate statistical tests, such as chi-squared tests or ANOVA, to determine if there are significant differences in penalty frequencies among player positions.
 
-### 7. Post-hoc Analysis:
-If significant differences are found, conduct post-hoc analysis to identify which player positions are associated with higher or lower penalty rates. This could involve pairwise comparisons between player positions using techniques like Tukey's HSD test.
+### 7. Data Visualization
 
-### 8. Data Visualization
-
-### 9. Interpretation and Conclusion:
+### 8. Presentation (Interpretation and Conclusion:)
 Interpret the results of the analysis to determine whether there is evidence to support the hypothesis that certain player positions tend to receive more penalties than others. Consider the implications of these findings for coaching strategies, player development, and game officiating in the NFL.
