@@ -42,7 +42,7 @@ Apply learnings from program to leverage data exploring problems and presenting 
 ### Selected Sources
 [Kaggle - NFL Penalties Data 2009-2022](https://www.kaggle.com/datasets/mattop/nfl-penalties-data-2009-2022-season?resource=download)
 - Source contained all of the relevant information needed from 2009 to 2022 (latest data)
-- tables were considered clean
+- tables were tested and clean
 - [log.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/log.csv)
   - contained detailed information to continue the product
 
