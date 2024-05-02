@@ -41,10 +41,39 @@ Apply learnings from program to leverage data exploring problems and presenting 
 
 ### Selected Sources
 [Kaggle - NFL Penalties Data 2009-2022](https://www.kaggle.com/datasets/mattop/nfl-penalties-data-2009-2022-season?resource=download)
+- Source contained all of the relevant information needed from 2009 to 2022 (latest data)
+- tables were considered clean
+- [log.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/log.csv)
+  - contained detailed information to continue the product
 
 ## Hypothesis and Problem Statement
 
-## Files
+## Folders and Files
+- [data](https://github.com/brnhaze/capstone/tree/main/data)
+  - [0 Kraggle Original](https://github.com/brnhaze/capstone/tree/main/data/0%20Kraggle%20Original)
+    -  [games.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/games.csv)
+    -  [log.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/log.csv)
+    -  [penalties.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/penalties.csv)
+    -  [players.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/players.csv)
+    -  [team.csv](https://github.com/brnhaze/capstone/blob/main/data/0%20Kraggle%20Original/team.csv)
+  - [1](https://github.com/brnhaze/capstone/tree/main/data/1)
+    - [data_collection.csv](https://github.com/brnhaze/capstone/blob/main/data/1/data_collection.csv)
+    - [pen_by_pos.csv](https://github.com/brnhaze/capstone/blob/main/data/1/pen_by_pos.csv)
+    - [pen_by_pos_2.csv](https://github.com/brnhaze/capstone/blob/main/data/1/pen_by_pos_2.csv)
+  - [Python](https://github.com/brnhaze/capstone/tree/main/data/Python)
+    - [0 import_files_check.ipynb](https://github.com/brnhaze/capstone/blob/main/data/Python/0%20import_files_check.ipynb)
+    - [1 EDA.ipynb](https://github.com/brnhaze/capstone/blob/main/data/Python/1%20EDA.ipynb)
+  - [sql](https://github.com/brnhaze/capstone/tree/main/data/sql)
+    - [1 profile_validate_cleaning.sql (https://github.com/brnhaze/capstone/blob/main/data/sql/1%20profile_validate_cleaning.sql)
+    - [2 data_collection.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/2%20data_collection.sql)
+    - [3 Data Preparation.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/3%20Data%20Preparation.sql)
+    - [4 EDA_help.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/4%20EDA_help.sql)
+- [documents](https://github.com/brnhaze/capstone/tree/main/documents)
+  - [hyp_prob_stat.md](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
+  - [instructions.md](https://github.com/brnhaze/capstone/blob/main/documents/instructions.md)
+- [images](https://github.com/brnhaze/capstone/tree/main/images)
+  - [ERD.JPG](https://github.com/brnhaze/capstone/blob/main/images/ERD.JPG)
+  - [schematic.pgerd](https://github.com/brnhaze/capstone/blob/main/images/schematic.pgerd)
 
 [Hypothesis and Problem Statement](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
 
