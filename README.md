@@ -64,7 +64,7 @@ Apply learnings from program to leverage data exploring problems and presenting 
     - [0 import_files_check.ipynb](https://github.com/brnhaze/capstone/blob/main/data/Python/0%20import_files_check.ipynb)
     - [1 EDA.ipynb](https://github.com/brnhaze/capstone/blob/main/data/Python/1%20EDA.ipynb)
   - [sql](https://github.com/brnhaze/capstone/tree/main/data/sql)
-    - [1 profile_validate_cleaning.sql (https://github.com/brnhaze/capstone/blob/main/data/sql/1%20profile_validate_cleaning.sql)
+    - [1 profile_validate_cleaning.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/1%20profile_validate_cleaning.sql)
     - [2 data_collection.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/2%20data_collection.sql)
     - [3 Data Preparation.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/3%20Data%20Preparation.sql)
     - [4 EDA_help.sql](https://github.com/brnhaze/capstone/blob/main/data/sql/4%20EDA_help.sql)
