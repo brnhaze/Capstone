@@ -74,3 +74,5 @@ Apply learnings from program to leverage data exploring problems and presenting 
 - [images](https://github.com/brnhaze/capstone/tree/main/images)
   - [ERD.JPG](https://github.com/brnhaze/capstone/blob/main/images/ERD.JPG)
   - [schematic.pgerd](https://github.com/brnhaze/capstone/blob/main/images/schematic.pgerd)
+- [Tableau](https://github.com/brnhaze/capstone/tree/main/Tableau)
+  - [book](https://github.com/brnhaze/capstone/blob/main/Tableau/Book1.twb)
