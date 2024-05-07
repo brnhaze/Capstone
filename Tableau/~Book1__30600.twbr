@@ -6,6 +6,8 @@
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
     <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
     <IntuitiveSorting />
     <IntuitiveSorting_SP2 />
     <_.fcp.MarkAnimation.true...MarkAnimation />
@@ -15,6 +17,7 @@
     <SetMembershipControl />
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
   <preferences>
@@ -4977,6 +4980,7 @@
       <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='log.csv' datatype='table' name='[__tableau_internal_object_id__].[log.csv_A088065EF6F04B42964501AC492EB739]' role='measure' type='quantitative' />
       <column-instance column='[Penalty]' derivation='None' name='[none:Penalty:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
       <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
       <group caption='Action (Penalty)' hidden='true' name='[Action (Penalty)]' name-style='unqualified' user:auto-column='sheet_link'>
         <groupfilter function='crossjoin'>
@@ -4987,6 +4991,12 @@
         <groupfilter function='crossjoin'>
           <groupfilter function='level-members' level='[Penalty]' />
           <groupfilter function='level-members' level='[Player]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Penalty,Quarter)' hidden='true' name='[Action (Penalty,Quarter)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Penalty]' />
+          <groupfilter function='level-members' level='[none:Quarter:ok]' />
         </groupfilter>
       </group>
       <group caption='Action (YEAR(Date))' hidden='true' name='[Action (YEAR(Date))]' name-style='unqualified' user:auto-column='sheet_link'>
@@ -5264,56 +5274,25 @@
     </datasource>
   </datasources>
   <actions>
-    <action caption='Filter 2 (generated)' name='[Action2_D987250667774DD3BC1ABE85C0D7AFE6]'>
-      <activation auto-clear='true' type='on-select' />
-      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Yards Freq' />
-      <command command='tsc:tsl-filter'>
-        <param name='special-fields' value='all' />
-        <param name='target' value='NFL Penalties' />
-      </command>
-    </action>
-    <action caption='Filter 3 (generated)' name='[Action3_6C80CB5312E74C6FBEC02A24AACB481B]'>
-      <activation auto-clear='true' type='on-select' />
-      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count by Team' />
-      <command command='tsc:tsl-filter'>
-        <param name='special-fields' value='all' />
-        <param name='target' value='NFL Penalties' />
-      </command>
-    </action>
-    <action caption='Filter 4 (generated)' name='[Action4_A3CF75BDE6A340A38D27EE75483425A9]'>
+    <action caption='Pen Count By Player to Pen Yards Analysis 1' name='[Action10_4D39C3C8049943CF90500981F67975B7]'>
       <activation auto-clear='true' type='on-select' />
       <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count By Player' />
       <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Penalty Count By Player,Penalty Count by Team,Penalty Count over Time,Penalty Yards Freq' />
+        <param name='on-empty' value='none' />
         <param name='special-fields' value='all' />
         <param name='target' value='NFL Penalties' />
       </command>
     </action>
-    <action caption='Filter 1 (generated)' name='[Action5_1F0577B2E55C4541AAE82B0CEFA9AB70]'>
+    <action caption='Filter 2 (generated) 1' name='[Action11_D7652373A67F4C018371C0382225E7B1]'>
       <activation auto-clear='true' type='on-select' />
-      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count over Time' />
-      <command command='tsc:tsl-filter'>
-        <param name='special-fields' value='all' />
-        <param name='target' value='NFL Penalties' />
-      </command>
-    </action>
-    <action caption='Filter 5 (generated)' name='[Action5_D220D805DE2243919F717B908335F9CA]'>
-      <activation auto-clear='true' type='on-select' />
-      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Yards Analysis' />
-      <command command='tsc:tsl-filter'>
-        <param name='special-fields' value='all' />
-        <param name='target' value='NFL Penalties' />
-      </command>
-    </action>
-    <action caption='Pen Freq to Pen Count by Team' name='[Action6_E6B45D1D74734087B26DBD5C688505A0]'>
-      <activation auto-clear='true' type='on-hover' />
       <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Yards Freq' />
-      <command command='tsc:brush'>
-        <param name='exclude' value='Penalty Yards Analysis,Penalty Count By Player,Penalty Count over Time' />
+      <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
         <param name='target' value='NFL Penalties' />
       </command>
     </action>
-    <action caption='Pen Count by Team to Pen Freq' name='[Action7_B1D12F741032406CAE1E8311001AD798]'>
+    <action caption='Pen Count by Team to Pen Freq 1' name='[Action12_83D699BA659A40C0B49D3095281270B0]'>
       <activation auto-clear='true' type='on-hover' />
       <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count by Team' />
       <command command='tsc:brush'>
@@ -5322,12 +5301,43 @@
         <param name='target' value='NFL Penalties' />
       </command>
     </action>
-    <action caption='Pen Count By Player to Pen Yards Analysis' name='[Action8_2AD1401154664583A82C6A9020198FDC]'>
+    <action caption='Filter 3 (generated) 1' name='[Action13_E022E355519F4D50A209EE6C72F79A6B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count by Team' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='NFL Penalties' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated) 1' name='[Action14_0861E5F47F964EF5AA2425463797D57A]'>
       <activation auto-clear='true' type='on-select' />
       <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count By Player' />
       <command command='tsc:tsl-filter'>
-        <param name='exclude' value='Penalty Count By Player,Penalty Count by Team,Penalty Count over Time,Penalty Yards Freq' />
-        <param name='on-empty' value='none' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='NFL Penalties' />
+      </command>
+    </action>
+    <action caption='Pen Freq to Pen Count by Team 1' name='[Action15_A705C179A8AE4FB585ACF8353C1451E4]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Yards Freq' />
+      <command command='tsc:brush'>
+        <param name='exclude' value='Penalty Yards Analysis,Penalty Count By Player,Penalty Count over Time' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='NFL Penalties' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated) 1' name='[Action16_B34727AA2B254A94AE139899E01A2709]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Count over Time' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='NFL Penalties' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated) 1' name='[Action17_C5F0AECC7DE94101AB547F76A5B28FE6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='NFL Penalties' type='sheet' worksheet='Penalty Yards Analysis' />
+      <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
         <param name='target' value='NFL Penalties' />
       </command>
@@ -6039,81 +6049,14 @@
     </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Cover Page'>
       <style />
-      <size maxheight='2000' maxwidth='1575' minheight='2000' minwidth='1575' preset-index='0' sizing-mode='fixed' />
-      <datasources>
-        <datasource name='Parameters' />
-        <datasource caption='log.csv (Multiple Connections)' name='federated.1e69crf1m3k0550zt9zak18bb05u' />
-      </datasources>
-      <datasource-dependencies datasource='Parameters'>
-        <column caption='Team Type' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Against&quot;'>
-          <calculation class='tableau' formula='&quot;Against&quot;' />
-          <members>
-            <member value='&quot;Against&quot;' />
-            <member value='&quot;Beneficiary&quot;' />
-          </members>
-        </column>
-      </datasource-dependencies>
-      <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
-        <column caption='Selected Team' datatype='string' name='[Calculation_1854638636179918848]' role='dimension' type='nominal'>
-          <calculation class='tableau' formula='IF [Parameters].[Parameter 1] = &apos;Against&apos; THEN [Against]&#13;&#10;ELSEIF [Parameters].[Parameter 1] = &apos;Beneficiary&apos; THEN [Beneficiary]&#13;&#10;END' />
-        </column>
-        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-        <column aggregation='Sum' caption='Downs' datatype='integer' name='[Down (copy)_1854638636255608851]' role='dimension' type='ordinal'>
-          <calculation class='tableau' formula='[Down]' />
-        </column>
-        <column datatype='string' name='[Phase]' role='dimension' type='nominal' />
-        <column datatype='string' name='[Player]' role='dimension' type='nominal' />
-        <column datatype='integer' name='[Quarter]' role='dimension' type='quantitative' />
-        <column caption='Ref Crew' datatype='string' name='[Ref_Crew]' role='dimension' type='nominal' />
-        <column datatype='integer' name='[Week]' role='dimension' type='quantitative' />
-        <column-instance column='[Calculation_1854638636179918848]' derivation='None' name='[none:Calculation_1854638636179918848:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
-        <column-instance column='[Down (copy)_1854638636255608851]' derivation='None' name='[none:Down (copy)_1854638636255608851:ok]' pivot='key' type='ordinal' />
-        <column-instance column='[Phase]' derivation='None' name='[none:Phase:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Player]' derivation='None' name='[none:Player:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:qk]' pivot='key' type='quantitative' />
-        <column-instance column='[Ref_Crew]' derivation='None' name='[none:Ref_Crew:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Week]' derivation='None' name='[none:Week:qk]' pivot='key' type='quantitative' />
-      </datasource-dependencies>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='99200' id='7' param='horz' type-v2='layout-flow' w='98984' x='508' y='400'>
-            <zone h='99200' id='5' type-v2='layout-basic' w='88825' x='508' y='400'>
-              <zone h='23900' id='3' name='Penalty Count over Time' w='44412' x='508' y='400'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='23900' id='12' name='Penalty Yards Freq' w='44413' x='44920' y='400'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='75300' id='16' name='Penalty Count by Team' w='37714' x='508' y='24300'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='75300' id='19' name='Penalty Count By Player' w='29841' x='38222' y='24300'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='75300' id='23' name='Penalty Yards Analysis' w='21270' x='68063' y='24300'>
+          <zone h='86250' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='12750'>
+            <zone h='86250' id='5' type-v2='layout-basic' w='98400' x='800' y='12750'>
+              <zone h='86250' id='3' is-scaled='1' param='C:/Users/ashwi/Downloads/s-l1600.png' type-v2='bitmap' w='98400' x='800' y='12750'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -6122,144 +6065,17 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='160' h='99200' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='10159' x='89333' y='400'>
-              <zone h='3250' id='15' name='Penalty Yards Freq' pane-specification-id='0' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[sum:Yards:qk]' type-v2='color' w='10159' x='89333' y='400'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='3450' id='8' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='3650'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='3450' id='9' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Week:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='7100'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='10' mode='dropdown' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='10550'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='11' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='10159' x='89333' y='13150'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='13' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='15750'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='14' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='18350'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='17' mode='dropdown' name='Penalty Count by Team' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='20950'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='18' mode='checkdropdown' name='Penalty Count by Team' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='23550'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='20' mode='dropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='26150'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='21' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Player:nk]' type-v2='filter' values='relevant' w='10159' x='89333' y='28750'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='22' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='31350'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='24' mode='dropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='33950'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='3450' id='25' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Quarter:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='36550'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='26' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Down (copy)_1854638636255608851:ok]' type-v2='filter' w='10159' x='89333' y='40000'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='27' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Ref_Crew:nk]' type-v2='filter' w='10159' x='89333' y='42600'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='2600' id='28' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='45200'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
+          </zone>
+          <zone forceUpdate='true' h='11750' id='8' type-v2='text' w='98400' x='800' y='1000'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='16'>NFL Penalty Analysis</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -6271,11 +6087,14 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='112' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99200' id='111' param='vert' type-v2='layout-flow' w='98984' x='508' y='400'>
-                <zone h='3450' id='8' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='3650'>
+            <zone h='100000' id='60' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='59' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='11750' id='8' type-v2='text' w='98400' x='800' y='1000'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='16'>NFL Penalty Analysis</run>
+                  </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6284,187 +6103,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='9' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Week:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='7100'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='10' mode='dropdown' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='10550'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='23900' id='3' is-fixed='true' name='Penalty Count over Time' w='44412' x='508' y='400'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='13' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='15750'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='14' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='18350'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='23900' id='12' is-fixed='true' name='Penalty Yards Freq' w='44413' x='44920' y='400'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='3250' id='15' name='Penalty Yards Freq' pane-specification-id='0' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[sum:Yards:qk]' type-v2='color' w='10159' x='89333' y='400'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='11' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='10159' x='89333' y='13150'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='17' mode='dropdown' name='Penalty Count by Team' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='20950'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='18' mode='checkdropdown' name='Penalty Count by Team' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='23550'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='75300' id='16' is-fixed='true' name='Penalty Count by Team' w='37714' x='508' y='24300'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='20' mode='dropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='26150'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='21' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Player:nk]' type-v2='filter' values='relevant' w='10159' x='89333' y='28750'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='22' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='31350'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='75300' id='19' is-fixed='true' name='Penalty Count By Player' w='29841' x='38222' y='24300'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='24' mode='dropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='10159' x='89333' y='33950'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='3450' id='25' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Quarter:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10159' x='89333' y='36550'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='26' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Down (copy)_1854638636255608851:ok]' type-v2='filter' w='10159' x='89333' y='40000'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='27' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Ref_Crew:nk]' type-v2='filter' w='10159' x='89333' y='42600'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='2600' id='28' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='10159' x='89333' y='45200'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='75300' id='23' is-fixed='true' name='Penalty Yards Analysis' w='21270' x='68063' y='24300'>
+                <zone fixed-size='280' h='86250' id='3' is-fixed='true' is-scaled='1' param='C:/Users/ashwi/Downloads/s-l1600.png' type-v2='bitmap' w='98400' x='800' y='12750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6484,7 +6123,7 @@
           </zones>
         </devicelayout>
       </devicelayouts>
-      <simple-id uuid='{0CCA4935-A037-4EC6-8875-5E591C3A07EA}' />
+      <simple-id uuid='{78F0F858-05E0-446D-A090-83A95B7CD683}' />
     </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='NFL Penalties'>
       <layout-options>
@@ -6544,7 +6183,7 @@
             </zone>
             <zone h='97100' id='7' param='horz' type-v2='layout-flow' w='98984' x='508' y='2500'>
               <zone h='97100' id='5' type-v2='layout-basic' w='89079' x='508' y='2500'>
-                <zone h='23393' id='3' name='Penalty Count over Time' w='44539' x='508' y='2500'>
+                <zone h='23392' id='3' name='Penalty Count over Time' w='44539' x='508' y='2500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6552,7 +6191,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='23393' id='12' name='Penalty Yards Freq' w='44540' x='45047' y='2500'>
+                <zone h='23392' id='12' name='Penalty Yards Freq' w='44540' x='45047' y='2500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6560,7 +6199,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='73707' id='16' name='Penalty Count by Team' w='37820' x='508' y='25893'>
+                <zone h='73708' id='16' name='Penalty Count by Team' w='37820' x='508' y='25892'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6568,7 +6207,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='73707' id='19' name='Penalty Count By Player' w='29927' x='38328' y='25893'>
+                <zone h='73708' id='19' name='Penalty Count By Player' w='29927' x='38328' y='25892'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6576,7 +6215,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='73707' id='23' name='Penalty Yards Analysis' w='21332' x='68255' y='25893'>
+                <zone h='73708' id='23' name='Penalty Yards Analysis' w='21332' x='68255' y='25892'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6586,7 +6225,7 @@
                 </zone>
               </zone>
               <zone fixed-size='156' h='97100' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9905' x='89587' y='2500'>
-                <zone h='3250' id='15' name='Penalty Yards Freq' pane-specification-id='0' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[sum:Yards:qk]' type-v2='color' w='9905' x='89587' y='2500'>
+                <zone h='3450' id='8' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='2500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6594,7 +6233,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='8' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='5750'>
+                <zone h='3450' id='9' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Week:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='5950'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6602,15 +6241,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='9' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Week:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='9200'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='2100' id='64' type-v2='text' w='9905' x='89587' y='12650'>
+                <zone forceUpdate='true' h='2100' id='64' type-v2='text' w='9905' x='89587' y='9400'>
                   <formatted-text>
                     <run>Q0: Pre-snap of Q1&#10;Q5: Overtime</run>
                   </formatted-text>
@@ -6621,7 +6252,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='25' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Quarter:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='14750'>
+                <zone h='3450' id='25' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Quarter:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='11500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6629,7 +6260,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='26' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Down (copy)_1854638636255608851:ok]' type-v2='filter' w='9905' x='89587' y='18200'>
+                <zone h='2600' id='26' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Down (copy)_1854638636255608851:ok]' type-v2='filter' w='9905' x='89587' y='14950'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6637,7 +6268,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='10' mode='checkdropdown' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='9905' x='89587' y='20800'>
+                <zone h='2600' id='10' mode='checkdropdown' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='9905' x='89587' y='17550'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6645,7 +6276,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='11' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='9905' x='89587' y='23400'>
+                <zone h='2600' id='11' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='9905' x='89587' y='20150'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6653,7 +6284,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='14' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='9905' x='89587' y='26000'>
+                <zone h='2600' id='14' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='9905' x='89587' y='22750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6661,7 +6292,7 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='21' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Player:nk]' type-v2='filter' values='relevant' w='9905' x='89587' y='28600'>
+                <zone h='2600' id='21' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Player:nk]' type-v2='filter' values='relevant' w='9905' x='89587' y='25350'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6669,7 +6300,23 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='27' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Ref_Crew:nk]' type-v2='filter' w='9905' x='89587' y='31200'>
+                <zone h='2600' id='27' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Ref_Crew:nk]' type-v2='filter' w='9905' x='89587' y='27950'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='2600' id='125' type-v2='dashboard-object' w='9905' x='89587' y='30550'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{7D38B22C-CCD7-4648-B12D-F3F343BE7D21}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Pen by Ref</caption>
+                      <tooltip-text>Navigate to Penalty Count by Referee Crew</tooltip-text>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#333333' />
+                    </button-visual-state>
+                  </button>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6687,6 +6334,18 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
+        <zone h='850' id='120' type-v2='dashboard-object' w='7429' x='889' y='4300'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{B7C4B4CE-99B4-4E02-B712-E58A3C9D7F3D}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>To Timeline</caption>
+              <tooltip-text>Navigate to Penalty Count over Time</tooltip-text>
+              <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+              <format attr='background-color' value='#333333' />
+            </button-visual-state>
+          </button>
+        </zone>
+        <zone forceUpdate='true' h='2300' id='113' is-centered='0' is-scaled='1' param='C:/Users/ashwi/Downloads/nfl_logo.svg' type-v2='bitmap' url='https://www.nfl.com/' w='3111' x='381' y='100' />
+        <zone h='3800' id='15' name='Penalty Yards Freq' pane-specification-id='0' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[sum:Yards:qk]' type-v2='color' w='8889' x='78857' y='2700' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -6697,10 +6356,10 @@
               </formatted-text>
             </title>
           </layout-options>
-          <size maxheight='2250' minheight='2250' sizing-mode='vscroll' />
+          <size maxheight='2400' minheight='2400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='112' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99200' id='111' param='vert' type-v2='layout-flow' w='98984' x='508' y='400'>
+            <zone h='100000' id='184' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99200' id='183' param='vert' type-v2='layout-flow' w='98984' x='508' y='400'>
                 <zone h='2100' id='39' type-v2='title' w='98984' x='508' y='400'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6710,7 +6369,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='8' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='5750'>
+                <zone fixed-size='46' forceUpdate='true' h='2300' id='113' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ashwi/Downloads/nfl_logo.svg' type-v2='bitmap' url='https://www.nfl.com/' w='3111' x='381' y='100'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6719,7 +6378,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='9' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Week:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='9200'>
+                <zone h='3450' id='8' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='2500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6728,7 +6387,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='10' mode='checkdropdown' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='9905' x='89587' y='20800'>
+                <zone h='3450' id='9' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Week:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='5950'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6737,7 +6396,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='23393' id='3' is-fixed='true' name='Penalty Count over Time' w='44539' x='508' y='2500'>
+                <zone h='2600' id='10' mode='checkdropdown' name='Penalty Count over Time' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]' type-v2='filter' w='9905' x='89587' y='17550'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6746,7 +6405,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='14' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='9905' x='89587' y='26000'>
+                <zone fixed-size='280' h='23392' id='3' is-fixed='true' name='Penalty Count over Time' w='44539' x='508' y='2500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6755,7 +6414,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='23393' id='12' is-fixed='true' name='Penalty Yards Freq' w='44540' x='45047' y='2500'>
+                <zone h='2600' id='14' mode='checkdropdown' name='Penalty Yards Freq' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Phase:nk]' type-v2='filter' w='9905' x='89587' y='22750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6764,7 +6423,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='3250' id='15' name='Penalty Yards Freq' pane-specification-id='0' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[sum:Yards:qk]' type-v2='color' w='9905' x='89587' y='2500'>
+                <zone fixed-size='280' h='23392' id='12' is-fixed='true' name='Penalty Yards Freq' w='44540' x='45047' y='2500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6773,7 +6432,33 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='2100' id='64' type-v2='text' w='9905' x='89587' y='12650'>
+                <zone h='3800' id='15' name='Penalty Yards Freq' pane-specification-id='0' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[sum:Yards:qk]' type-v2='color' w='8889' x='78857' y='2700'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='850' id='120' type-v2='dashboard-object' w='7429' x='889' y='4300'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{B7C4B4CE-99B4-4E02-B712-E58A3C9D7F3D}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>To Timeline</caption>
+                      <tooltip-text>Navigate to Penalty Count over Time</tooltip-text>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#333333' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2100' id='64' type-v2='text' w='9905' x='89587' y='9400'>
                   <formatted-text>
                     <run>Q0: Pre-snap of Q1&#10;Q5: Overtime</run>
                   </formatted-text>
@@ -6785,7 +6470,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='11' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='9905' x='89587' y='23400'>
+                <zone h='2600' id='11' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='9905' x='89587' y='20150'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6794,7 +6479,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='73707' id='16' is-fixed='true' name='Penalty Count by Team' w='37820' x='508' y='25893'>
+                <zone fixed-size='280' h='73708' id='16' is-fixed='true' name='Penalty Count by Team' w='37820' x='508' y='25892'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6803,7 +6488,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='21' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Player:nk]' type-v2='filter' values='relevant' w='9905' x='89587' y='28600'>
+                <zone h='2600' id='21' mode='checkdropdown' name='Penalty Count By Player' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Player:nk]' type-v2='filter' values='relevant' w='9905' x='89587' y='25350'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6812,7 +6497,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='73707' id='19' is-fixed='true' name='Penalty Count By Player' w='29927' x='38328' y='25893'>
+                <zone fixed-size='280' h='73708' id='19' is-fixed='true' name='Penalty Count By Player' w='29927' x='38328' y='25892'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6821,7 +6506,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='3450' id='25' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Quarter:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='14750'>
+                <zone h='3450' id='25' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Quarter:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9905' x='89587' y='11500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6830,7 +6515,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='26' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Down (copy)_1854638636255608851:ok]' type-v2='filter' w='9905' x='89587' y='18200'>
+                <zone h='2600' id='26' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Down (copy)_1854638636255608851:ok]' type-v2='filter' w='9905' x='89587' y='14950'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6839,7 +6524,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='2600' id='27' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Ref_Crew:nk]' type-v2='filter' w='9905' x='89587' y='31200'>
+                <zone h='2600' id='27' mode='checkdropdown' name='Penalty Yards Analysis' param='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Ref_Crew:nk]' type-v2='filter' w='9905' x='89587' y='27950'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6848,7 +6533,24 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='73707' id='23' is-fixed='true' name='Penalty Yards Analysis' w='21332' x='68255' y='25893'>
+                <zone fixed-size='280' h='73708' id='23' is-fixed='true' name='Penalty Yards Analysis' w='21332' x='68255' y='25892'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2600' id='125' type-v2='dashboard-object' w='9905' x='89587' y='30550'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{7D38B22C-CCD7-4648-B12D-F3F343BE7D21}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Pen by Ref</caption>
+                      <tooltip-text>Navigate to Penalty Count by Referee Crew</tooltip-text>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#333333' />
+                    </button-visual-state>
+                  </button>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6868,7 +6570,330 @@
           </zones>
         </devicelayout>
       </devicelayouts>
-      <simple-id uuid='{3627D3DA-8F41-4405-9925-A54A385BB0F2}' />
+      <simple-id uuid='{ECFB4198-5245-4590-AF34-1D7B3642834C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Overview'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='17' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone fixed-size='358' h='98000' id='9' is-fixed='true' param='horz' type-v2='layout-flow' w='35800' x='800' y='1000'>
+              <zone fixed-size='343' h='98000' id='7' is-fixed='true' type-v2='layout-basic' w='35800' x='800' y='1000'>
+                <zone h='98000' id='13' is-centered='0' type-v2='bitmap' w='12550' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='98000' id='14' is-centered='0' type-v2='bitmap' w='23250' x='13350' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='609' h='98000' id='16' is-fixed='true' param='vert' type-v2='layout-flow' w='60900' x='36600' y='1000'>
+              <zone h='83250' id='18' type-v2='text' w='60900' x='36600' y='1000'>
+                <formatted-text>
+                  <run bold='true' fontcolor='#000000' fontsize='16'>Hypothesis and Problem Statement</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run bold='true' fontcolor='#000000' fontsize='14'>Hypothesis</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run bold='true' fontcolor='#000000' fontsize='12'>Player Position and Penalties</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run fontcolor='#000000' fontsize='12'>In NFL games, certain player positions tend to receive more penalties than others due to the nature of their roles and responsibilities on the field.</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run bold='true' fontcolor='#000000' fontsize='12'>Outcome:</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run fontcolor='#000000' fontsize='12'>Explore whether certain player positions tend to receive more penalties than others. Analyzing the distribution of penalties based on player positions to identify any patterns or tendencies</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run bold='true' fontcolor='#000000' fontsize='14'>Problem Statement</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run fontcolor='#000000' fontsize='12'>In the National Football League (NFL), teams often face challenges in managing their penalties effectively during games. These penalties, ranging from infractions such as holding and pass interference to unsportsmanlike conduct, can significantly impact game outcomes. Understanding the relationship between the frequency and severity of penalties and game results is crucial for teams and coaches to develop strategies that minimize penalties and maximize their chances of success. Therefore, there is a need to investigate whether there is a correlation between the number and types of penalties incurred by NFL teams during games and their overall performance, measured in terms of win-loss records and other key metrics. This project aims to analyze NFL data to determine the impact of penalties on game outcomes and provide insights that can inform coaching strategies and decision-making processes in professional football.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='32000' id='5' is-centered='0' is-scaled='1' param='C:/Users/ashwi/Downloads/2.jpg' type-v2='bitmap' w='35000' x='100' y='28875' />
+        <zone h='29125' id='3' is-centered='0' is-scaled='1' param='C:/Users/ashwi/Downloads/1.jpg' type-v2='bitmap' w='35000' x='100' y='125' />
+        <zone h='38125' id='15' is-centered='0' is-scaled='1' param='C:/Users/ashwi/Downloads/3.jpeg' type-v2='bitmap' w='35400' x='-200' y='60625' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='63' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='233' h='29125' id='3' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ashwi/Downloads/1.jpg' type-v2='bitmap' w='35000' x='100' y='125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='13' is-centered='0' is-fixed='true' type-v2='bitmap' w='12550' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='14' is-centered='0' is-fixed='true' type-v2='bitmap' w='23250' x='13350' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='83250' id='18' type-v2='text' w='60900' x='36600' y='1000'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='16'>Hypothesis and Problem Statement</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='14'>Hypothesis</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>Player Position and Penalties</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontsize='12'>In NFL games, certain player positions tend to receive more penalties than others due to the nature of their roles and responsibilities on the field.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>Outcome:</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontsize='12'>Explore whether certain player positions tend to receive more penalties than others. Analyzing the distribution of penalties based on player positions to identify any patterns or tendencies</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontsize='14'>Problem Statement</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontsize='12'>In the National Football League (NFL), teams often face challenges in managing their penalties effectively during games. These penalties, ranging from infractions such as holding and pass interference to unsportsmanlike conduct, can significantly impact game outcomes. Understanding the relationship between the frequency and severity of penalties and game results is crucial for teams and coaches to develop strategies that minimize penalties and maximize their chances of success. Therefore, there is a need to investigate whether there is a correlation between the number and types of penalties incurred by NFL teams during games and their overall performance, measured in terms of win-loss records and other key metrics. This project aims to analyze NFL data to determine the impact of penalties on game outcomes and provide insights that can inform coaching strategies and decision-making processes in professional football.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' forceUpdate='true' h='32000' id='5' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ashwi/Downloads/2.jpg' type-v2='bitmap' w='35000' x='100' y='28875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38125' id='15' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ashwi/Downloads/3.jpeg' type-v2='bitmap' w='35400' x='-200' y='60625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4F53E4C1-A6D2-46E7-AEB8-2A5D322A4E49}' />
+    </dashboard>
+    <dashboard name='Story' type='storyboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98230' id='1' param='vert' removable='false' type-v2='layout-flow' w='99064' x='468' y='885'>
+            <zone h='11173' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99064' x='468' y='885' />
+            <zone h='87057' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99064' x='468' y='12058'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Player Positions and Penalties' captured-sheet='Cover Page' id='1' />
+                  <story-point caption='Overview' captured-sheet='Overview' id='2' />
+                  <story-point caption='Data' captured-sheet='NFL Penalties' id='3'>
+                    <currentDeltas>
+                      <worksheet name='Penalty Count By Player'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Count by Team'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Count over Time'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Yards Freq'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas>
+                      <worksheet name='Penalty Count By Player'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]'>
+                          <groupfilter function='member' level='[none:Calculation_1854638636179918848:nk]' member='&quot;Arizona&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                        </filter>
+                        <filter class='quantitative' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' included-values='in-range'>
+                          <min>#2009-09-10#</min>
+                          <max>#2022-10-12#</max>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Count by Team'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]'>
+                          <groupfilter function='member' level='[none:Calculation_1854638636179918848:nk]' member='&quot;Arizona&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                        </filter>
+                        <filter class='quantitative' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' included-values='in-range'>
+                          <min>#2009-09-10#</min>
+                          <max>#2022-10-12#</max>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Count over Time'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]'>
+                          <groupfilter function='member' level='[none:Calculation_1854638636179918848:nk]' member='&quot;Arizona&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                        </filter>
+                        <filter class='quantitative' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' included-values='in-range'>
+                          <min>#2009-09-10#</min>
+                          <max>#2022-10-12#</max>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Yards Analysis'>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]'>
+                          <groupfilter function='member' level='[none:Calculation_1854638636179918848:nk]' member='&quot;Arizona&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                        </filter>
+                        <filter class='quantitative' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' included-values='in-range'>
+                          <min>#2009-09-10#</min>
+                          <max>#2022-10-12#</max>
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Penalty Yards Freq'>
+                        <datasource-dependencies datasource='federated.1e69crf1m3k0550zt9zak18bb05u'>
+                          <column caption='Action (Penalty,Quarter)' datatype='tuple' hidden='true' name='[Action (Penalty,Quarter)]' role='dimension' type='nominal' user:auto-column='sheet_link' />
+                          <column-instance column='[Quarter]' derivation='None' name='[none:Quarter:ok]' pivot='key' type='ordinal' />
+                        </datasource-dependencies>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[Action (Penalty,Quarter)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[Penalty]' />
+                            <groupfilter function='level-members' level='[none:Quarter:ok]' />
+                          </groupfilter>
+                        </filter>
+                        <filter class='categorical' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Calculation_1854638636179918848:nk]'>
+                          <groupfilter function='member' level='[none:Calculation_1854638636179918848:nk]' member='&quot;Arizona&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+                        </filter>
+                        <filter class='quantitative' column='[federated.1e69crf1m3k0550zt9zak18bb05u].[none:Date:qk]' included-values='in-range'>
+                          <min>#2009-09-10#</min>
+                          <max>#2022-10-12#</max>
+                        </filter>
+                      </worksheet>
+                      <datasource name='Parameters'>
+                        <column name='[Parameter 1]' value='&quot;Beneficiary&quot;' />
+                      </datasource>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{75E45863-D63C-4D39-A0B2-401E4D5A9869}' />
     </dashboard>
   </dashboards>
   <windows source-height='30'>
@@ -7060,20 +7085,17 @@
       </cards>
       <simple-id uuid='{7D38B22C-CCD7-4648-B12D-F3F343BE7D21}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
-      <viewpoints>
-        <viewpoint name='Penalty Count By Player' />
-        <viewpoint name='Penalty Count by Team' />
-        <viewpoint name='Penalty Count over Time'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Penalty Yards Analysis' />
-        <viewpoint name='Penalty Yards Freq' />
-      </viewpoints>
-      <active id='8' />
-      <simple-id uuid='{D383EECC-ECF8-4D34-9281-CF2929F9255F}' />
+    <window class='dashboard' name='Cover Page'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{BD3EC27C-7BEF-4347-8089-35027504BB62}' />
     </window>
-    <window class='dashboard' maximized='true' name='NFL Penalties'>
+    <window class='dashboard' name='Overview'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{D5AE59A4-A89C-4387-940F-C0F8D134686B}' />
+    </window>
+    <window class='dashboard' name='NFL Penalties'>
       <viewpoints>
         <viewpoint name='Penalty Count By Player' />
         <viewpoint name='Penalty Count by Team' />
@@ -7084,8 +7106,13 @@
         <viewpoint name='Penalty Yards Analysis' />
         <viewpoint name='Penalty Yards Freq' />
       </viewpoints>
-      <active id='16' />
-      <simple-id uuid='{58D1A7F1-033A-42CD-BDA7-22BAE3660070}' />
+      <active id='39' />
+      <simple-id uuid='{F1519B12-3072-4523-9526-DA060F020857}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story'>
+      <viewpoints />
+      <active id='14' />
+      <simple-id uuid='{85B0F3DA-B9F8-4C95-90CE-BB598237E293}' />
     </window>
   </windows>
 </workbook>
