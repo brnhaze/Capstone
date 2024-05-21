@@ -47,6 +47,7 @@ Apply learnings from program to leverage data exploring problems and presenting 
   - contained detailed information to continue the product
 
 ## Hypothesis and Problem Statement
+[Hypothesis and Problem Statement](https://github.com/brnhaze/capstone/blob/main/documents/hyp_prob_stat.md)
 
 ## Folders and Files
 - [data](https://github.com/brnhaze/capstone/tree/main/data)
